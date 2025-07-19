@@ -1,3 +1,7 @@
+---
+import "../styles/global.css";
+---
+
 <!doctype html>
 <html lang="en">
 	<head>
@@ -5,18 +9,12 @@
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<title>radIO | ajith.fyi</title>
 	</head>
-	<body>
+	<body class="w-full h-full m-0">
+		<header class="w-full p-4 border-b">
+			<div class="text-xl font-bold">radIO<span class="text-sm text-gray-500">.ajith.fyi</span></div>
+		</header>
 		<slot />
 	</body>
 </html>
-
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>
