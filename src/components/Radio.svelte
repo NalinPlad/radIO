@@ -56,9 +56,17 @@
   // Reactive statement to update volumes when frequency changes
   $: frequency;
   $: {
-    // console.log(
-    //   `Reactive statement triggered: frequency=${frequency}, audioBooted=${audioBooted}, audioElements.length=${audioElements.length}`,
-    // );
+
+    const _ocl = console.warn;
+    console.warn = () => {};
+    console.warn(frequency.toFixed(1) * 0);
+    console.warn = _ocl;
+
+    // console.log("audioBooted", audioBooted);
+    // console.log("audioElements.length", audioElements.length);
+
+    // (frequency) => {alert(frequency)}
+
     if (audioBooted && audioElements.length > 0) {
       updateVolumes();
     }
