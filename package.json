@@ -6,7 +6,9 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "generate-radio-data": "node scripts/generate-radio-data.cjs",
+    "prebuild": "yarn run generate-radio-data"
   },
   "dependencies": {
     "@astrojs/react": "^4.3.0",

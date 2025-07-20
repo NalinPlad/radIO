@@ -1,52 +1,71 @@
-# Astro Starter Kit: Basics
+# radIO
 
-```sh
-yarn create astro@latest -- --template basics
+A web-based radio player that streams content from Internet Archive collections.
+
+## Development
+
+### Setup
+
+1. Install dependencies:
+
+```bash
+yarn install
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+2. Generate radio data (required before running the app):
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+```bash
+yarn run generate-radio-data
+```
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+3. Start the development server:
 
-## 🚀 Project Structure
+```bash
+yarn dev
+```
 
-Inside of your Astro project, you'll see the following folders and files:
+### Building for Production
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
+The build process automatically generates the radio data before building:
+
+```bash
+yarn build
+```
+
+This will:
+
+1. Run `yarn run generate-radio-data` to fetch and cache all radio station data
+2. Build the production version of the app
+
+## Radio Data Generation
+
+The `scripts/generate-radio-data.js` script:
+
+- Fetches metadata for all configured radio stations from Internet Archive
+- Generates direct streaming URLs for each station
+- Saves the data to `src/data/radio-data.json`
+
+This eliminates the need for API calls at runtime, making the app faster and more reliable.
+
+### Adding New Stations
+
+To add a new radio station:
+
+1. Add the station configuration to the `STATIONS` array in `scripts/generate-radio-data.js`
+2. Run `yarn run generate-radio-data` to update the data
+3. The new station will be available in the app
+
+**Note**: The component automatically uses the generated data, so there's no need to maintain separate station configurations in the component.
+
+## Project Structure
+
+```
+├── src/
+│   ├── components/
+│   │   └── Radio.svelte      # Main radio player component
+│   └── data/
+│       └── radio-data.json   # Generated radio station data
+├── scripts/
+│   └── generate-radio-data.js # Build script for radio data
 └── package.json
 ```
-
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `yarn install`             | Installs dependencies                            |
-| `yarn dev`             | Starts local dev server at `localhost:4321`      |
-| `yarn build`           | Build your production site to `./dist/`          |
-| `yarn preview`         | Preview your build locally, before deploying     |
-| `yarn astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `yarn astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).

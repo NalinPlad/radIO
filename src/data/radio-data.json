@@ -1,0 +1,58 @@
+[
+  {
+    "name": "BookCentral",
+    "frequency": 101.2,
+    "identifier": "radiobooks",
+    "items": [
+      {
+        "identifier": "01-maigret-goes-home",
+        "title": "01 Maigret Goes Home [30 Days of Maigret]"
+      },
+      {
+        "identifier": "stanley-weyman-the-new-rector",
+        "title": "Stanley Weyman The New Rector"
+      },
+      {
+        "identifier": "stephen-gallagher-chimera",
+        "title": "Stephen Gallagher Chimera"
+      },
+      {
+        "identifier": "ted-allbeury-deep-purple",
+        "title": "Ted Allbeury Deep Purple"
+      },
+      {
+        "identifier": "tennessee-williams-cat-on-a-hot-tin-roof",
+        "title": "Tennessee Williams Cat On A Hot Tin Roof"
+      }
+    ],
+    "streamUrl": "https://archive.org/download/01-maigret-goes-home/01%20Maigret%20Goes%20Home.mp3"
+  },
+  {
+    "name": "Concert Grande WFUV",
+    "frequency": 89.7,
+    "identifier": "concert-grande-radio",
+    "items": [
+      {
+        "identifier": "kim-brewer-interview-5-12-1980",
+        "title": "Concert Grande - Kim Brewer, 5-12-1980"
+      },
+      {
+        "identifier": "paul-pollei-interview-bachauer-6-25-1984",
+        "title": "Concert Grande - Paul Pollei, 6-25-1984"
+      },
+      {
+        "identifier": "roy-eaton-interview-6-2-1987",
+        "title": "Concert Grande - Roy Eaton, 6-2-1987"
+      },
+      {
+        "identifier": "leopold-godowsky-jr-interview-1982",
+        "title": "Concert Grande - Leopold Godowsky, Jr., 1982"
+      },
+      {
+        "identifier": "robert-starer-2-13-1984",
+        "title": "Concert Grande - Robert Starer, 2-13-1984"
+      }
+    ],
+    "streamUrl": "https://archive.org/download/kim-brewer-interview-5-12-1980/Kim%20Brewer%20interview%205-12-1980.mp3"
+  }
+]
