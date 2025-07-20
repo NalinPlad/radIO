@@ -33,37 +33,37 @@
     }
 
     // Load radio data on component mount
-    (async () => {
-        const radioData = await Promise.all(
-            STATIONS.map(async (station) => {
-                // Get list of items in the collection
-                const response = await fetch(SEARCH_URL(station.identifier))
-                    .then((res) => res.json())
-                    .then((data) => data.response.docs);
-                const items = response.map((item) => {
-                    return {
-                        identifier: item.identifier,
-                        title: item.title
-                    }
-                });
-                console.log(items);
-                const streamUrl = await getStreamUrl(items[0].identifier)
-                return {
-                    name: station.name,
-                    frequency: station.frequency,
-                    identifier: station.identifier,
-                    items: items,
-                    streamUrl: streamUrl
-                };
-            }),
-        ).catch((err) => {
-            error = err;
-        });
+    // (async () => {
+    //     const radioData = await Promise.all(
+    //         STATIONS.map(async (station) => {
+    //             // Get list of items in the collection
+    //             const response = await fetch(SEARCH_URL(station.identifier))
+    //                 .then((res) => res.json())
+    //                 .then((data) => data.response.docs);
+    //             const items = response.map((item) => {
+    //                 return {
+    //                     identifier: item.identifier,
+    //                     title: item.title
+    //                 }
+    //             });
+    //             console.log(items);
+    //             const streamUrl = await getStreamUrl(items[0].identifier)
+    //             return {
+    //                 name: station.name,
+    //                 frequency: station.frequency,
+    //                 identifier: station.identifier,
+    //                 items: items,
+    //                 streamUrl: streamUrl
+    //             };
+    //         }),
+    //     ).catch((err) => {
+    //         error = err;
+    //     });
 
-        radio = radioData;
-        loading = false;
-        console.log("Radio data loaded:", radio);
-    })();
+    //     radio = radioData;
+    //     loading = false;
+    //     console.log("Radio data loaded:", radio);
+    // })();
 
     const getStation = (frequency) => {
         return STATIONS.find((station) => station.frequency === frequency);
@@ -85,14 +85,15 @@
                 <p class="text-sm text-gray-500">Loading {STATIONS.length} radio stations...</p>
             </div>
         {/if}
-        <div>
+        
+        <div class="flex items-center">
+            <input type="button" on:click={() => power = !power} value="⏻" class="mr-3 bg-gray-200 border-2 rounded p-1 text-sm leading-3.5 {!power ? 'text-gray-400 border-gray-300' : 'text-gray-600 border-gray-400 shadow-2xl'} cursor-pointer">
             <label class="text-xl" for="frequency-input">
                 {frequency.toFixed(1)}
                 <span class="text-sm text-gray-500">{station?.name}</span>
             </label>
-            <input type="button" on:click={() => power = !power} value={power ? "🔊" : "🔇"} class=" ml-3 bg-gray-200 p-1 text-sm">
-            
         </div>
+
         <input
             type="range"
             min="77"
