@@ -5,27 +5,27 @@
     "identifier": "radiobooks",
     "items": [
       {
+        "identifier": "becker-house-detective-cbc",
+        "title": "Becker House Detective CBC [Directory Updated]"
+      },
+      {
         "identifier": "01-maigret-goes-home",
         "title": "01 Maigret Goes Home [30 Days of Maigret]"
       },
       {
-        "identifier": "stanley-weyman-the-new-rector",
-        "title": "Stanley Weyman The New Rector"
+        "identifier": "10-maigrets-boyhood-friend",
+        "title": "10 Maigret's Boyhood Friend"
       },
       {
-        "identifier": "stephen-gallagher-chimera",
-        "title": "Stephen Gallagher Chimera"
+        "identifier": "christopher-hedgethorne-alpha-male",
+        "title": "Christopher Hedgethorne Alpha Male"
       },
       {
-        "identifier": "ted-allbeury-deep-purple",
-        "title": "Ted Allbeury Deep Purple"
-      },
-      {
-        "identifier": "tennessee-williams-cat-on-a-hot-tin-roof",
-        "title": "Tennessee Williams Cat On A Hot Tin Roof"
+        "identifier": "mervyn-wall-unfortunate-fursey",
+        "title": "Mervyn Wall Unfortunate Fursey"
       }
     ],
-    "streamUrl": "https://archive.org/download/01-maigret-goes-home/01%20Maigret%20Goes%20Home.mp3"
+    "streamUrl": "https://archive.org/download/becker-house-detective-cbc/01%20A%20View%20of%20Mount%20Von%20Relling.mp3"
   },
   {
     "name": "Concert Grande WFUV",
@@ -33,26 +33,54 @@
     "identifier": "concert-grande-radio",
     "items": [
       {
-        "identifier": "kim-brewer-interview-5-12-1980",
-        "title": "Concert Grande - Kim Brewer, 5-12-1980"
+        "identifier": "nrf-1987-05-26",
+        "title": "Concert Grande - New Record Forum (NRF) 1987-05-26"
       },
       {
-        "identifier": "paul-pollei-interview-bachauer-6-25-1984",
-        "title": "Concert Grande - Paul Pollei, 6-25-1984"
+        "identifier": "ritzen-and-okada-10-29-1991",
+        "title": "Concert Grande - Peter Ritzen and Yoshiko Okada, 10-29-1991"
       },
       {
-        "identifier": "roy-eaton-interview-6-2-1987",
-        "title": "Concert Grande - Roy Eaton, 6-2-1987"
+        "identifier": "natalia-trull-interview-1987",
+        "title": "Concert Grande - Natalia Trull, 1987"
       },
       {
-        "identifier": "leopold-godowsky-jr-interview-1982",
-        "title": "Concert Grande - Leopold Godowsky, Jr., 1982"
+        "identifier": "neal-larrabee-interview-2-25-1985",
+        "title": "Concert Grande - Neal Larrabee, 2-25-1985"
       },
       {
-        "identifier": "robert-starer-2-13-1984",
-        "title": "Concert Grande - Robert Starer, 2-13-1984"
+        "identifier": "tanya-stambuk-interview-3-11-1988",
+        "title": "Concert Grande - Tanya Stambuk, 3-11-1988"
       }
     ],
-    "streamUrl": "https://archive.org/download/kim-brewer-interview-5-12-1980/Kim%20Brewer%20interview%205-12-1980.mp3"
+    "streamUrl": "https://archive.org/download/nrf-1987-05-26/NRF%201987-05-26.mp3"
+  },
+  {
+    "name": "Crap From The Past",
+    "frequency": 78.5,
+    "identifier": "crapfromthepast",
+    "items": [
+      {
+        "identifier": "jsp-2010-08-06",
+        "title": "Jet Set Planet - August 6, 2010"
+      },
+      {
+        "identifier": "jsp-2010-12-17",
+        "title": "Jet Set Planet - December 17, 2010: Rock-Gone-Wrong (or right) and lots of it. Covers galore in the early going, and then Spy Jazz."
+      },
+      {
+        "identifier": "cosmicslop-2002-12-22",
+        "title": "Cosmic Slop - December 22, 2002: Merry Christmas!"
+      },
+      {
+        "identifier": "cosmicslop-2004-02-08",
+        "title": "Cosmic Slop - February 8, 2004"
+      },
+      {
+        "identifier": "cosmicslop-2004-12-26",
+        "title": "Cosmic Slop - December 26, 2004: Farewell!"
+      }
+    ],
+    "streamUrl": "https://archive.org/download/jsp-2010-08-06/jsp-2010-08-06.mp3"
   }
 ]

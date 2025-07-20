@@ -13,6 +13,11 @@ const STATIONS = [
     frequency: 89.7,
     identifier: "concert-grande-radio",
   },
+  {
+    name: "Crap From The Past",
+    frequency: 78.5,
+    identifier: "crapfromthepast",
+  },
 ];
 
 const SEARCH_URL = (collection) =>
