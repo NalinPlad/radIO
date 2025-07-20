@@ -18,6 +18,11 @@ const STATIONS = [
     frequency: 78.5,
     identifier: "crapfromthepast",
   },
+  {
+    name: "National Public Radio",
+    frequency: 95.1,
+    identifier: "nprtopofthehour",
+  }
 ];
 
 const SEARCH_URL = (collection) =>

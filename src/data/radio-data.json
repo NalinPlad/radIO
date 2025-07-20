@@ -5,27 +5,27 @@
     "identifier": "radiobooks",
     "items": [
       {
-        "identifier": "becker-house-detective-cbc",
-        "title": "Becker House Detective CBC [Directory Updated]"
+        "identifier": "in-the-blood-by-paul-ledoux-cbc",
+        "title": "In The Blood by Paul LeDoux CBC"
       },
       {
-        "identifier": "01-maigret-goes-home",
-        "title": "01 Maigret Goes Home [30 Days of Maigret]"
+        "identifier": "heart-of-darkness-by-joseph-conrad",
+        "title": "Heart Of Darkness By Joseph Conrad"
       },
       {
-        "identifier": "10-maigrets-boyhood-friend",
-        "title": "10 Maigret's Boyhood Friend"
+        "identifier": "kingsly-amis-to-see-the-sun",
+        "title": "Kingsly Amis To See The Sun"
       },
       {
-        "identifier": "christopher-hedgethorne-alpha-male",
-        "title": "Christopher Hedgethorne Alpha Male"
+        "identifier": "edgar-wallace-the-calendar",
+        "title": "Edgar Wallace The Calendar"
       },
       {
-        "identifier": "mervyn-wall-unfortunate-fursey",
-        "title": "Mervyn Wall Unfortunate Fursey"
+        "identifier": "paul-bryewrs-the-floaring-republic",
+        "title": "Paul Bryers The Floaring Republic"
       }
     ],
-    "streamUrl": "https://archive.org/download/becker-house-detective-cbc/01%20A%20View%20of%20Mount%20Von%20Relling.mp3"
+    "streamUrl": "https://archive.org/download/in-the-blood-by-paul-ledoux-cbc/(01)%20In%20the%20Blood%20-%20Self%20Contained.mp3"
   },
   {
     "name": "Concert Grande WFUV",
@@ -33,27 +33,27 @@
     "identifier": "concert-grande-radio",
     "items": [
       {
-        "identifier": "nrf-1987-05-26",
-        "title": "Concert Grande - New Record Forum (NRF) 1987-05-26"
+        "identifier": "kim-brewer-interview-5-12-1980",
+        "title": "Concert Grande - Kim Brewer, 5-12-1980"
       },
       {
-        "identifier": "ritzen-and-okada-10-29-1991",
-        "title": "Concert Grande - Peter Ritzen and Yoshiko Okada, 10-29-1991"
+        "identifier": "paul-pollei-interview-bachauer-6-25-1984",
+        "title": "Concert Grande - Paul Pollei, 6-25-1984"
       },
       {
-        "identifier": "natalia-trull-interview-1987",
-        "title": "Concert Grande - Natalia Trull, 1987"
+        "identifier": "tom-pierson-4-18-1989",
+        "title": "Concert Grande - Tom Pierson, 4-18-1989"
       },
       {
-        "identifier": "neal-larrabee-interview-2-25-1985",
-        "title": "Concert Grande - Neal Larrabee, 2-25-1985"
+        "identifier": "marthanne-verbit-12-1-1987",
+        "title": "Concert Grande - Marthanne Verbit, 12-1-1987"
       },
       {
-        "identifier": "tanya-stambuk-interview-3-11-1988",
-        "title": "Concert Grande - Tanya Stambuk, 3-11-1988"
+        "identifier": "robert-starer-2-13-1984",
+        "title": "Concert Grande - Robert Starer, 2-13-1984"
       }
     ],
-    "streamUrl": "https://archive.org/download/nrf-1987-05-26/NRF%201987-05-26.mp3"
+    "streamUrl": "https://archive.org/download/kim-brewer-interview-5-12-1980/Kim%20Brewer%20interview%205-12-1980.mp3"
   },
   {
     "name": "Crap From The Past",
@@ -61,26 +61,54 @@
     "identifier": "crapfromthepast",
     "items": [
       {
-        "identifier": "jsp-2010-08-06",
-        "title": "Jet Set Planet - August 6, 2010"
+        "identifier": "cftp-2025-05-30",
+        "title": "Crap From The Past - May 30, 2025: CFTP turns 33-1/3, Part 1 of 3, Ron's favorite album tracks"
       },
       {
-        "identifier": "jsp-2010-12-17",
-        "title": "Jet Set Planet - December 17, 2010: Rock-Gone-Wrong (or right) and lots of it. Covers galore in the early going, and then Spy Jazz."
+        "identifier": "cftp-2012-03-16",
+        "title": "Crap From The Past - March 16, 2012: M/A/R/R/S Madness"
       },
       {
-        "identifier": "cosmicslop-2002-12-22",
-        "title": "Cosmic Slop - December 22, 2002: Merry Christmas!"
+        "identifier": "cftp-2015-10-23",
+        "title": "Crap From The Past - October 23, 2015: Don't worry, I edited out the four minutes of dead air"
       },
       {
-        "identifier": "cosmicslop-2004-02-08",
-        "title": "Cosmic Slop - February 8, 2004"
+        "identifier": "cftp-2012-11-23",
+        "title": "Crap From The Past - November 23, 2012: Hosted by Squid and Lemur"
       },
       {
-        "identifier": "cosmicslop-2004-12-26",
-        "title": "Cosmic Slop - December 26, 2004: Farewell!"
+        "identifier": "cftp-2017-04-07",
+        "title": "Crap From The Past - April 7, 2017: Impromptu Music Nerd Dance Party"
       }
     ],
-    "streamUrl": "https://archive.org/download/jsp-2010-08-06/jsp-2010-08-06.mp3"
+    "streamUrl": "https://archive.org/download/cftp-2025-05-30/cftp-2025-05-30.mp3"
+  },
+  {
+    "name": "National Public Radio",
+    "frequency": 95.1,
+    "identifier": "nprtopofthehour",
+    "items": [
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-02-04",
+        "title": "NPR Top of the Hour Newscast - 2012/02/04"
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-05-21",
+        "title": "NPR Top of the Hour Newscast - 2012/05/21"
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-07-19",
+        "title": "NPR Top of the Hour Newscast - 2012/07/19"
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-10-02",
+        "title": "NPR Top of the Hour Newscast - 2012/10/02"
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-10-10",
+        "title": "NPR Top of the Hour Newscast - 2012/10/10"
+      }
+    ],
+    "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-02-04/npr_146383093.mp3"
   }
 ]

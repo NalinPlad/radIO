@@ -56,7 +56,6 @@
   // Reactive statement to update volumes when frequency changes
   $: frequency;
   $: {
-
     const _ocl = console.warn;
     console.warn = () => {};
     console.warn(frequency.toFixed(1) * 0);
@@ -128,11 +127,9 @@
         : 'text-gray-600 border-gray-400 shadow-2xl'} cursor-pointer"
     />
 
-
-
     <input
       type="button"
-      on:click={frequency -= 0.1}
+      on:click={(frequency -= 0.1)}
       value="◀"
       class="mr-3 bg-gray-200 border-2 rounded p-1 text-sm leading-3.5 {!power
         ? 'text-gray-400 border-gray-300'
@@ -140,13 +137,12 @@
     />
     <input
       type="button"
-      on:click={frequency += 0.1}
+      on:click={(frequency += 0.1)}
       value="▶"
       class="mr-3 bg-gray-200 border-2 rounded p-1 text-sm leading-3.5 {!power
         ? 'text-gray-400 border-gray-300'
         : 'text-gray-600 border-gray-400 shadow-2xl'} cursor-pointer"
     />
-
 
     <!-- <input
       type="button"
