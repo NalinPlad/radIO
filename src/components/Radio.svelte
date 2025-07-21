@@ -113,39 +113,42 @@
       power = true;
       audioBooted = true;
 
-      const startTime = new Date().getTime();
+      const bootTime = new Date().getTime();
 
       // Start all audio elements
       audioElements.forEach((audio) => {
         if (audio) {
-          console.log("Booting audio element", audio);
+          // console.log("Booting audio element", audio);
 
-          // Get correct stream url and start offset
-          const stationIdentifier = audio.dataset.stationIdentifier;
-          const station = radio.find((station) => station.identifier === stationIdentifier);
+          if (audio.dataset.stationIdentifier) {
+            // Get correct stream url and start offset
+            const stationIdentifier = audio.dataset.stationIdentifier;
+            const station = radio.find((station) => station.identifier === stationIdentifier);
 
-          if (!station) {
-            console.error("Station not found", stationIdentifier);
-            return;
+            if (!station) {
+              console.error("Station not found", stationIdentifier);
+              return;
+            }
+        
+            
+            // Find the item that is supposed to be playing right now
+            const item = station.items.findLast(item => item.startTime <= bootTime);
+
+            // How many seconds have passed since the item was supposed to start?
+            const timeSinceStart = (bootTime-item.startTime)/1000;
+
+            // Set the source element to the correct stream url
+            audio.querySelector("source").src = item.streamUrl;
+
+            // Fast forward to the correct time
+            audio.currentTime = timeSinceStart;
+
+            console.log("Time since start (s) for ", stationIdentifier, timeSinceStart);
+
+            audio.load();
           }
-      
-          
-          // Find the item that is supposed to be playing right now
-          const item = station.items.find(item => item.startTime >= startTime);
-
-          // How many seconds have passed since the item was supposed to start?
-          const timeSinceStart = (item.startTime-startTime)/1000;
-
-          // Set the source element to the correct stream url
-          audio.querySelector("source").src = item.streamUrl;
-
-          // Fast forward to the correct time
-          audio.currentTime = timeSinceStart;
-
-          console.log("Time since start", timeSinceStart);
 
           audio.muted = false;
-          audio.load();
           audio.play().catch((error) => {
             // alert("Playback failed:", error);
             console.error("Playback failed:", error);
