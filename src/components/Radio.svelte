@@ -1,5 +1,6 @@
 <script>
   import { onMount } from "svelte";
+  import { animate } from "animejs";
 
   let frequency = 101.2;
   let power = false;
@@ -86,26 +87,6 @@
       updateVolumes();
     }
   }
-
-  //   {
-  //     "name": "National Public Radio",
-  //     "frequency": 95.1,
-  //     "identifier": "nprtopofthehour",
-  //     "items": [
-  //       {
-  //         "identifier": "npr-top-of-the-hour-newscast-2010-01-30",
-  //         "title": "NPR Top of the Hour Newscast - 2010/01/30",
-  //         "duration": 286.04,
-  //         "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-01-30/npr_123147528.mp3",
-  //         "startTime": 1752969600000
-  //       },
-  //       {
-  //         "identifier": "npr-top-of-the-hour-newscast-2019-05-28",
-  //         "title": "NPR Top of the Hour Newscast - 2019/05/28",
-  //         "duration": 279.56,
-  //         "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-05-28/newscast000810.mp3",
-  //         "startTime": 1752969886040
-  //       },
 
   // Refactored function to load and play the correct audio item for a station
   function loadAndPlayStationAudio(audio, station, bootTime) {
@@ -259,8 +240,8 @@
 
     <input
       type="range"
-      min="77"
-      max="111"
+      min="55"
+      max="155"
       step="0.1"
       bind:value={frequency}
       class="h-2 w-full md:w-1/2 lg:w-1/4 appearance-none bg-gray-200 cursor-pointer [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:h-4 [&::-webkit-slider-thumb]:w-1 [&::-webkit-slider-thumb]:bg-orange-500 [&::-moz-range-thumb]:h-4 [&::-moz-range-thumb]:w-2 [&::-moz-range-thumb]:bg-orange-500 [&::-moz-range-thumb]:border-none"

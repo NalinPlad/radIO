@@ -5,28 +5,30 @@ const path = require("path");
 const EPOCH = new Date(new Date().setUTCHours(0, 0, 0, 0)).getTime();
 
 // Static data to build the radio from
-const STATIONS = [
-  {
-    name: "BookCentral",
-    frequency: 101.2,
-    identifier: "radiobooks",
-  },
-  {
-    name: "Concert Grande WFUV",
-    frequency: 89.7,
-    identifier: "concert-grande-radio",
-  },
-  {
-    name: "Crap From The Past",
-    frequency: 78.5,
-    identifier: "crapfromthepast",
-  },
-  {
-    name: "National Public Radio",
-    frequency: 95.1,
-    identifier: "nprtopofthehour",
-  },
+const STATION_CONFIGS = [
+  { name: "BookCentral", identifier: "radiobooks" },
+  { name: "Concert Grande WFUV", identifier: "concert-grande-radio" },
+  { name: "Crap From The Past", identifier: "crapfromthepast" },
+  { name: "National Public Radio", identifier: "nprtopofthehour" },
+  { name: "BBC World Service", identifier: "Radio-BBC-World-Service" },
+  { name: "MixTape Central", identifier: "hiphopmixtapes" },
+  { name: "HipHop Radio", identifier: "hiphopradioarchive" },
+  { name: "VaporRadio", identifier: "vaporwave"},
+  { name: "Democracy Now!", identifier: "democracy_now"},
+  { name: "WWII News Radio", identifier: "wwIIarchive-audio"},
+  { name: "Executive Speech", identifier: "presidential_recordings"},
+  // { name: "Opera Channel", identifier: "78-opera"}
 ];
+
+const FREQ_MIN = 55;
+const FREQ_MAX = 155;
+const N = STATION_CONFIGS.length;
+const SPACING = (FREQ_MAX - FREQ_MIN) / (N - 1);
+
+const STATIONS = STATION_CONFIGS.map((cfg, i) => ({
+  ...cfg,
+  frequency: Math.round((FREQ_MIN + i * SPACING) * 10) / 10,
+}));
 
 const SEARCH_URL = (collection) =>
   `https://archive.org/advancedsearch.php?q=collection:${collection}+AND+mediatype:audio+AND+format:MP3&rows=9999&output=json`;
@@ -36,7 +38,9 @@ async function getFileInfo(identifier) {
     "https://archive.org/metadata/" + identifier
   ).then((res) => res.json());
 
-  const file = metadata.files.find((file) => file.format.includes("MP3"));
+  // random file from the list
+  const mp3s = metadata.files.filter((file) => file.format.includes("MP3"));
+  const file = mp3s[Math.floor(Math.random() * mp3s.length)];
 
   const streamUrl = `https://archive.org/download/${identifier}/${encodeURIComponent(
     file.name
