@@ -87,33 +87,70 @@
     }
   }
 
-//   {
-//     "name": "National Public Radio",
-//     "frequency": 95.1,
-//     "identifier": "nprtopofthehour",
-//     "items": [
-//       {
-//         "identifier": "npr-top-of-the-hour-newscast-2010-01-30",
-//         "title": "NPR Top of the Hour Newscast - 2010/01/30",
-//         "duration": 286.04,
-//         "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-01-30/npr_123147528.mp3",
-//         "startTime": 1752969600000
-//       },
-//       {
-//         "identifier": "npr-top-of-the-hour-newscast-2019-05-28",
-//         "title": "NPR Top of the Hour Newscast - 2019/05/28",
-//         "duration": 279.56,
-//         "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-05-28/newscast000810.mp3",
-//         "startTime": 1752969886040
-//       },
+  //   {
+  //     "name": "National Public Radio",
+  //     "frequency": 95.1,
+  //     "identifier": "nprtopofthehour",
+  //     "items": [
+  //       {
+  //         "identifier": "npr-top-of-the-hour-newscast-2010-01-30",
+  //         "title": "NPR Top of the Hour Newscast - 2010/01/30",
+  //         "duration": 286.04,
+  //         "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-01-30/npr_123147528.mp3",
+  //         "startTime": 1752969600000
+  //       },
+  //       {
+  //         "identifier": "npr-top-of-the-hour-newscast-2019-05-28",
+  //         "title": "NPR Top of the Hour Newscast - 2019/05/28",
+  //         "duration": 279.56,
+  //         "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-05-28/newscast000810.mp3",
+  //         "startTime": 1752969886040
+  //       },
+
+  // Refactored function to load and play the correct audio item for a station
+  function loadAndPlayStationAudio(audio, station, bootTime) {
+    if (!station || !station.items || station.items.length === 0) return;
+
+    // Find the item that is supposed to be playing right now
+    const now = Date.now();
+    const item = station.items.findLast((item) => item.startTime <= now);
+    if (!item) return;
+
+    // How many seconds have passed since the item was supposed to start?
+    const timeSinceStart = (now - item.startTime) / 1000;
+    const remaining = Math.max(0, item.duration - timeSinceStart);
+
+    // Set the source element to the correct stream url
+    audio.querySelector("source").src = item.streamUrl;
+    audio.currentTime = timeSinceStart;
+    audio.load();
+
+    if (power) {
+      audio.muted = false;
+    } else {
+      audio.muted = true;
+    }
+
+    audio.play().catch((error) => {
+      console.error("Playback failed:", error);
+    });
+
+    // Clear any previous timeout
+    if (audio._nextTimeout) {
+      clearTimeout(audio._nextTimeout);
+    }
+    // Set a timeout to load the next item when this one ends
+    audio._nextTimeout = setTimeout(() => {
+      loadAndPlayStationAudio(audio, station, bootTime);
+    }, remaining * 1000);
+  }
 
   function handlePowerToggle() {
     if (!audioBooted) {
       // First time: boot up audio elements
       power = true;
       audioBooted = true;
-
-      const bootTime = new Date().getTime();
+      const bootTime = Date.now();
 
       // Start all audio elements
       audioElements.forEach((audio) => {
@@ -123,36 +160,23 @@
           if (audio.dataset.stationIdentifier) {
             // Get correct stream url and start offset
             const stationIdentifier = audio.dataset.stationIdentifier;
-            const station = radio.find((station) => station.identifier === stationIdentifier);
+            const station = radio.find(
+              (station) => station.identifier === stationIdentifier,
+            );
 
             if (!station) {
               console.error("Station not found", stationIdentifier);
               return;
             }
-        
-            
-            // Find the item that is supposed to be playing right now
-            const item = station.items.findLast(item => item.startTime <= bootTime);
 
-            // How many seconds have passed since the item was supposed to start?
-            const timeSinceStart = (bootTime-item.startTime)/1000;
-
-            // Set the source element to the correct stream url
-            audio.querySelector("source").src = item.streamUrl;
-
-            // Fast forward to the correct time
-            audio.currentTime = timeSinceStart;
-
-            console.log("Time since start (s) for ", stationIdentifier, timeSinceStart);
-
-            audio.load();
+            loadAndPlayStationAudio(audio, station, bootTime);
+          } else {
+            // White noise or other non-station audio
+            audio.muted = false;
+            audio.play().catch((error) => {
+              console.error("Playback failed:", error);
+            });
           }
-
-          audio.muted = false;
-          audio.play().catch((error) => {
-            // alert("Playback failed:", error);
-            console.error("Playback failed:", error);
-          });
         }
       });
 
@@ -245,7 +269,12 @@
 
     {#each radio as station}
       <!-- <div>{station.identifier}</div> -->
-      <audio use:audioAction muted={!power} preload="auto" data-station-identifier={station.identifier}>
+      <audio
+        use:audioAction
+        muted={!power}
+        preload="auto"
+        data-station-identifier={station.identifier}
+      >
         <source type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>
