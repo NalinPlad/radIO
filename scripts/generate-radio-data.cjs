@@ -20,7 +20,7 @@ const STATION_CONFIGS = [
   { name: "NASA Space Channel", identifier: "audiohighlightreels"},
   { name: "Hacker Public Radio", identifier: "hackerpublicradio"},
   { name: "Transatlantic Poetry Show", identifier: "transatlantic-poetry"},
-  // { name: "Opera Channel", identifier: "78-opera"}
+  { name: "Pirate Radio", identifier: "pirateradioairchecks"},
 ];
 
 const FREQ_MIN = 55;
