@@ -1,6 +1,9 @@
 const fs = require("fs");
 const path = require("path");
 
+// current time
+const EPOCH = new Date(new Date().setUTCHours(0, 0, 0, 0)).getTime();
+
 // Static data to build the radio from
 const STATIONS = [
   {
@@ -22,20 +25,30 @@ const STATIONS = [
     name: "National Public Radio",
     frequency: 95.1,
     identifier: "nprtopofthehour",
-  }
+  },
 ];
 
 const SEARCH_URL = (collection) =>
-  `https://archive.org/advancedsearch.php?q=collection:${collection}+AND+mediatype:audio+AND+format:MP3&rows=5&output=json`;
+  `https://archive.org/advancedsearch.php?q=collection:${collection}+AND+mediatype:audio+AND+format:MP3&rows=9999&output=json`;
 
-async function getStreamUrl(identifier) {
+async function getFileInfo(identifier) {
   const metadata = await fetch(
     "https://archive.org/metadata/" + identifier
   ).then((res) => res.json());
+
+  const file = metadata.files.find((file) => file.format.includes("MP3"));
+
   const streamUrl = `https://archive.org/download/${identifier}/${encodeURIComponent(
-    metadata.files.find((file) => file.format.includes("MP3")).name
+    file.name
   )}`;
-  return streamUrl;
+
+  const duration = file.length.includes(":")
+    ? file.length.split(":").reduce((acc, curr, index) => {
+        return acc + curr * (index === 0 ? 60 : 1);
+      }, 0)
+    : Number(file.length);
+
+  return { streamUrl, duration };
 }
 
 async function generateRadioData() {
@@ -51,24 +64,55 @@ async function generateRadioData() {
           .then((res) => res.json())
           .then((data) => data.response.docs);
 
-        const items = response.map((item) => {
-          return {
-            identifier: item.identifier,
-            title: item.title,
-          };
-        });
+        const collection_items = response
+          .sort(() => Math.random() - 0.5)
+          .map((item) => {
+            return {
+              identifier: item.identifier,
+              title: item.title,
+            };
+          });
 
-        console.log(`Found ${items.length} items for ${station.name}`);
+        console.log(
+          `Found ${collection_items.length} items for ${station.name}`
+        );
 
-        // Get stream URL for the first item
-        const streamUrl = await getStreamUrl(items[0].identifier);
+        let totalDuration = 0;
+
+        let items = [];
+
+        while (totalDuration < 24 * 60 * 60 && collection_items.length > 0) {
+          const { streamUrl, duration } = await getFileInfo(
+            collection_items[0].identifier
+          );
+
+          if (duration === -1) {
+            console.error(
+              `Skipping file ${collection_items[0].identifier} due to parsing failure`
+            );
+            collection_items.shift(); // Remove the failed item
+            continue;
+          }
+
+          // console.log(`Added ${duration} seconds to total duration, now at ${totalDuration} seconds`);
+          items.push(collection_items.shift());
+          items[items.length - 1].duration = duration;
+          items[items.length - 1].streamUrl = streamUrl;
+          items[items.length - 1].startTime = EPOCH + totalDuration * 1000;
+          totalDuration += duration;
+          console.log(items[items.length - 1]);
+
+          // Sleep for 1 second * number of stations
+          // await new Promise((resolve) =>
+          //   setTimeout(resolve, STATIONS.length * 1000)
+          // );
+        }
 
         return {
           name: station.name,
           frequency: station.frequency,
           identifier: station.identifier,
           items: items,
-          streamUrl: streamUrl,
         };
       })
     );
@@ -79,8 +123,15 @@ async function generateRadioData() {
       fs.mkdirSync(outputDir, { recursive: true });
     }
 
-    // Write the data to a JSON file
-    const outputPath = path.join(outputDir, "radio-data.json");
+    // Get current UTC date in DD-MM-YYYY format
+    const date = new Date();
+    const day = String(date.getUTCDate()).padStart(2, "0");
+    const month = String(date.getUTCMonth() + 1).padStart(2, "0");
+    const year = date.getUTCFullYear();
+    const dateString = `${day}-${month}-${year}`;
+
+    // Write the data to a JSON file with date in filename
+    const outputPath = path.join(outputDir, `${dateString}-radio-data.json`);
     fs.writeFileSync(outputPath, JSON.stringify(radioData, null, 2));
 
     console.log(`Radio data generated successfully at: ${outputPath}`);

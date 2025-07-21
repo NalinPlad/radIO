@@ -1,0 +1,2144 @@
+[
+  {
+    "name": "National Public Radio",
+    "frequency": 95.1,
+    "identifier": "nprtopofthehour",
+    "items": [
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2010-01-30",
+        "title": "NPR Top of the Hour Newscast - 2010/01/30",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-01-30/npr_123147528.mp3",
+        "startTime": 1752969600000
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2019-05-28",
+        "title": "NPR Top of the Hour Newscast - 2019/05/28",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-05-28/newscast000810.mp3",
+        "startTime": 1752969886040
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-09-05",
+        "title": "NPR Top of the Hour Newscast - 2011/09/05",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-09-05/npr_140188859.mp3",
+        "startTime": 1752970165600
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2019-03-26",
+        "title": "NPR Top of the Hour Newscast - 2019/03/26",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-03-26/newscast000803.mp3",
+        "startTime": 1752970450650
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-08-01",
+        "title": "NPR Top of the Hour Newscast - 2013/08/01",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-08-01/npr_207737843.mp3",
+        "startTime": 1752970730210
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-04-30",
+        "title": "NPR Top of the Hour Newscast - 2015/04/30",
+        "duration": 280.08,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-04-30/newscast000506.mp3",
+        "startTime": 1752971016250
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-12-12",
+        "title": "NPR Top of the Hour Newscast - 2011/12/12",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-12-12/npr_143559276.mp3",
+        "startTime": 1752971296330
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-03-22",
+        "title": "NPR Top of the Hour Newscast - 2011/03/22",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-03-22/npr_134751106.mp3",
+        "startTime": 1752971581380
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2009-10-17",
+        "title": "NPR Top of the Hour Newscast - 2009/10/17",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2009-10-17/npr_113895879.mp3",
+        "startTime": 1752971867420
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-01-08",
+        "title": "NPR Top of the Hour Newscast - 2011/01/08",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-01-08/npr_132754791.mp3",
+        "startTime": 1752972153460
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-02-18",
+        "title": "NPR Top of the Hour Newscast - 2012/02/18",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-02-18/npr_147077908.mp3",
+        "startTime": 1752972439500
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-03-21",
+        "title": "NPR Top of the Hour Newscast - 2011/03/21",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-03-21/npr_134722349.mp3",
+        "startTime": 1752972724550
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-07-22",
+        "title": "NPR Top of the Hour Newscast - 2011/07/22",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-07-22/npr_138594836.mp3",
+        "startTime": 1752973010590
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-02-25",
+        "title": "NPR Top of the Hour Newscast - 2015/02/25",
+        "duration": 280.08,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-02-25/newscast000539.mp3",
+        "startTime": 1752973295640
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2010-06-23",
+        "title": "NPR Top of the Hour Newscast - 2010/06/23",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-06-23/npr_128021469.mp3",
+        "startTime": 1752973575720
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-08-27",
+        "title": "NPR Top of the Hour Newscast - 2013/08/27",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-08-27/npr_215944620.mp3",
+        "startTime": 1752973861760
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-01-29",
+        "title": "NPR Top of the Hour Newscast - 2011/01/29",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-01-29/npr_133321048.mp3",
+        "startTime": 1752974147800
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-05-26",
+        "title": "NPR Top of the Hour Newscast - 2011/05/26",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-05-26/npr_136665640.mp3",
+        "startTime": 1752974433840
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-09-03",
+        "title": "NPR Top of the Hour Newscast - 2012/09/03",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-09-03/npr_160482175.mp3",
+        "startTime": 1752974719880
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-10-15",
+        "title": "NPR Top of the Hour Newscast - 2011/10/15",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-10-15/npr_141375071.mp3",
+        "startTime": 1752975004930
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2010-09-30",
+        "title": "NPR Top of the Hour Newscast - 2010/09/30",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-09-30/npr_130229707.mp3",
+        "startTime": 1752975289980
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2009-08-25",
+        "title": "NPR Top of the Hour Newscast - 2009/08/25",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2009-08-25/npr_112194456.mp3",
+        "startTime": 1752975576020
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2014-12-17",
+        "title": "NPR Top of the Hour Newscast - 2014/12/17",
+        "duration": 280.08,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2014-12-17/newscast000734.mp3",
+        "startTime": 1752975862060
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-04-28",
+        "title": "NPR Top of the Hour Newscast - 2020/04/28",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-04-28/newscast000918.mp3",
+        "startTime": 1752976142140
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-10-07",
+        "title": "NPR Top of the Hour Newscast - 2011/10/07",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-10-07/npr_141142118.mp3",
+        "startTime": 1752976421700
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-09-09",
+        "title": "NPR Top of the Hour Newscast - 2020/09/09",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-09-09/newscast000735.mp3",
+        "startTime": 1752976706750
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-09-27",
+        "title": "NPR Top of the Hour Newscast - 2012/09/27",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-09-27/npr_161857552.mp3",
+        "startTime": 1752976986310
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2016-09-29",
+        "title": "NPR Top of the Hour Newscast - 2016/09/29",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2016-09-29/newscast000632.mp3",
+        "startTime": 1752977271360
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2010-08-29",
+        "title": "NPR Top of the Hour Newscast - 2010/08/29",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-08-29/npr_129502971.mp3",
+        "startTime": 1752977551420
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-02-22",
+        "title": "NPR Top of the Hour Newscast - 2020/02/22",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-02-22/newscast000823.mp3",
+        "startTime": 1752977837460
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2019-07-07",
+        "title": "NPR Top of the Hour Newscast - 2019/07/07",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-07-07/newscast000812.mp3",
+        "startTime": 1752978117020
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2017-03-08",
+        "title": "NPR Top of the Hour Newscast - 2017/03/08",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2017-03-08/newscast000646.mp3",
+        "startTime": 1752978396580
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-04-12",
+        "title": "NPR Top of the Hour Newscast - 2015/04/12",
+        "duration": 280.08,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-04-12/newscast000445.mp3",
+        "startTime": 1752978676640
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-03-03",
+        "title": "NPR Top of the Hour Newscast - 2015/03/03",
+        "duration": 280.08,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-03-03/newscast000506.mp3",
+        "startTime": 1752978956720
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2009-07-27",
+        "title": "NPR Top of the Hour Newscast - 2009/07/27",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2009-07-27/npr_111045245.mp3",
+        "startTime": 1752979236800
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-05-29",
+        "title": "NPR Top of the Hour Newscast - 2011/05/29",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-05-29/npr_136759392.mp3",
+        "startTime": 1752979522840
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-04-17",
+        "title": "NPR Top of the Hour Newscast - 2012/04/17",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-04-17/npr_150777924.mp3",
+        "startTime": 1752979808880
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-03-29",
+        "title": "NPR Top of the Hour Newscast - 2013/03/29",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-03-29/npr_175649492.mp3",
+        "startTime": 1752980093930
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2019-04-22",
+        "title": "NPR Top of the Hour Newscast - 2019/04/22",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-04-22/newscast000808.mp3",
+        "startTime": 1752980378980
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-07-24",
+        "title": "NPR Top of the Hour Newscast - 2020/07/24",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-07-24/newscast000808.mp3",
+        "startTime": 1752980658540
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-08-10",
+        "title": "NPR Top of the Hour Newscast - 2011/08/10",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-08-10/npr_139342159.mp3",
+        "startTime": 1752980938100
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-02-17",
+        "title": "NPR Top of the Hour Newscast - 2015/02/17",
+        "duration": 280.08,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-02-17/newscast000510.mp3",
+        "startTime": 1752981223150
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2016-05-26",
+        "title": "NPR Top of the Hour Newscast - 2016/05/26",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2016-05-26/newscast000631.mp3",
+        "startTime": 1752981503230
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-05-30",
+        "title": "NPR Top of the Hour Newscast - 2013/05/30",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-05-30/npr_187187735.mp3",
+        "startTime": 1752981783290
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2016-05-31",
+        "title": "NPR Top of the Hour Newscast - 2016/05/31",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2016-05-31/newscast000632.mp3",
+        "startTime": 1752982068340
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-12-19",
+        "title": "NPR Top of the Hour Newscast - 2012/12/19",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-12-19/npr_167590749.mp3",
+        "startTime": 1752982348400
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-05-03",
+        "title": "NPR Top of the Hour Newscast - 2015/05/03",
+        "duration": 280.08,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-05-03/newscast000532.mp3",
+        "startTime": 1752982633450
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2009-08-07",
+        "title": "NPR Top of the Hour Newscast - 2009/08/07",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2009-08-07/npr_111643487.mp3",
+        "startTime": 1752982913530
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2010-04-03",
+        "title": "NPR Top of the Hour Newscast - 2010/04/03",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-04-03/npr_125527420.mp3",
+        "startTime": 1752983199570
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2016-03-02",
+        "title": "NPR Top of the Hour Newscast - 2016/03/02",
+        "duration": 295.16,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2016-03-02/newscast000608.mp3",
+        "startTime": 1752983485610
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-11-22",
+        "title": "NPR Top of the Hour Newscast - 2012/11/22",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-11-22/npr_165693331.mp3",
+        "startTime": 1752983780770
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-05-28",
+        "title": "NPR Top of the Hour Newscast - 2011/05/28",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-05-28/npr_136734529.mp3",
+        "startTime": 1752984065820
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-03-24",
+        "title": "NPR Top of the Hour Newscast - 2020/03/24",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-03-24/newscast000812.mp3",
+        "startTime": 1752984351860
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2010-03-22",
+        "title": "NPR Top of the Hour Newscast - 2010/03/22",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-03-22/npr_125002501.mp3",
+        "startTime": 1752984631420
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2009-08-08",
+        "title": "NPR Top of the Hour Newscast - 2009/08/08",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2009-08-08/npr_111684037.mp3",
+        "startTime": 1752984917460
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-09-03",
+        "title": "NPR Top of the Hour Newscast - 2015/09/03",
+        "duration": 280.08,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-09-03/newscast010606.mp3",
+        "startTime": 1752985203500
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-09-04",
+        "title": "NPR Top of the Hour Newscast - 2015/09/04",
+        "duration": 280.08,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-09-04/newscast000602.mp3",
+        "startTime": 1752985483580
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2017-06-28",
+        "title": "NPR Top of the Hour Newscast - 2017/06/28",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2017-06-28/newscast000634.mp3",
+        "startTime": 1752985763660
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2010-03-12",
+        "title": "NPR Top of the Hour Newscast - 2010/03/12",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-03-12/npr_124599706.mp3",
+        "startTime": 1752986043720
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-08-09",
+        "title": "NPR Top of the Hour Newscast - 2012/08/09",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-08-09/npr_158467633.mp3",
+        "startTime": 1752986329760
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2010-07-24",
+        "title": "NPR Top of the Hour Newscast - 2010/07/24",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-07-24/npr_128733811.mp3",
+        "startTime": 1752986614810
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2010-12-17",
+        "title": "NPR Top of the Hour Newscast - 2010/12/17",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-12-17/npr_132126498.mp3",
+        "startTime": 1752986900850
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-05-17",
+        "title": "NPR Top of the Hour Newscast - 2015/05/17",
+        "duration": 280.08,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-05-17/newscast000539.mp3",
+        "startTime": 1752987186890
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2009-08-03",
+        "title": "NPR Top of the Hour Newscast - 2009/08/03",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2009-08-03/npr_111485615.mp3",
+        "startTime": 1752987466970
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2019-11-23",
+        "title": "NPR Top of the Hour Newscast - 2019/11/23",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-11-23/newscast000803.mp3",
+        "startTime": 1752987753010
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-02-04",
+        "title": "NPR Top of the Hour Newscast - 2013/02/04",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-02-04/npr_171026242.mp3",
+        "startTime": 1752988032570
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-06-23",
+        "title": "NPR Top of the Hour Newscast - 2011/06/23",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-06-23/npr_137358231.mp3",
+        "startTime": 1752988317620
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-03-15",
+        "title": "NPR Top of the Hour Newscast - 2013/03/15",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-03-15/npr_174370527.mp3",
+        "startTime": 1752988602670
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-07-04",
+        "title": "NPR Top of the Hour Newscast - 2013/07/04",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-07-04/npr_198563049.mp3",
+        "startTime": 1752988887720
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2016-03-09",
+        "title": "NPR Top of the Hour Newscast - 2016/03/09",
+        "duration": 295.16,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2016-03-09/newscast000558.mp3",
+        "startTime": 1752989173760
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-02-06",
+        "title": "NPR Top of the Hour Newscast - 2020/02/06",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-02-06/newscast000821.mp3",
+        "startTime": 1752989468920
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2017-01-03",
+        "title": "NPR Top of the Hour Newscast - 2017/01/03",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2017-01-03/newscast000637.mp3",
+        "startTime": 1752989748480
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2010-12-07",
+        "title": "NPR Top of the Hour Newscast - 2010/12/07",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-12-07/npr_131866702.mp3",
+        "startTime": 1752990028540
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2017-08-03",
+        "title": "NPR Top of the Hour Newscast - 2017/08/03",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2017-08-03/newscast000628.mp3",
+        "startTime": 1752990314580
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-01-30",
+        "title": "NPR Top of the Hour Newscast - 2013/01/30",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-01-30/npr_170618073.mp3",
+        "startTime": 1752990594640
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-06-27",
+        "title": "NPR Top of the Hour Newscast - 2015/06/27",
+        "duration": 280.08,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-06-27/newscast000519.mp3",
+        "startTime": 1752990879690
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-08-04",
+        "title": "NPR Top of the Hour Newscast - 2013/08/04",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-08-04/npr_208749320.mp3",
+        "startTime": 1752991159770
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2009-07-10",
+        "title": "NPR Top of the Hour Newscast - 2009/07/10",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2009-07-10/npr_106455387.mp3",
+        "startTime": 1752991445810
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2017-08-24",
+        "title": "NPR Top of the Hour Newscast - 2017/08/24",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2017-08-24/newscast000621.mp3",
+        "startTime": 1752991731850
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2019-03-19",
+        "title": "NPR Top of the Hour Newscast - 2019/03/19",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-03-19/newscast000809.mp3",
+        "startTime": 1752992011910
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2017-08-06",
+        "title": "NPR Top of the Hour Newscast - 2017/08/06",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2017-08-06/newscast010627.mp3",
+        "startTime": 1752992291470
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-09-26",
+        "title": "NPR Top of the Hour Newscast - 2015/09/26",
+        "duration": 295.65,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-09-26/newscast000601.mp3",
+        "startTime": 1752992571530
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-06-16",
+        "title": "NPR Top of the Hour Newscast - 2020/06/16",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-06-16/newscast000822.mp3",
+        "startTime": 1752992867180
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2009-10-24",
+        "title": "NPR Top of the Hour Newscast - 2009/10/24",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2009-10-24/npr_114126185.mp3",
+        "startTime": 1752993146740
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2019-02-18",
+        "title": "NPR Top of the Hour Newscast - 2019/02/18",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-02-18/newscast000810.mp3",
+        "startTime": 1752993432780
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-02-07",
+        "title": "NPR Top of the Hour Newscast - 2011/02/07",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-02-07/npr_133554005.mp3",
+        "startTime": 1752993712340
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2019-11-05",
+        "title": "NPR Top of the Hour Newscast - 2019/11/05",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-11-05/newscast000815.mp3",
+        "startTime": 1752993998380
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2010-01-09",
+        "title": "NPR Top of the Hour Newscast - 2010/01/09",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-01-09/npr_122387433.mp3",
+        "startTime": 1752994277940
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-05-18",
+        "title": "NPR Top of the Hour Newscast - 2013/05/18",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-05-18/npr_184940184.mp3",
+        "startTime": 1752994563980
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-07-02",
+        "title": "NPR Top of the Hour Newscast - 2013/07/02",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-07-02/npr_197839912.mp3",
+        "startTime": 1752994849030
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-08-31",
+        "title": "NPR Top of the Hour Newscast - 2015/08/31",
+        "duration": 280.08,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-08-31/newscast000554.mp3",
+        "startTime": 1752995135070
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-05-02",
+        "title": "NPR Top of the Hour Newscast - 2012/05/02",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-05-02/npr_151820111.mp3",
+        "startTime": 1752995415150
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-02-17",
+        "title": "NPR Top of the Hour Newscast - 2013/02/17",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-02-17/npr_172221160.mp3",
+        "startTime": 1752995700200
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2017-03-19",
+        "title": "NPR Top of the Hour Newscast - 2017/03/19",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2017-03-19/newscast000644.mp3",
+        "startTime": 1752995985250
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-05-30",
+        "title": "NPR Top of the Hour Newscast - 2015/05/30",
+        "duration": 280.08,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-05-30/newscast000539.mp3",
+        "startTime": 1752996265310
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2017-03-15",
+        "title": "NPR Top of the Hour Newscast - 2017/03/15",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2017-03-15/newscast000643.mp3",
+        "startTime": 1752996545390
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2016-04-12",
+        "title": "NPR Top of the Hour Newscast - 2016/04/12",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2016-04-12/newscast000635.mp3",
+        "startTime": 1752996825450
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-08-15",
+        "title": "NPR Top of the Hour Newscast - 2013/08/15",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-08-15/npr_212142185.mp3",
+        "startTime": 1752997105510
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-03-10",
+        "title": "NPR Top of the Hour Newscast - 2012/03/10",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-03-10/npr_148342078.mp3",
+        "startTime": 1752997391550
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-11-05",
+        "title": "NPR Top of the Hour Newscast - 2011/11/05",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-11-05/npr_142045661.mp3",
+        "startTime": 1752997676600
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-02-28",
+        "title": "NPR Top of the Hour Newscast - 2015/02/28",
+        "duration": 280.08,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-02-28/newscast000521.mp3",
+        "startTime": 1752997961650
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-10-14",
+        "title": "NPR Top of the Hour Newscast - 2011/10/14",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-10-14/npr_141340765.mp3",
+        "startTime": 1752998241730
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-05-24",
+        "title": "NPR Top of the Hour Newscast - 2020/05/24",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-05-24/newscast000807.mp3",
+        "startTime": 1752998526780
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-04-27",
+        "title": "NPR Top of the Hour Newscast - 2013/04/27",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-04-27/npr_179366059.mp3",
+        "startTime": 1752998806340
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-08-17",
+        "title": "NPR Top of the Hour Newscast - 2020/08/17",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-08-17/newscast000811.mp3",
+        "startTime": 1752999091390
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2010-09-17",
+        "title": "NPR Top of the Hour Newscast - 2010/09/17",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-09-17/npr_129923564.mp3",
+        "startTime": 1752999370950
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-08-29",
+        "title": "NPR Top of the Hour Newscast - 2020/08/29",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-08-29/newscast000809.mp3",
+        "startTime": 1752999656990
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-01-19",
+        "title": "NPR Top of the Hour Newscast - 2012/01/19",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-01-19/npr_145431274.mp3",
+        "startTime": 1752999936550
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2019-12-28",
+        "title": "NPR Top of the Hour Newscast - 2019/12/28",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-12-28/newscast000817.mp3",
+        "startTime": 1753000221600
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-02-09",
+        "title": "NPR Top of the Hour Newscast - 2015/02/09",
+        "duration": 280.08,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-02-09/newscast000459.mp3",
+        "startTime": 1753000501160
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-08-31",
+        "title": "NPR Top of the Hour Newscast - 2011/08/31",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-08-31/npr_140077420.mp3",
+        "startTime": 1753000781240
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2019-07-20",
+        "title": "NPR Top of the Hour Newscast - 2019/07/20",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-07-20/newscast000813.mp3",
+        "startTime": 1753001066290
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2016-02-09",
+        "title": "NPR Top of the Hour Newscast - 2016/02/09",
+        "duration": 295.16,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2016-02-09/newscast000559.mp3",
+        "startTime": 1753001345850
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2016-12-24",
+        "title": "NPR Top of the Hour Newscast - 2016/12/24",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2016-12-24/newscast000625.mp3",
+        "startTime": 1753001641010
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-01-31",
+        "title": "NPR Top of the Hour Newscast - 2015/01/31",
+        "duration": 280.08,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-01-31/newscast000727.mp3",
+        "startTime": 1753001921070
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-05-22",
+        "title": "NPR Top of the Hour Newscast - 2015/05/22",
+        "duration": 280.08,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-05-22/newscast000536.mp3",
+        "startTime": 1753002201150
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2016-12-20",
+        "title": "NPR Top of the Hour Newscast - 2016/12/20",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2016-12-20/newscast000629.mp3",
+        "startTime": 1753002481230
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-07-17",
+        "title": "NPR Top of the Hour Newscast - 2011/07/17",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-07-17/npr_138194644.mp3",
+        "startTime": 1753002761290
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-02-09",
+        "title": "NPR Top of the Hour Newscast - 2012/02/09",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-02-09/npr_146616599.mp3",
+        "startTime": 1753003046340
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2017-05-19",
+        "title": "NPR Top of the Hour Newscast - 2017/05/19",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2017-05-19/newscast000630.mp3",
+        "startTime": 1753003331390
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-03-12",
+        "title": "NPR Top of the Hour Newscast - 2015/03/12",
+        "duration": 280.08,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-03-12/newscast000524.mp3",
+        "startTime": 1753003611450
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2010-08-26",
+        "title": "NPR Top of the Hour Newscast - 2010/08/26",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-08-26/npr_129438778.mp3",
+        "startTime": 1753003891530
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-01-04",
+        "title": "NPR Top of the Hour Newscast - 2012/01/04",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-01-04/npr_144655964.mp3",
+        "startTime": 1753004177570
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2016-04-21",
+        "title": "NPR Top of the Hour Newscast - 2016/04/21",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2016-04-21/newscast000627.mp3",
+        "startTime": 1753004462620
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-03-26",
+        "title": "NPR Top of the Hour Newscast - 2011/03/26",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-03-26/npr_134871291.mp3",
+        "startTime": 1753004742680
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-10-30",
+        "title": "NPR Top of the Hour Newscast - 2013/10/30",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-10-30/npr_241746793.mp3",
+        "startTime": 1753005028720
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2017-03-03",
+        "title": "NPR Top of the Hour Newscast - 2017/03/03",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2017-03-03/newscast000648.mp3",
+        "startTime": 1753005314760
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-03-15",
+        "title": "NPR Top of the Hour Newscast - 2011/03/15",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-03-15/npr_134552714.mp3",
+        "startTime": 1753005594820
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-10-27",
+        "title": "NPR Top of the Hour Newscast - 2015/10/27",
+        "duration": 295.16,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-10-27/newscast040607.mp3",
+        "startTime": 1753005880860
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2017-06-18",
+        "title": "NPR Top of the Hour Newscast - 2017/06/18",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2017-06-18/newscast000629.mp3",
+        "startTime": 1753006176020
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2019-07-23",
+        "title": "NPR Top of the Hour Newscast - 2019/07/23",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-07-23/newscast000804.mp3",
+        "startTime": 1753006456080
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-11-17",
+        "title": "NPR Top of the Hour Newscast - 2012/11/17",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-11-17/npr_165330068.mp3",
+        "startTime": 1753006735640
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2016-08-05",
+        "title": "NPR Top of the Hour Newscast - 2016/08/05",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2016-08-05/newscast000631.mp3",
+        "startTime": 1753007020690
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-10-06",
+        "title": "NPR Top of the Hour Newscast - 2015/10/06",
+        "duration": 295.16,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-10-06/newscast000605.mp3",
+        "startTime": 1753007300750
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2019-06-23",
+        "title": "NPR Top of the Hour Newscast - 2019/06/23",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-06-23/newscast000806.mp3",
+        "startTime": 1753007595910
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2016-04-07",
+        "title": "NPR Top of the Hour Newscast - 2016/04/07",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2016-04-07/newscast001219.mp3",
+        "startTime": 1753007875470
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2017-06-12",
+        "title": "NPR Top of the Hour Newscast - 2017/06/12",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2017-06-12/newscast000624.mp3",
+        "startTime": 1753008155530
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2010-03-28",
+        "title": "NPR Top of the Hour Newscast - 2010/03/28",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-03-28/npr_125269225.mp3",
+        "startTime": 1753008435590
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-01-26",
+        "title": "NPR Top of the Hour Newscast - 2011/01/26",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-01-26/npr_133228961.mp3",
+        "startTime": 1753008721630
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-06-22",
+        "title": "NPR Top of the Hour Newscast - 2011/06/22",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-06-22/npr_137334536.mp3",
+        "startTime": 1753009007670
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2016-03-24",
+        "title": "NPR Top of the Hour Newscast - 2016/03/24",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2016-03-24/newscast000639.mp3",
+        "startTime": 1753009292720
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-07-21",
+        "title": "NPR Top of the Hour Newscast - 2012/07/21",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-07-21/npr_157146215.mp3",
+        "startTime": 1753009572780
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-01-19",
+        "title": "NPR Top of the Hour Newscast - 2020/01/19",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-01-19/newscast000815.mp3",
+        "startTime": 1753009857830
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2010-07-30",
+        "title": "NPR Top of the Hour Newscast - 2010/07/30",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-07-30/npr_128862297.mp3",
+        "startTime": 1753010137390
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-12-21",
+        "title": "NPR Top of the Hour Newscast - 2012/12/21",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-12-21/npr_167762851.mp3",
+        "startTime": 1753010423430
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-01-01",
+        "title": "NPR Top of the Hour Newscast - 2011/01/01",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-01-01/npr_132536525.mp3",
+        "startTime": 1753010708480
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-03-17",
+        "title": "NPR Top of the Hour Newscast - 2012/03/17",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-03-17/npr_148798068.mp3",
+        "startTime": 1753010994520
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-03-19",
+        "title": "NPR Top of the Hour Newscast - 2013/03/19",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-03-19/npr_174697836.mp3",
+        "startTime": 1753011279570
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2019-12-22",
+        "title": "NPR Top of the Hour Newscast - 2019/12/22",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-12-22/newscast010812.mp3",
+        "startTime": 1753011564620
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-03-11",
+        "title": "NPR Top of the Hour Newscast - 2011/03/11",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-03-11/npr_134443767.mp3",
+        "startTime": 1753011844180
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-10-28",
+        "title": "NPR Top of the Hour Newscast - 2011/10/28",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-10-28/npr_141783749.mp3",
+        "startTime": 1753012130220
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-05-16",
+        "title": "NPR Top of the Hour Newscast - 2020/05/16",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-05-16/newscast000808.mp3",
+        "startTime": 1753012415270
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-01-12",
+        "title": "NPR Top of the Hour Newscast - 2015/01/12",
+        "duration": 280.08,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-01-12/newscast000808.mp3",
+        "startTime": 1753012694830
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2019-11-03",
+        "title": "NPR Top of the Hour Newscast - 2019/11/03",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-11-03/newscast000813.mp3",
+        "startTime": 1753012974910
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-07-31",
+        "title": "NPR Top of the Hour Newscast - 2015/07/31",
+        "duration": 279.82,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-07-31/newscast000606.mp3",
+        "startTime": 1753013254470
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-08-24",
+        "title": "NPR Top of the Hour Newscast - 2012/08/24",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-08-24/npr_159968467.mp3",
+        "startTime": 1753013534290
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-02-10",
+        "title": "NPR Top of the Hour Newscast - 2012/02/10",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-02-10/npr_146675505.mp3",
+        "startTime": 1753013819340
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-06-15",
+        "title": "NPR Top of the Hour Newscast - 2013/06/15",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-06-15/npr_191831046.mp3",
+        "startTime": 1753014104390
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-07-22",
+        "title": "NPR Top of the Hour Newscast - 2012/07/22",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-07-22/npr_157177466.mp3",
+        "startTime": 1753014389440
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2019-11-09",
+        "title": "NPR Top of the Hour Newscast - 2019/11/09",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-11-09/newscast000810.mp3",
+        "startTime": 1753014674490
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-04-03",
+        "title": "NPR Top of the Hour Newscast - 2012/04/03",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-04-03/npr_149888811.mp3",
+        "startTime": 1753014954050
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-09-16",
+        "title": "NPR Top of the Hour Newscast - 2013/09/16",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-09-16/npr_222910671.mp3",
+        "startTime": 1753015239100
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2016-07-18",
+        "title": "NPR Top of the Hour Newscast - 2016/07/18",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2016-07-18/newscast000636.mp3",
+        "startTime": 1753015525140
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-02-19",
+        "title": "NPR Top of the Hour Newscast - 2020/02/19",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-02-19/newscast000812.mp3",
+        "startTime": 1753015805200
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-07-29",
+        "title": "NPR Top of the Hour Newscast - 2012/07/29",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-07-29/npr_157547466.mp3",
+        "startTime": 1753016084760
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2019-06-03",
+        "title": "NPR Top of the Hour Newscast - 2019/06/03",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-06-03/newscast000810.mp3",
+        "startTime": 1753016369810
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-07-31",
+        "title": "NPR Top of the Hour Newscast - 2012/07/31",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-07-31/npr_157629243.mp3",
+        "startTime": 1753016649370
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2016-06-21",
+        "title": "NPR Top of the Hour Newscast - 2016/06/21",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2016-06-21/newscast000627.mp3",
+        "startTime": 1753016934420
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-03-21",
+        "title": "NPR Top of the Hour Newscast - 2020/03/21",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-03-21/newscast000812.mp3",
+        "startTime": 1753017214480
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2019-12-26",
+        "title": "NPR Top of the Hour Newscast - 2019/12/26",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-12-26/newscast000811.mp3",
+        "startTime": 1753017494040
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-05-14",
+        "title": "NPR Top of the Hour Newscast - 2013/05/14",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-05-14/npr_183794381.mp3",
+        "startTime": 1753017773600
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-08-07",
+        "title": "NPR Top of the Hour Newscast - 2012/08/07",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-08-07/npr_158281355.mp3",
+        "startTime": 1753018058650
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-09-13",
+        "title": "NPR Top of the Hour Newscast - 2015/09/13",
+        "duration": 280.08,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-09-13/newscast000601.mp3",
+        "startTime": 1753018343700
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-06-04",
+        "title": "NPR Top of the Hour Newscast - 2011/06/04",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-06-04/npr_136942260.mp3",
+        "startTime": 1753018623780
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-09-12",
+        "title": "NPR Top of the Hour Newscast - 2015/09/12",
+        "duration": 280.08,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-09-12/newscast000607.mp3",
+        "startTime": 1753018908830
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-08-02",
+        "title": "NPR Top of the Hour Newscast - 2011/08/02",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-08-02/npr_138912474.mp3",
+        "startTime": 1753019188910
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2009-06-20",
+        "title": "NPR Top of the Hour Newscast - 2009/06/20",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2009-06-20/npr_105717519.mp3",
+        "startTime": 1753019473960
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2019-06-25",
+        "title": "NPR Top of the Hour Newscast - 2019/06/25",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-06-25/newscast000811.mp3",
+        "startTime": 1753019760000
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-02-23",
+        "title": "NPR Top of the Hour Newscast - 2013/02/23",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-02-23/npr_172745309.mp3",
+        "startTime": 1753020039560
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-05-02",
+        "title": "NPR Top of the Hour Newscast - 2011/05/02",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-05-02/npr_135907307.mp3",
+        "startTime": 1753020324610
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-07-06",
+        "title": "NPR Top of the Hour Newscast - 2012/07/06",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-07-06/npr_156351592.mp3",
+        "startTime": 1753020610650
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2016-03-05",
+        "title": "NPR Top of the Hour Newscast - 2016/03/05",
+        "duration": 295.16,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2016-03-05/newscast000603.mp3",
+        "startTime": 1753020895700
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2019-04-19",
+        "title": "NPR Top of the Hour Newscast - 2019/04/19",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-04-19/newscast000806.mp3",
+        "startTime": 1753021190860
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2009-07-05",
+        "title": "NPR Top of the Hour Newscast - 2009/07/05",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2009-07-05/npr_106277330.mp3",
+        "startTime": 1753021470420
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2019-07-08",
+        "title": "NPR Top of the Hour Newscast - 2019/07/08",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-07-08/newscast000810.mp3",
+        "startTime": 1753021756460
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-06-03",
+        "title": "NPR Top of the Hour Newscast - 2012/06/03",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-06-03/npr_154225036.mp3",
+        "startTime": 1753022036020
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2010-08-08",
+        "title": "NPR Top of the Hour Newscast - 2010/08/08",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-08-08/npr_129056650.mp3",
+        "startTime": 1753022321070
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2019-03-04",
+        "title": "NPR Top of the Hour Newscast - 2019/03/04",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-03-04/newscast000807.mp3",
+        "startTime": 1753022607110
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2016-06-24",
+        "title": "NPR Top of the Hour Newscast - 2016/06/24",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2016-06-24/newscast000638.mp3",
+        "startTime": 1753022886670
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-11-28",
+        "title": "NPR Top of the Hour Newscast - 2013/11/28",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-11-28/npr_247617211.mp3",
+        "startTime": 1753023166730
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-10-09",
+        "title": "NPR Top of the Hour Newscast - 2012/10/09",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-10-09/npr_162541925.mp3",
+        "startTime": 1753023452770
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2017-05-15",
+        "title": "NPR Top of the Hour Newscast - 2017/05/15",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2017-05-15/newscast000632.mp3",
+        "startTime": 1753023737820
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-11-25",
+        "title": "NPR Top of the Hour Newscast - 2013/11/25",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-11-25/npr_247098247.mp3",
+        "startTime": 1753024017880
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-11-22",
+        "title": "NPR Top of the Hour Newscast - 2011/11/22",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-11-22/npr_142637086.mp3",
+        "startTime": 1753024303920
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-11-12",
+        "title": "NPR Top of the Hour Newscast - 2013/11/12",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-11-12/npr_244669426.mp3",
+        "startTime": 1753024588970
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-05-26",
+        "title": "NPR Top of the Hour Newscast - 2020/05/26",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-05-26/newscast000807.mp3",
+        "startTime": 1753024875010
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-11-22",
+        "title": "NPR Top of the Hour Newscast - 2015/11/22",
+        "duration": 295.16,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-11-22/newscast000556.mp3",
+        "startTime": 1753025154570
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-06-21",
+        "title": "NPR Top of the Hour Newscast - 2013/06/21",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-06-21/npr_194078087.mp3",
+        "startTime": 1753025449730
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-11-03",
+        "title": "NPR Top of the Hour Newscast - 2015/11/03",
+        "duration": 295.16,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-11-03/newscast000605.mp3",
+        "startTime": 1753025734780
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2010-11-08",
+        "title": "NPR Top of the Hour Newscast - 2010/11/08",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-11-08/npr_131151487.mp3",
+        "startTime": 1753026029940
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-12-28",
+        "title": "NPR Top of the Hour Newscast - 2011/12/28",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-12-28/npr_144357448.mp3",
+        "startTime": 1753026315980
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2017-08-22",
+        "title": "NPR Top of the Hour Newscast - 2017/08/22",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2017-08-22/newscast000624.mp3",
+        "startTime": 1753026601030
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-02-27",
+        "title": "NPR Top of the Hour Newscast - 2015/02/27",
+        "duration": 280.08,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-02-27/newscast000528.mp3",
+        "startTime": 1753026881090
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-06-03",
+        "title": "NPR Top of the Hour Newscast - 2011/06/03",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-06-03/npr_136908520.mp3",
+        "startTime": 1753027161170
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-03-27",
+        "title": "NPR Top of the Hour Newscast - 2013/03/27",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-03-27/npr_175426765.mp3",
+        "startTime": 1753027446220
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-07-19",
+        "title": "NPR Top of the Hour Newscast - 2013/07/19",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-07-19/npr_203474734.mp3",
+        "startTime": 1753027731270
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-10-02",
+        "title": "NPR Top of the Hour Newscast - 2012/10/02",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-10-02/npr_162128557.mp3",
+        "startTime": 1753028017310
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2009-12-06",
+        "title": "NPR Top of the Hour Newscast - 2009/12/06",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2009-12-06/npr_121130221.mp3",
+        "startTime": 1753028302360
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2017-03-02",
+        "title": "NPR Top of the Hour Newscast - 2017/03/02",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2017-03-02/newscast000642.mp3",
+        "startTime": 1753028588400
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-02-05",
+        "title": "NPR Top of the Hour Newscast - 2013/02/05",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-02-05/npr_171124995.mp3",
+        "startTime": 1753028868460
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-02-21",
+        "title": "NPR Top of the Hour Newscast - 2020/02/21",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-02-21/newscast000810.mp3",
+        "startTime": 1753029153510
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-02-11",
+        "title": "NPR Top of the Hour Newscast - 2015/02/11",
+        "duration": 280.08,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-02-11/newscast000530.mp3",
+        "startTime": 1753029433070
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-05-10",
+        "title": "NPR Top of the Hour Newscast - 2013/05/10",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-05-10/npr_182745561.mp3",
+        "startTime": 1753029713150
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-09-20",
+        "title": "NPR Top of the Hour Newscast - 2020/09/20",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-09-20/newscast000737.mp3",
+        "startTime": 1753029998200
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-12-26",
+        "title": "NPR Top of the Hour Newscast - 2012/12/26",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-12-26/npr_168049346.mp3",
+        "startTime": 1753030277760
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-06-06",
+        "title": "NPR Top of the Hour Newscast - 2012/06/06",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-06-06/npr_154401265.mp3",
+        "startTime": 1753030562810
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-03-19",
+        "title": "NPR Top of the Hour Newscast - 2011/03/19",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-03-19/npr_134673595.mp3",
+        "startTime": 1753030847860
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2010-11-07",
+        "title": "NPR Top of the Hour Newscast - 2010/11/07",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-11-07/npr_131132470.mp3",
+        "startTime": 1753031133900
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2009-12-12",
+        "title": "NPR Top of the Hour Newscast - 2009/12/12",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2009-12-12/npr_121369883.mp3",
+        "startTime": 1753031419940
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2016-08-19",
+        "title": "NPR Top of the Hour Newscast - 2016/08/19",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2016-08-19/newscast000634.mp3",
+        "startTime": 1753031705980
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2016-05-29",
+        "title": "NPR Top of the Hour Newscast - 2016/05/29",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2016-05-29/newscast000635.mp3",
+        "startTime": 1753031986040
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-03-02",
+        "title": "NPR Top of the Hour Newscast - 2020/03/02",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-03-02/newscast000812.mp3",
+        "startTime": 1753032266100
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-12-21",
+        "title": "NPR Top of the Hour Newscast - 2015/12/21",
+        "duration": 295.16,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-12-21/newscast000544.mp3",
+        "startTime": 1753032545660
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2019-03-09",
+        "title": "NPR Top of the Hour Newscast - 2019/03/09",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-03-09/newscast000813.mp3",
+        "startTime": 1753032840820
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-10-11",
+        "title": "NPR Top of the Hour Newscast - 2013/10/11",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-10-11/npr_231943576.mp3",
+        "startTime": 1753033120380
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2010-10-23",
+        "title": "NPR Top of the Hour Newscast - 2010/10/23",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-10-23/npr_130767428.mp3",
+        "startTime": 1753033406420
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-06-25",
+        "title": "NPR Top of the Hour Newscast - 2011/06/25",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-06-25/npr_137410232.mp3",
+        "startTime": 1753033692460
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2016-07-19",
+        "title": "NPR Top of the Hour Newscast - 2016/07/19",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2016-07-19/newscast000627.mp3",
+        "startTime": 1753033977510
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2017-05-24",
+        "title": "NPR Top of the Hour Newscast - 2017/05/24",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2017-05-24/newscast000639.mp3",
+        "startTime": 1753034257570
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-05-22",
+        "title": "NPR Top of the Hour Newscast - 2020/05/22",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-05-22/newscast000805.mp3",
+        "startTime": 1753034537630
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-12-10",
+        "title": "NPR Top of the Hour Newscast - 2011/12/10",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-12-10/npr_143482016.mp3",
+        "startTime": 1753034817190
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2009-07-21",
+        "title": "NPR Top of the Hour Newscast - 2009/07/21",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2009-07-21/npr_106833900.mp3",
+        "startTime": 1753035102240
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-04-05",
+        "title": "NPR Top of the Hour Newscast - 2012/04/05",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-04-05/npr_150032524.mp3",
+        "startTime": 1753035388280
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-06-01",
+        "title": "NPR Top of the Hour Newscast - 2020/06/01",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-06-01/newscast000809.mp3",
+        "startTime": 1753035673330
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-04-21",
+        "title": "NPR Top of the Hour Newscast - 2015/04/21",
+        "duration": 280.08,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-04-21/newscast000456.mp3",
+        "startTime": 1753035952890
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2016-08-23",
+        "title": "NPR Top of the Hour Newscast - 2016/08/23",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2016-08-23/newscast000627.mp3",
+        "startTime": 1753036232970
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2009-11-28",
+        "title": "NPR Top of the Hour Newscast - 2009/11/28",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2009-11-28/npr_120903745.mp3",
+        "startTime": 1753036513030
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-07-14",
+        "title": "NPR Top of the Hour Newscast - 2011/07/14",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-07-14/npr_137835461.mp3",
+        "startTime": 1753036799070
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-01-16",
+        "title": "NPR Top of the Hour Newscast - 2011/01/16",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-01-16/npr_132969701.mp3",
+        "startTime": 1753037084120
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2014-11-17",
+        "title": "NPR Top of the Hour Newscast - 2014/11/17",
+        "duration": 285.07,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2014-11-17/newscast000800.mp3",
+        "startTime": 1753037370160
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-06-30",
+        "title": "NPR Top of the Hour Newscast - 2020/06/30",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-06-30/newscast000806.mp3",
+        "startTime": 1753037655230
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-07-31",
+        "title": "NPR Top of the Hour Newscast - 2013/07/31",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-07-31/npr_207153970.mp3",
+        "startTime": 1753037934790
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2009-08-01",
+        "title": "NPR Top of the Hour Newscast - 2009/08/01",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2009-08-01/npr_111451725.mp3",
+        "startTime": 1753038220830
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2019-09-09",
+        "title": "NPR Top of the Hour Newscast - 2019/09/09",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-09-09/newscast000812.mp3",
+        "startTime": 1753038506870
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-07-18",
+        "title": "NPR Top of the Hour Newscast - 2020/07/18",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-07-18/newscast000816.mp3",
+        "startTime": 1753038786430
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-12-02",
+        "title": "NPR Top of the Hour Newscast - 2015/12/02",
+        "duration": 295.16,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-12-02/newscast000546.mp3",
+        "startTime": 1753039065990
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-03-27",
+        "title": "NPR Top of the Hour Newscast - 2015/03/27",
+        "duration": 280.08,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-03-27/newscast000501.mp3",
+        "startTime": 1753039361150
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-09-08",
+        "title": "NPR Top of the Hour Newscast - 2012/09/08",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-09-08/npr_160785487.mp3",
+        "startTime": 1753039641230
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2019-03-22",
+        "title": "NPR Top of the Hour Newscast - 2019/03/22",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-03-22/newscast000804.mp3",
+        "startTime": 1753039926280
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2016-11-23",
+        "title": "NPR Top of the Hour Newscast - 2016/11/23",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2016-11-23/newscast000632.mp3",
+        "startTime": 1753040205840
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-02-28",
+        "title": "NPR Top of the Hour Newscast - 2020/02/28",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-02-28/newscast000811.mp3",
+        "startTime": 1753040485900
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-09-12",
+        "title": "NPR Top of the Hour Newscast - 2020/09/12",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-09-12/newscast000742.mp3",
+        "startTime": 1753040765460
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2010-07-01",
+        "title": "NPR Top of the Hour Newscast - 2010/07/01",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-07-01/npr_128229489.mp3",
+        "startTime": 1753041045020
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-11-01",
+        "title": "NPR Top of the Hour Newscast - 2015/11/01",
+        "duration": 295.16,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-11-01/newscast000556.mp3",
+        "startTime": 1753041331060
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2010-03-17",
+        "title": "NPR Top of the Hour Newscast - 2010/03/17",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-03-17/npr_124755577.mp3",
+        "startTime": 1753041626220
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-06-26",
+        "title": "NPR Top of the Hour Newscast - 2012/06/26",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-06-26/npr_155744979.mp3",
+        "startTime": 1753041912260
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-09-30",
+        "title": "NPR Top of the Hour Newscast - 2012/09/30",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-09-30/npr_162046143.mp3",
+        "startTime": 1753042197310
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-07-02",
+        "title": "NPR Top of the Hour Newscast - 2012/07/02",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-07-02/npr_156093855.mp3",
+        "startTime": 1753042482360
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2010-01-29",
+        "title": "NPR Top of the Hour Newscast - 2010/01/29",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-01-29/npr_123096176.mp3",
+        "startTime": 1753042767410
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-06-23",
+        "title": "NPR Top of the Hour Newscast - 2015/06/23",
+        "duration": 280.08,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-06-23/newscast000540.mp3",
+        "startTime": 1753043053450
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-06-24",
+        "title": "NPR Top of the Hour Newscast - 2015/06/24",
+        "duration": 280.08,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-06-24/newscast000536.mp3",
+        "startTime": 1753043333530
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2017-07-21",
+        "title": "NPR Top of the Hour Newscast - 2017/07/21",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2017-07-21/newscast000625.mp3",
+        "startTime": 1753043613610
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-06-02",
+        "title": "NPR Top of the Hour Newscast - 2011/06/02",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-06-02/npr_136875392.mp3",
+        "startTime": 1753043893670
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2010-04-24",
+        "title": "NPR Top of the Hour Newscast - 2010/04/24",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-04-24/npr_126236433.mp3",
+        "startTime": 1753044178720
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2017-12-31",
+        "title": "NPR Top of the Hour Newscast - 2017/12/31",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2017-12-31/newscast000628.mp3",
+        "startTime": 1753044464760
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2010-12-21",
+        "title": "NPR Top of the Hour Newscast - 2010/12/21",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-12-21/npr_132221717.mp3",
+        "startTime": 1753044744820
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2016-05-05",
+        "title": "NPR Top of the Hour Newscast - 2016/05/05",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2016-05-05/newscast000626.mp3",
+        "startTime": 1753045030860
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-05-29",
+        "title": "NPR Top of the Hour Newscast - 2020/05/29",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-05-29/newscast000808.mp3",
+        "startTime": 1753045310920
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2017-08-02",
+        "title": "NPR Top of the Hour Newscast - 2017/08/02",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2017-08-02/newscast000626.mp3",
+        "startTime": 1753045590480
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-02-17",
+        "title": "NPR Top of the Hour Newscast - 2011/02/17",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-02-17/npr_133825910.mp3",
+        "startTime": 1753045870540
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-12-25",
+        "title": "NPR Top of the Hour Newscast - 2013/12/25",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-12-25/npr_256997299.mp3",
+        "startTime": 1753046156580
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-12-23",
+        "title": "NPR Top of the Hour Newscast - 2013/12/23",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-12-23/npr_256447615.mp3",
+        "startTime": 1753046442620
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2014-11-12",
+        "title": "NPR Top of the Hour Newscast - 2014/11/12",
+        "duration": 285.07,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2014-11-12/newscast000749.mp3",
+        "startTime": 1753046728660
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2019-03-17",
+        "title": "NPR Top of the Hour Newscast - 2019/03/17",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-03-17/newscast000803.mp3",
+        "startTime": 1753047013730
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-11-20",
+        "title": "NPR Top of the Hour Newscast - 2013/11/20",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-11-20/npr_246255226.mp3",
+        "startTime": 1753047293290
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2019-08-18",
+        "title": "NPR Top of the Hour Newscast - 2019/08/18",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-08-18/newscast000810.mp3",
+        "startTime": 1753047579330
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-09-14",
+        "title": "NPR Top of the Hour Newscast - 2013/09/14",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-09-14/npr_222301584.mp3",
+        "startTime": 1753047858890
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-02-29",
+        "title": "NPR Top of the Hour Newscast - 2020/02/29",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-02-29/newscast000808.mp3",
+        "startTime": 1753048144930
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-05-21",
+        "title": "NPR Top of the Hour Newscast - 2012/05/21",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-05-21/npr_153170304.mp3",
+        "startTime": 1753048424490
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2019-06-09",
+        "title": "NPR Top of the Hour Newscast - 2019/06/09",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-06-09/newscast000810.mp3",
+        "startTime": 1753048709540
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-09-24",
+        "title": "NPR Top of the Hour Newscast - 2012/09/24",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-09-24/npr_161665359.mp3",
+        "startTime": 1753048989100
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2009-09-29",
+        "title": "NPR Top of the Hour Newscast - 2009/09/29",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2009-09-29/npr_113292958.mp3",
+        "startTime": 1753049274150
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-09-28",
+        "title": "NPR Top of the Hour Newscast - 2015/09/28",
+        "duration": 295.16,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-09-28/newscast000603.mp3",
+        "startTime": 1753049560190
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2013-07-11",
+        "title": "NPR Top of the Hour Newscast - 2013/07/11",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2013-07-11/npr_200956840.mp3",
+        "startTime": 1753049855350
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2019-01-31",
+        "title": "NPR Top of the Hour Newscast - 2019/01/31",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2019-01-31/newscast000809.mp3",
+        "startTime": 1753050141390
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2010-10-27",
+        "title": "NPR Top of the Hour Newscast - 2010/10/27",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-10-27/npr_130849842.mp3",
+        "startTime": 1753050420950
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-07-03",
+        "title": "NPR Top of the Hour Newscast - 2011/07/03",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-07-03/npr_137583741.mp3",
+        "startTime": 1753050706990
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2016-12-08",
+        "title": "NPR Top of the Hour Newscast - 2016/12/08",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2016-12-08/newscast000627.mp3",
+        "startTime": 1753050992040
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-10-31",
+        "title": "NPR Top of the Hour Newscast - 2012/10/31",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-10-31/npr_164005500.mp3",
+        "startTime": 1753051272100
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2017-01-06",
+        "title": "NPR Top of the Hour Newscast - 2017/01/06",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2017-01-06/newscast000629.mp3",
+        "startTime": 1753051557150
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-12-24",
+        "title": "NPR Top of the Hour Newscast - 2015/12/24",
+        "duration": 295.16,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-12-24/newscast000604.mp3",
+        "startTime": 1753051837210
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2012-10-08",
+        "title": "NPR Top of the Hour Newscast - 2012/10/08",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2012-10-08/npr_162487686.mp3",
+        "startTime": 1753052132370
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-03-30",
+        "title": "NPR Top of the Hour Newscast - 2020/03/30",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-03-30/newscast000816.mp3",
+        "startTime": 1753052417420
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-09-25",
+        "title": "NPR Top of the Hour Newscast - 2020/09/25",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-09-25/newscast000744.mp3",
+        "startTime": 1753052696980
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2016-07-31",
+        "title": "NPR Top of the Hour Newscast - 2016/07/31",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2016-07-31/newscast000641.mp3",
+        "startTime": 1753052976540
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2010-05-19",
+        "title": "NPR Top of the Hour Newscast - 2010/05/19",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-05-19/npr_126965559.mp3",
+        "startTime": 1753053256600
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2017-04-19",
+        "title": "NPR Top of the Hour Newscast - 2017/04/19",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2017-04-19/newscast000621.mp3",
+        "startTime": 1753053542640
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2016-09-07",
+        "title": "NPR Top of the Hour Newscast - 2016/09/07",
+        "duration": 280.06,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2016-09-07/newscast000630.mp3",
+        "startTime": 1753053822700
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2014-09-10",
+        "title": "NPR Top of the Hour Newscast - 2014/09/10",
+        "duration": 285.07,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2014-09-10/newscast000747.mp3",
+        "startTime": 1753054102760
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2010-08-09",
+        "title": "NPR Top of the Hour Newscast - 2010/08/09",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2010-08-09/npr_129073616.mp3",
+        "startTime": 1753054387830
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-08-21",
+        "title": "NPR Top of the Hour Newscast - 2011/08/21",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-08-21/npr_139826258.mp3",
+        "startTime": 1753054673870
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2015-05-13",
+        "title": "NPR Top of the Hour Newscast - 2015/05/13",
+        "duration": 280.08,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2015-05-13/newscast000538.mp3",
+        "startTime": 1753054958920
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2009-08-17",
+        "title": "NPR Top of the Hour Newscast - 2009/08/17",
+        "duration": 286.04,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2009-08-17/npr_111941738.mp3",
+        "startTime": 1753055239000
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2011-08-29",
+        "title": "NPR Top of the Hour Newscast - 2011/08/29",
+        "duration": 285.05,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2011-08-29/npr_140026924.mp3",
+        "startTime": 1753055525040
+      },
+      {
+        "identifier": "npr-top-of-the-hour-newscast-2020-07-09",
+        "title": "NPR Top of the Hour Newscast - 2020/07/09",
+        "duration": 279.56,
+        "streamUrl": "https://archive.org/download/npr-top-of-the-hour-newscast-2020-07-09/newscast000806.mp3",
+        "startTime": 1753055810090
+      }
+    ]
+  }
+]

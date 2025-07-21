@@ -1,16 +1,34 @@
 <script>
-  import radioData from "../data/radio-data.json";
+  import { onMount } from "svelte";
 
   let frequency = 101.2;
   let power = false;
   let audioBooted = false;
   let audioElements = [];
+  let radio = [];
+  let loading = true;
+
+  // Dynamic import of radio data
+  onMount(async () => {
+    const date = new Date();
+    const day = String(date.getUTCDate()).padStart(2, "0");
+    const month = String(date.getUTCMonth() + 1).padStart(2, "0");
+    const year = date.getUTCFullYear();
+    const dateString = `${day}-${month}-${year}`;
+
+    try {
+      const radioData = await import(`../data/${dateString}-radio-data.json`);
+      radio = radioData.default;
+      loading = false;
+    } catch (error) {
+      console.error("Failed to load radio data:", error);
+      // Fallback to a default file or handle the error
+      loading = false;
+    }
+    station = getStation(frequency);
+  });
 
   const SEED = "radIO";
-
-  // Use pre-generated radio data
-  let radio = radioData;
-  let loading = false;
 
   const getStation = (frequency) => {
     return radio.find((station) => station.frequency === frequency);
@@ -24,9 +42,7 @@
     const volume = -Math.log(distance + 1) + 1;
     // Clamp volume between 0 and 1
     const clampedVolume = Math.max(0, Math.min(1, volume));
-    // console.log(
-    //   `Station ${stationFrequency}MHz: distance=${distance}, volume=${clampedVolume}`,
-    // );
+
     return clampedVolume;
   }
 
@@ -116,71 +132,77 @@
   };
 </script>
 
-<div class="flex flex-col gap-4 p-4 w-full">
-  <div class="flex items-center">
-    <input
-      type="button"
-      on:click={handlePowerToggle}
-      value="⏻"
-      class="mr-3 bg-gray-200 border-2 rounded p-1 text-sm leading-3.5 {!power
-        ? 'text-gray-400 border-gray-300'
-        : 'text-gray-600 border-gray-400 shadow-2xl'} cursor-pointer"
-    />
-
-    <input
-      type="button"
-      on:click={(frequency -= 0.1)}
-      value="◀"
-      class="mr-3 bg-gray-200 border-2 rounded p-1 text-sm leading-3.5 {!power
-        ? 'text-gray-400 border-gray-300'
-        : 'text-gray-600 border-gray-400 shadow-2xl'} cursor-pointer"
-    />
-    <input
-      type="button"
-      on:click={(frequency += 0.1)}
-      value="▶"
-      class="mr-3 bg-gray-200 border-2 rounded p-1 text-sm leading-3.5 {!power
-        ? 'text-gray-400 border-gray-300'
-        : 'text-gray-600 border-gray-400 shadow-2xl'} cursor-pointer"
-    />
-
-    <!-- <input
-      type="button"
-      on:click={frequency = }
-      value="⏮"
-      class="mr-3 bg-gray-200 border-2 rounded p-1 text-sm leading-3.5 {!power
-        ? 'text-gray-400 border-gray-300'
-        : 'text-gray-600 border-gray-400 shadow-2xl'} cursor-pointer"
-    /> -->
-
-    <label class="text-xl" for="frequency-input">
-      {frequency.toFixed(1)}
-      <span class="text-sm text-gray-500">{station?.name}</span>
-    </label>
+{#if loading}
+  <div class="flex flex-col gap-4 p-4 w-full">
+    <p class="text-xl">Loading radio data...</p>
   </div>
+{:else}
+  <div class="flex flex-col gap-4 p-4 w-full">
+    <div class="flex items-center">
+      <input
+        type="button"
+        on:click={handlePowerToggle}
+        value="⏻"
+        class="mr-3 bg-gray-200 border-2 rounded p-1 text-sm leading-3.5 {!power
+          ? 'text-gray-400 border-gray-300'
+          : 'text-gray-600 border-gray-400 shadow-2xl'} cursor-pointer"
+      />
 
-  <input
-    type="range"
-    min="77"
-    max="111"
-    step="0.1"
-    bind:value={frequency}
-    class="h-2 w-full md:w-1/2 lg:w-1/4 appearance-none bg-gray-200 cursor-pointer [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:h-4 [&::-webkit-slider-thumb]:w-1 [&::-webkit-slider-thumb]:bg-orange-500 [&::-moz-range-thumb]:h-4 [&::-moz-range-thumb]:w-2 [&::-moz-range-thumb]:bg-orange-500 [&::-moz-range-thumb]:border-none"
-    id="frequency-input"
-  />
+      <input
+        type="button"
+        on:click={(frequency -= 0.1)}
+        value="◀"
+        class="mr-3 bg-gray-200 border-2 rounded p-1 text-sm leading-3.5 {!power
+          ? 'text-gray-400 border-gray-300'
+          : 'text-gray-600 border-gray-400 shadow-2xl'} cursor-pointer"
+      />
+      <input
+        type="button"
+        on:click={(frequency += 0.1)}
+        value="▶"
+        class="mr-3 bg-gray-200 border-2 rounded p-1 text-sm leading-3.5 {!power
+          ? 'text-gray-400 border-gray-300'
+          : 'text-gray-600 border-gray-400 shadow-2xl'} cursor-pointer"
+      />
 
-  {#each radio as station}
-    <!-- <div>{station.identifier}</div> -->
-    <audio use:audioAction muted={!power} preload="auto">
-      <source src={station.streamUrl} type="audio/mpeg" />
+      <!-- <input
+            type="button"
+            on:click={frequency = }
+            value="⏮"
+            class="mr-3 bg-gray-200 border-2 rounded p-1 text-sm leading-3.5 {!power
+                ? 'text-gray-400 border-gray-300'
+                : 'text-gray-600 border-gray-400 shadow-2xl'} cursor-pointer"
+        /> -->
+
+      <label class="text-xl" for="frequency-input">
+        {frequency.toFixed(1)}
+        <span class="text-sm text-gray-500">{station?.name}</span>
+      </label>
+    </div>
+
+    <input
+      type="range"
+      min="77"
+      max="111"
+      step="0.1"
+      bind:value={frequency}
+      class="h-2 w-full md:w-1/2 lg:w-1/4 appearance-none bg-gray-200 cursor-pointer [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:h-4 [&::-webkit-slider-thumb]:w-1 [&::-webkit-slider-thumb]:bg-orange-500 [&::-moz-range-thumb]:h-4 [&::-moz-range-thumb]:w-2 [&::-moz-range-thumb]:bg-orange-500 [&::-moz-range-thumb]:border-none"
+      id="frequency-input"
+    />
+
+    {#each radio as station}
+      <!-- <div>{station.identifier}</div> -->
+      <audio use:audioAction muted={!power} preload="auto">
+        <source src={station.streamUrl} type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+    {/each}
+    <audio use:audioAction muted={!power} preload="auto" loop>
+      <source
+        src="https://archive.org/download/White_Noise-14496/White_Noise_-_01_-_White_Noise.mp3"
+        type="audio/mpeg"
+      />
       Your browser does not support the audio element.
     </audio>
-  {/each}
-  <audio use:audioAction muted={!power} preload="auto" loop>
-    <source
-      src="https://archive.org/download/White_Noise-14496/White_Noise_-_01_-_White_Noise.mp3"
-      type="audio/mpeg"
-    />
-    Your browser does not support the audio element.
-  </audio>
-</div>
+  </div>
+{/if}
