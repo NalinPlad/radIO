@@ -11,8 +11,15 @@
   // AnimeJS
   let fr_ind;
 
+  let mouseY = 0;
+
   // Dynamic import of radio data
   onMount(async () => {
+
+    document.addEventListener("mousemove", (e) => {
+      mouseY = e.clientY;
+    });
+
     const date = new Date();
     const day = String(date.getUTCDate()).padStart(2, "0");
     const month = String(date.getUTCMonth() + 1).padStart(2, "0");
@@ -34,6 +41,11 @@
       // console.clear()
       // console.log(fr_ind.progressX)
       // console.log(fr_ind.containerBounds[1], fr_ind.x)
+
+      // drag speed goes down to 0.2 is the user is not hovering over the object
+      fr_ind.dragSpeed = Math.min(1, Math.max(0.1, 1 - (mouseY - (fr_ind.$target.getBoundingClientRect().y + fr_ind.$target.getBoundingClientRect().height/2)) / (fr_ind.$target.getBoundingClientRect().height*3)))
+      // console.log(fr_ind.dragSpeed)
+
       frequency = utils.round(
         Math.max(55, Math.min(155, fr_ind.progressX * 100 + 55)),
         1,
@@ -46,6 +58,7 @@
       containerFriction: 0.9,
       maxVelocity: 0,
       releaseStiffness: 1000,
+      dragSpeed: 1,
       // modifier: utils.snap(0.5),
       onDrag: onDrag,
       onSettle: onDrag,
@@ -85,10 +98,10 @@
       // Update radio station volumes and calculate total
       radio.forEach((station, index) => {
         if (audioElements[index]) {
-          console.log(
-            station,
-            audioElements[index].querySelector("source").src,
-          );
+          // console.log(
+          //   station,
+          //   audioElements[index].querySelector("source").src,
+          // );
           const volume = calculateVolume(station.frequency);
           audioElements[index].volume = volume;
           totalStationVolume += volume;
@@ -303,7 +316,7 @@
   </div>
   <div
     id="fr_ind_container"
-    class="h-5 w-full bg-gray-200 rounded flex items-center justify-between px-2"
+    class="h-5 w-full bg-gray-200 rounded flex items-center justify-between px-6.5"
   >
     {#each radio as station}
       <div

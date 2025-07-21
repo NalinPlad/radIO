@@ -9,7 +9,7 @@ const STATION_CONFIGS = [
   { name: "BookCentral", identifier: "radiobooks" },
   { name: "Concert Grande WFUV", identifier: "concert-grande-radio" },
   { name: "Crap From The Past", identifier: "crapfromthepast" },
-  { name: "National Public Radio", identifier: "nprtopofthehour" },
+  { name: "NPR Top of the Hour", identifier: "nprtopofthehour" },
   { name: "BBC World Service", identifier: "Radio-BBC-World-Service" },
   { name: "MixTape Central", identifier: "hiphopmixtapes" },
   { name: "HipHop Radio", identifier: "hiphopradioarchive" },
@@ -17,6 +17,9 @@ const STATION_CONFIGS = [
   { name: "Democracy Now!", identifier: "democracy_now"},
   { name: "WWII News Radio", identifier: "wwIIarchive-audio"},
   { name: "Executive Speech", identifier: "presidential_recordings"},
+  { name: "NASA Space Channel", identifier: "audiohighlightreels"},
+  { name: "Hacker Public Radio", identifier: "hackerpublicradio"},
+  { name: "Transatlantic Poetry Show", identifier: "transatlantic-poetry"},
   // { name: "Opera Channel", identifier: "78-opera"}
 ];
 
