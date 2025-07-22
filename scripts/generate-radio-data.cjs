@@ -7,20 +7,23 @@ const EPOCH = new Date(new Date().setUTCHours(0, 0, 0, 0)).getTime();
 // Static data to build the radio from
 const STATION_CONFIGS = [
   { name: "BookCentral", identifier: "radiobooks" },
-  { name: "Concert Grande WFUV", identifier: "concert-grande-radio" },
-  { name: "Crap From The Past", identifier: "crapfromthepast" },
-  { name: "NPR Top of the Hour", identifier: "nprtopofthehour" },
-  { name: "BBC World Service", identifier: "Radio-BBC-World-Service" },
-  { name: "MixTape Central", identifier: "hiphopmixtapes" },
-  { name: "HipHop Radio", identifier: "hiphopradioarchive" },
-  { name: "VaporRadio", identifier: "vaporwave"},
-  { name: "Democracy Now!", identifier: "democracy_now"},
-  { name: "WWII News Radio", identifier: "wwIIarchive-audio"},
-  { name: "Executive Speech", identifier: "presidential_recordings"},
-  { name: "NASA Space Channel", identifier: "audiohighlightreels"},
-  { name: "Hacker Public Radio", identifier: "hackerpublicradio"},
-  { name: "Transatlantic Poetry Show", identifier: "transatlantic-poetry"},
-  { name: "Pirate Radio", identifier: "pirateradioairchecks"},
+  // { name: "Concert Grande WFUV", identifier: "concert-grande-radio" },
+  // { name: "Crap From The Past", identifier: "crapfromthepast" },
+  // { name: "NPR Top of the Hour", identifier: "nprtopofthehour" },
+  // { name: "BBC World Service", identifier: "Radio-BBC-World-Service" },
+  // { name: "MixTape Central", identifier: "hiphopmixtapes" },
+  // { name: "HipHop Radio", identifier: "hiphopradioarchive" },
+  // { name: "VaporRadio", identifier: "vaporwave"},
+  // { name: "Democracy Now!", identifier: "democracy_now"},
+  // { name: "WWII News Radio", identifier: "wwIIarchive-audio"},
+  // { name: "Executive Speech", identifier: "presidential_recordings"},
+  // { name: "NASA Space Channel", identifier: "audiohighlightreels"},
+  // { name: "Hacker Public Radio", identifier: "hackerpublicradio"},
+  // { name: "Transatlantic Poetry Show", identifier: "transatlantic-poetry"},
+  // { name: "Pirate Radio", identifier: "pirateradioairchecks"},
+  // { name: "Jazz in the City", identifier: "sfjazz"},
+  // { name: "Radio Morocco", identifier: "morocco_radio_archive"},
+  // { name: "Melody Brazil Radio", identifier: "melodybrazilradio"}
 ];
 
 const FREQ_MIN = 55;
@@ -36,6 +39,15 @@ const STATIONS = STATION_CONFIGS.map((cfg, i) => ({
 const SEARCH_URL = (collection) =>
   `https://archive.org/advancedsearch.php?q=collection:${collection}+AND+mediatype:audio+AND+format:MP3&rows=9999&output=json`;
 
+const DURATION = (string) => {
+  if (string.includes(":")) {
+    return string.split(":").reduce((acc, curr, index) => {
+      return acc + curr * (index === 0 ? 60 : 1);
+    }, 0);
+  }
+  return Number(string);
+};
+
 async function getFileInfo(identifier) {
   const metadata = await fetch(
     "https://archive.org/metadata/" + identifier
@@ -43,19 +55,27 @@ async function getFileInfo(identifier) {
 
   // random file from the list
   const mp3s = metadata.files.filter((file) => file.format.includes("MP3"));
-  const file = mp3s[Math.floor(Math.random() * mp3s.length)];
 
-  const streamUrl = `https://archive.org/download/${identifier}/${encodeURIComponent(
-    file.name
-  )}`;
+  let dur = 0;
+  let return_files = [];
 
-  const duration = file.length.includes(":")
-    ? file.length.split(":").reduce((acc, curr, index) => {
-        return acc + curr * (index === 0 ? 60 : 1);
-      }, 0)
-    : Number(file.length);
+  // collect up to an hour of files from item
+  while (dur < 3 * 60 * 60 && mp3s.length > 0) {
+    const file = mp3s.shift();
+    dur += DURATION(file.length);
 
-  return { streamUrl, duration };
+    const streamUrl = `https://archive.org/download/${identifier}/${encodeURIComponent(
+      file.name
+    )}`;
+
+    return_files.push({
+      streamUrl,
+      duration: DURATION(file.length),
+      filename: file.name,
+    });
+  }
+
+  return return_files;
 }
 
 async function generateRadioData() {
@@ -89,37 +109,43 @@ async function generateRadioData() {
         let items = [];
 
         while (totalDuration < 24 * 60 * 60 && collection_items.length > 0) {
-          const { streamUrl, duration } = await getFileInfo(
-            collection_items[0].identifier
-          );
+          const files = await getFileInfo(collection_items[0].identifier);
 
-          if (duration === -1) {
-            console.error(
-              `Skipping file ${collection_items[0].identifier} due to parsing failure`
-            );
-            collection_items.shift(); // Remove the failed item
-            continue;
+          for (const file of files) {
+            if (file.duration === -1) {
+              console.error(
+                `Skipping file ${collection_items[0].identifier} due to parsing failure`
+              );
+              // collection_items.shift(); // Remove the failed item
+              continue;
+            }
+
+            // Instead of pushing and mutating the same object, create a new one for each file
+            items.push({
+              identifier: collection_items[0].identifier,
+              title: collection_items[0].title + " | " + file.filename.replace(".mp3", ""),
+              duration: file.duration,
+              streamUrl: file.streamUrl,
+              startTime: EPOCH + totalDuration * 1000,
+            });
+            totalDuration += file.duration;
           }
 
-          // console.log(`Added ${duration} seconds to total duration, now at ${totalDuration} seconds`);
-          items.push(collection_items.shift());
-          items[items.length - 1].duration = duration;
-          items[items.length - 1].streamUrl = streamUrl;
-          items[items.length - 1].startTime = EPOCH + totalDuration * 1000;
-          totalDuration += duration;
-          console.log(items[items.length - 1]);
+          collection_items.shift();
 
-          // Sleep for 1 second * number of stations
-          // await new Promise((resolve) =>
-          //   setTimeout(resolve, STATIONS.length * 1000)
-          // );
+          console.log(
+            `${station.name}: ${Math.round(totalDuration)}/${
+              24 * 60 * 60
+            }s ${Math.round((totalDuration / (24 * 60 * 60)) * 100)}%`
+          );
         }
 
         return {
           name: station.name,
           frequency: station.frequency,
           identifier: station.identifier,
-          items: items,
+          // randomize
+          items,
         };
       })
     );

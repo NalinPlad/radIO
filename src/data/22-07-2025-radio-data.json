@@ -1,0 +1,163 @@
+[
+  {
+    "name": "BookCentral",
+    "frequency": 55.0,
+    "identifier": "radiobooks",
+    "items": [
+      {
+        "identifier": "philip-purser-ceremonies-of-war",
+        "title": "Philip Purser Ceremonies Of War | Philip Purser Ceremonies Of War",
+        "duration": 5242.11,
+        "streamUrl": "https://archive.org/download/philip-purser-ceremonies-of-war/Philip%20Purser%20Ceremonies%20Of%20War.mp3",
+        "startTime": 1753142400000
+      },
+      {
+        "identifier": "paul-bryers-the-dancing-faun",
+        "title": "Paul Bryers The Dancing Faun | Paul Bryers The Dancing Faun",
+        "duration": 4972.36,
+        "streamUrl": "https://archive.org/download/paul-bryers-the-dancing-faun/Paul%20Bryers%20The%20Dancing%20Faun.mp3",
+        "startTime": 1753147642110
+      },
+      {
+        "identifier": "john-rollason-plots-i-have-laid",
+        "title": "John Rollason Plots I Have Laid | John Rollason Plots I have Laid",
+        "duration": 5056.5,
+        "streamUrl": "https://archive.org/download/john-rollason-plots-i-have-laid/John%20Rollason%20Plots%20I%20have%20Laid.mp3",
+        "startTime": 1753152614470
+      },
+      {
+        "identifier": "joan-morgan-doctor-jo",
+        "title": "Joan Morgan Doctor Jo | Joan Morgan Doctor Jo",
+        "duration": 5337.67,
+        "streamUrl": "https://archive.org/download/joan-morgan-doctor-jo/Joan%20Morgan%20Doctor%20Jo.mp3",
+        "startTime": 1753157670970
+      },
+      {
+        "identifier": "dan-rebellato-negative-signs-of-progress",
+        "title": "Dan Rebellato - Negative Signs Of Progress | 1 Negative Signs of Progress Here 25-02-13",
+        "duration": 2700.2,
+        "streamUrl": "https://archive.org/download/dan-rebellato-negative-signs-of-progress/1%20Negative%20Signs%20of%20Progress%20Here%2025-02-13.mp3",
+        "startTime": 1753163008640
+      },
+      {
+        "identifier": "dan-rebellato-negative-signs-of-progress",
+        "title": "Dan Rebellato - Negative Signs Of Progress | 2 Negative Signs of Progress There 26-02-13",
+        "duration": 2700.2,
+        "streamUrl": "https://archive.org/download/dan-rebellato-negative-signs-of-progress/2%20Negative%20Signs%20of%20Progress%20There%2026-02-13.mp3",
+        "startTime": 1753165708840
+      },
+      {
+        "identifier": "dan-rebellato-negative-signs-of-progress",
+        "title": "Dan Rebellato - Negative Signs Of Progress | 3 Negative Signs of Progress Somewhere 27-02-13",
+        "duration": 2700.2,
+        "streamUrl": "https://archive.org/download/dan-rebellato-negative-signs-of-progress/3%20Negative%20Signs%20of%20Progress%20Somewhere%2027-02-13.mp3",
+        "startTime": 1753168409040
+      },
+      {
+        "identifier": "begin-the-beguine-the-life-of-artie-shaw",
+        "title": "Begin The Beguine the Life of Artie Shaw | Begin the Beguine Artie Shaw",
+        "duration": 3475.2,
+        "streamUrl": "https://archive.org/download/begin-the-beguine-the-life-of-artie-shaw/Begin%20the%20Beguine%20Artie%20Shaw.mp3",
+        "startTime": 1753171109240
+      },
+      {
+        "identifier": "charlotte-hastings-bonaventure",
+        "title": "Charlotte Hastings Bonaventure | Charlotte Hastings Bonaventure",
+        "duration": 5318.79,
+        "streamUrl": "https://archive.org/download/charlotte-hastings-bonaventure/Charlotte%20Hastings%20Bonaventure.mp3",
+        "startTime": 1753174584440
+      },
+      {
+        "identifier": "charity-blackstock-the-woman-in-the-woods",
+        "title": "Charity Blackstock The Woman In The Woods | Charity Blackstock The Woman In The Woods",
+        "duration": 5887.21,
+        "streamUrl": "https://archive.org/download/charity-blackstock-the-woman-in-the-woods/Charity%20Blackstock%20The%20Woman%20In%20The%20Woods.mp3",
+        "startTime": 1753179903230
+      },
+      {
+        "identifier": "stevIe-davies-the-web-of-belonging",
+        "title": "StevIe Davies The Web Of Belonging | Steve Davies The Web of Belonging",
+        "duration": 2697.06,
+        "streamUrl": "https://archive.org/download/stevIe-davies-the-web-of-belonging/Steve%20Davies%20The%20Web%20of%20Belonging.mp3",
+        "startTime": 1753185790440
+      },
+      {
+        "identifier": "lope-de-vega-the-idiot-lady",
+        "title": "Lope De Vega The Idiot Lady | Lope De Vega The Idiot Lady",
+        "duration": 5141.61,
+        "streamUrl": "https://archive.org/download/lope-de-vega-the-idiot-lady/Lope%20De%20Vega%20The%20Idiot%20Lady.mp3",
+        "startTime": 1753188487500
+      },
+      {
+        "identifier": "episode-09-scylla-and-charybdis",
+        "title": "Episode 09 Scylla And Charybdis | Episode 09   Scylla and Charybdis",
+        "duration": 4592.12,
+        "streamUrl": "https://archive.org/download/episode-09-scylla-and-charybdis/Episode%2009%20%20%20Scylla%20and%20Charybdis.mp3",
+        "startTime": 1753193629110
+      },
+      {
+        "identifier": "1964-06-27-a.-e.-w.-mason-no-other-tiger",
+        "title": "A.E.W. Mason No Other Tiger | A.E.W. Mason No Other Tiger",
+        "duration": 5778.58,
+        "streamUrl": "https://archive.org/download/1964-06-27-a.-e.-w.-mason-no-other-tiger/A.E.W.%20Mason%20No%20Other%20Tiger.mp3",
+        "startTime": 1753198221230
+      },
+      {
+        "identifier": "jackie-pavlenko-the-present",
+        "title": "Jackie Pavlenko The Present | Jackie Pavlenko The Present",
+        "duration": 2712.03,
+        "streamUrl": "https://archive.org/download/jackie-pavlenko-the-present/Jackie%20Pavlenko%20The%20Present.mp3",
+        "startTime": 1753203999810
+      },
+      {
+        "identifier": "big-band-special",
+        "title": "Big Band Special | Big Band Special",
+        "duration": 3600.17,
+        "streamUrl": "https://archive.org/download/big-band-special/Big%20Band%20Special.mp3",
+        "startTime": 1753206711840
+      },
+      {
+        "identifier": "china-townss-episode-8",
+        "title": "China Townss Episode 8 | 08 - Episode 8",
+        "duration": 3393.36,
+        "streamUrl": "https://archive.org/download/china-townss-episode-8/08%20-%20Episode%208.mp3",
+        "startTime": 1753210312010
+      },
+      {
+        "identifier": "04-maigret-in-society",
+        "title": "04 Maigret In Society | 04 Maigret in Society",
+        "duration": 2666.95,
+        "streamUrl": "https://archive.org/download/04-maigret-in-society/04%20Maigret%20in%20Society.mp3",
+        "startTime": 1753213705370
+      },
+      {
+        "identifier": "exit-burbage-the-man-who-created-hamlet",
+        "title": "Exit Burbage The Man Who Created Hamlet | Exit Burbage - The Man Who Created Hamlet 16-04-18",
+        "duration": 2616.58,
+        "streamUrl": "https://archive.org/download/exit-burbage-the-man-who-created-hamlet/Exit%20Burbage%20-%20The%20Man%20Who%20Created%20Hamlet%2016-04-18.mp3",
+        "startTime": 1753216372320
+      },
+      {
+        "identifier": "lost-empires-part-01",
+        "title": "J.B. Priestley Lost Empires Part 01 | Lost Empires - Part 01",
+        "duration": 3346.31,
+        "streamUrl": "https://archive.org/download/lost-empires-part-01/Lost%20Empires%20-%20Part%2001.mp3",
+        "startTime": 1753218988900
+      },
+      {
+        "identifier": "amanda-dalton-lost-in-space",
+        "title": "Amanda Dalton Lost In Space | Amanda Dalton Lost In Space",
+        "duration": 2655.66,
+        "streamUrl": "https://archive.org/download/amanda-dalton-lost-in-space/Amanda%20Dalton%20Lost%20In%20Space.mp3",
+        "startTime": 1753222335210
+      },
+      {
+        "identifier": "john-whyndham-the-chrysalids",
+        "title": "John Whyndham The Chrysalids | John Whyndham The Chrysalids",
+        "duration": 5296.04,
+        "streamUrl": "https://archive.org/download/john-whyndham-the-chrysalids/John%20Whyndham%20The%20Chrysalids.mp3",
+        "startTime": 1753224990870
+      }
+    ]
+  }
+]

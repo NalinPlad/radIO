@@ -136,6 +136,7 @@
 
   // Refactored function to load and play the correct audio item for a station
   function loadAndPlayStationAudio(audio, station, bootTime) {
+    console.log("loadAnd")
     if (!station || !station.items || station.items.length === 0) return;
 
     // Find the item that is supposed to be playing right now
@@ -174,6 +175,8 @@
 
   $: scroller = loading
     ? "Loading radio data..."
+    : !power
+    ? "⠠⠗⠁⠝⠙⠕⠍ radIO is OFF (⏻) ⠎⠞⠗⠊⠝⠛⠎"
     : (station?.items?.find((item) => item.startTime <= Date.now())?.title ??
       station?.name ??
       "⠠⠗⠁⠝⠙⠕⠍ Tune radIO ⠎⠞⠗⠊⠝⠛⠎");
