@@ -10,6 +10,7 @@ const STATION_CONFIGS = [
   { name: "Concert Grande WFUV", identifier: "concert-grande-radio" },
   { name: "Crap From The Past", identifier: "crapfromthepast" },
   { name: "NPR Top of the Hour", identifier: "nprtopofthehour" },
+  { name: "NPR All Things Considered", identifier: "npr-all-things-considered" },
   { name: "BBC World Service", identifier: "Radio-BBC-World-Service" },
   { name: "MixTape Central", identifier: "hiphopmixtapes" },
   { name: "HipHop Radio", identifier: "hiphopradioarchive" },
@@ -24,6 +25,20 @@ const STATION_CONFIGS = [
   { name: "Jazz in the City", identifier: "sfjazz" },
   { name: "Radio Morocco", identifier: "morocco_radio_archive" },
   { name: "Melody Brazil Radio", identifier: "melodybrazilradio" },
+  { name: "Prank Callz", identifier: "prankcallarchive" },
+  { name: "Diffusion Science Radio", identifier: "diffusionscienceradio" },
+  { name: "Kentucky Sports Radio", identifier: "kentucky-sports-radio" },
+  { name: "Gutenberg Audiobook Station", identifier: "gutenberg-audiobooks" },
+  { name: "Estación de Hip-Hop", identifier: "spanish-speaking-hip-hop" },
+  { name: "Video Game Radio", identifier: "gametracks" },
+  { name: "DUPA Grassroots Media", identifier: "du-participatory-archive" },
+  { name: "American Forces Network", identifier: "armedforcesradioservice" },
+  { name: "Radia", identifier: "radia" },
+  { name: "Independant Cassette Network", identifier: "noise-archive" },
+  { name: "Naropa Poetry", identifier: "naropa" },
+  { name: "Daily Tech News", identifier: "dtns" },
+  { name: "Scanner Radio Broadcast", identifier: "scanner_recordings" },
+
 ];
 
 const FREQ_MIN = 55;
@@ -97,7 +112,7 @@ async function generateRadioData() {
           .then((res) => res.json())
           .then((data) => data.response.docs);
 
-        const collection_items = response
+        let collection_items = response
           .sort(() => Math.random() - 0.5)
           .map((item) => {
             return {
