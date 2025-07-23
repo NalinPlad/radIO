@@ -12,9 +12,17 @@ import "../styles/global.css";
 		<title>radIO | ajith.fyi</title>
 		
 	</head>
-	<body class="w-full h-full m-0">
-		<header class="w-full p-4 border-b">
-			<div class="text-xl font-bold">radIO<span class="text-sm text-gray-500">.ajith.fyi</span></div>
+	<body class="w-full m-0 p-0 h-screen flex flex-col overscroll-none">
+		<header class="w-full p-4 box-border from-white to-gray-200">
+			<div class="text-xl font-bold">
+				{
+					Array.from("radIO").map((char, index) => (
+						<span class="bg-gradient-to-tr from-gray-600  to-gray-200 inline-block text-transparent bg-clip-text">{char}</span>
+					))
+				}
+				
+				<span class="text-sm text-gray-500">.ajith.fyi</span>
+			</div>
 		</header>
 		<slot />
 	</body>

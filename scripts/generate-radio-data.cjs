@@ -148,7 +148,9 @@ async function generateRadioData() {
             totalDuration += file.duration;
           }
 
-          collection_items.shift();
+          // collection_items.shift();
+          // randomize the list
+          collection_items = collection_items.sort(() => Math.random() - 0.5);
 
           if (!SILENT) {
             // Move cursor up to the correct line, clear, and print update

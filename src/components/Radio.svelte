@@ -337,7 +337,7 @@
   };
 </script>
 
-<div class="flex flex-col gap-4 p-6 w-full md:w-1/2 max-w-md rounded-lg shadow-[-50px_50px_37px_-31px_rgb(229,_231,_235)] bg-gradient-to-tr from-white via-white to-gray-200">
+<div class="flex flex-col gap-4 p-6 w-md rounded-lg shadow-[-50px_50px_37px_-31px_rgb(229,_231,_235)] bg-gradient-to-tr from-white via-white to-gray-200">
   <div class="flex items-center">
     <input
       type="button"
