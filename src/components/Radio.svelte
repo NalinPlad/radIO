@@ -1,6 +1,6 @@
 <script>
   import { onMount } from "svelte";
-  import { animate, createDraggable, createSpring, utils } from "animejs";
+  import { animate, createAnimatable, createDraggable, createSpring, utils } from "animejs";
 
   let frequency = 55.0;
   let power = false;
@@ -10,12 +10,14 @@
   let loading = true;
   // AnimeJS
   let fr_ind;
+  let fr_tmobj;
+  let fr_smooth_track;
 
   let mouseY = 0;
+  let bootedStations = new Set();
 
   // Dynamic import of radio data
   onMount(async () => {
-
     document.addEventListener("mousemove", (e) => {
       mouseY = e.clientY;
     });
@@ -37,38 +39,114 @@
     }
     station = getStation(frequency);
 
+    // --- Reload page at the end of the UTC day ---
+    const now = new Date();
+    const utcYear = now.getUTCFullYear();
+    const utcMonth = now.getUTCMonth();
+    const utcDate = now.getUTCDate();
+    // Start of next UTC day
+    const nextDay = new Date(
+      Date.UTC(utcYear, utcMonth, utcDate + 1, 0, 0, 0, 0),
+    );
+    // TODO use timer and show display
+    const msUntilNextDay = nextDay.getTime() - now.getTime();
+    setTimeout(() => {
+      window.location.reload();
+    }, msUntilNextDay);
+    // --- End reload logic ---
+
     function onDrag() {
       // console.clear()
       // console.log(fr_ind.progressX)
       // console.log(fr_ind.containerBounds[1], fr_ind.x)
 
       // drag speed goes down to 0.2 is the user is not hovering over the object
-      fr_ind.dragSpeed = Math.min(1, Math.max(0.1, 1 - (mouseY - (fr_ind.$target.getBoundingClientRect().y + fr_ind.$target.getBoundingClientRect().height/2)) / (fr_ind.$target.getBoundingClientRect().height*3)))
-      // console.log(fr_ind.dragSpeed)
+      // fr_ind.dragSpeed = Math.min(
+      //   1,
+      //   Math.max(
+      //     0.1,
+      //     1 -
+      //       (mouseY -
+      //         (fr_ind.$target.getBoundingClientRect().y +
+      //           fr_ind.$target.getBoundingClientRect().height / 2)) /
+      //         (fr_ind.$target.getBoundingClientRect().height * 3),
+      //   ),
+      // );
+      // console.log(fr_ind.x)
 
       frequency = utils.round(
         Math.max(55, Math.min(155, fr_ind.progressX * 100 + 55)),
         1,
       );
     }
+
+    function getSnapXValue() {
+      const minX = -26;
+      const maxX = fr_ind.containerBounds[1];
+      // const maxX = document.querySelector("#fr_ind_container").getBoundingClientRect().width;
+      // console.log(maxX_o, maxX)
+
+      const travel = maxX - minX;
+      const snapX = Math.abs(travel / (radio.length-1));
+
+      return snapX;
+    }
+    function setSnapX() {
+      
+      // width of target
+      const snapX = getSnapXValue();
+
+      fr_ind.stop();
+      fr_ind.disable();
+
+      fr_ind = createDraggable("#fr_ind", {
+        y: false,
+        container: "#fr_ind_container",
+        // containerPadding: -18.4,
+        containerFriction: 0.9,
+        maxVelocity: 0,
+        releaseStiffness: 1000,
+        // dragSpeed: 1,
+        modifier: utils.snap(snapX),
+        onDrag: onDrag,
+        onSettle: onDrag,
+        onAfterResize: setSnapX,
+        // releaseEase: createSpring(1000, 100),
+      });
+
+      fr_ind.snapX = snapX;
+
+
+
+    }
+
+    let snapX = 0;
+
     fr_ind = createDraggable("#fr_ind", {
+      x: false,
       y: false,
       container: "#fr_ind_container",
-      // containerPadding: -18.4,
-      containerFriction: 0.9,
-      maxVelocity: 0,
-      releaseStiffness: 1000,
-      dragSpeed: 1,
-      // modifier: utils.snap(0.5),
-      onDrag: onDrag,
-      onSettle: onDrag,
-      // releaseEase: createSpring(1000, 100),
     });
 
-    // console.log(fr_ind.containerBounds[1] / radio.length)
-    // fr_ind.x = 0
+    snapX = getSnapXValue();
+    
 
-    // fr_ind.snapX = fr_ind.containerBounds[1] / (radio.length)
+    
+    setSnapX();
+    fr_ind.progressX = 0;
+
+    // fr_smooth_track = createAnimatable("")
+
+    // fr_tmobj = createTimer({
+    //     onUpdate: clock => {
+    //       // const sourcePos = utils.get(, 'x', false)
+    //       const targetPos = utils.get(fr_ind, 'x', false)
+    //       utils.set(fr_ind, {
+    //         x: utils.lerp()
+    //       })
+    //     }
+    // })
+
   });
 
   const SEED = "radIO";
@@ -109,7 +187,7 @@
       });
 
       // Update white noise volume (inversely proportional to station volumes)
-      const whiteNoiseVolume = Math.max(0, 1 - totalStationVolume);
+      const whiteNoiseVolume = Math.max(0, 0.5 - totalStationVolume);
       if (whiteNoiseAudio) {
         whiteNoiseAudio.volume = whiteNoiseVolume;
       }
@@ -136,7 +214,7 @@
 
   // Refactored function to load and play the correct audio item for a station
   function loadAndPlayStationAudio(audio, station, bootTime) {
-    console.log("loadAnd")
+    console.log("loadAnd");
     if (!station || !station.items || station.items.length === 0) return;
 
     // Find the item that is supposed to be playing right now
@@ -176,39 +254,26 @@
   $: scroller = loading
     ? "Loading radio data..."
     : !power
-    ? "⠠⠗⠁⠝⠙⠕⠍ radIO is OFF (⏻) ⠎⠞⠗⠊⠝⠛⠎"
-    : (station?.items?.find((item) => item.startTime <= Date.now())?.title ??
-      station?.name ??
-      "⠠⠗⠁⠝⠙⠕⠍ Tune radIO ⠎⠞⠗⠊⠝⠛⠎");
+      ? "⠠⠗⠁⠝⠙⠕⠍ radIO is OFF (⏻) ⠎⠞⠗⠊⠝⠛⠎"
+      : (station?.items?.find((item) => item.startTime <= Date.now())?.title ??
+        station?.name ??
+        "⠠⠗⠁⠝⠙⠕⠍ Tune radIO ⠎⠞⠗⠊⠝⠛⠎");
 
   function handlePowerToggle() {
     if (!audioBooted) {
-      // First time: boot up audio elements
       power = true;
       audioBooted = true;
       const bootTime = Date.now();
 
-      // Start all audio elements
-      audioElements.forEach((audio) => {
+      // Only boot the current station
+      if (station && !bootedStations.has(station.identifier)) {
+        const idx = radio.findIndex((s) => s.identifier === station.identifier);
+        const audio = audioElements[idx];
         if (audio) {
-          // console.log("Booting audio element", audio);
-
-          if (audio.dataset.stationIdentifier) {
-            // Get correct stream url and start offset
-            const stationIdentifier = audio.dataset.stationIdentifier;
-            const station = radio.find(
-              (station) => station.identifier === stationIdentifier,
-            );
-
-            if (!station) {
-              console.error("Station not found", stationIdentifier);
-              return;
-            }
-
-            loadAndPlayStationAudio(audio, station, bootTime);
-          }
+          loadAndPlayStationAudio(audio, station, bootTime);
+          bootedStations.add(station.identifier);
         }
-      });
+      }
       // Start white noise audio
       if (whiteNoiseAudio) {
         whiteNoiseAudio.muted = false;
@@ -216,23 +281,33 @@
           console.error("Playback failed:", error);
         });
       }
-
-      // Update volumes after booting
       setTimeout(() => updateVolumes(), 100);
     } else {
-      // Subsequent times: just toggle mute
       power = !power;
-
-      // Mute/unmute all audio elements
-      audioElements.forEach((audio) => {
-        if (audio) {
-          audio.muted = !power;
+      // Mute/unmute all booted audio elements
+      radio.forEach((station, index) => {
+        if (audioElements[index] && bootedStations.has(station.identifier)) {
+          audioElements[index].muted = !power;
         }
       });
-      // Mute/unmute white noise audio
       if (whiteNoiseAudio) {
         whiteNoiseAudio.muted = !power;
       }
+    }
+  }
+
+  // When tuning to a new station, boot it if needed
+  $: if (
+    audioBooted &&
+    power &&
+    station &&
+    !bootedStations.has(station.identifier)
+  ) {
+    const idx = radio.findIndex((s) => s.identifier === station.identifier);
+    const audio = audioElements[idx];
+    if (audio) {
+      loadAndPlayStationAudio(audio, station, Date.now());
+      bootedStations.add(station.identifier);
     }
   }
 
@@ -241,9 +316,9 @@
   const audioAction = (node) => {
     if (node.dataset.stationIdentifier) {
       audioElements.push(node);
-
-      // If already booted and powered, start this audio element
-      if (audioBooted && power) {
+      // Only auto-play if already booted
+      const identifier = node.dataset.stationIdentifier;
+      if (audioBooted && power && bootedStations.has(identifier)) {
         node.muted = false;
         node.play().catch((error) => {
           console.log("Playback failed:", error);
@@ -252,7 +327,6 @@
     } else {
       // This is the white noise audio element
       whiteNoiseAudio = node;
-      // If already booted and powered, start this audio element
       if (audioBooted && power) {
         node.muted = false;
         node.play().catch((error) => {
@@ -263,7 +337,7 @@
   };
 </script>
 
-<div class="flex flex-col gap-4 p-4 w-full md:w-1/2 lg:w-1/4">
+<div class="flex flex-col gap-4 p-4 w-full md:w-1/2 max-w-md">
   <div class="flex items-center">
     <input
       type="button"

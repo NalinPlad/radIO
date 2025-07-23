@@ -7,23 +7,23 @@ const EPOCH = new Date(new Date().setUTCHours(0, 0, 0, 0)).getTime();
 // Static data to build the radio from
 const STATION_CONFIGS = [
   { name: "BookCentral", identifier: "radiobooks" },
-  // { name: "Concert Grande WFUV", identifier: "concert-grande-radio" },
-  // { name: "Crap From The Past", identifier: "crapfromthepast" },
-  // { name: "NPR Top of the Hour", identifier: "nprtopofthehour" },
-  // { name: "BBC World Service", identifier: "Radio-BBC-World-Service" },
-  // { name: "MixTape Central", identifier: "hiphopmixtapes" },
-  // { name: "HipHop Radio", identifier: "hiphopradioarchive" },
-  // { name: "VaporRadio", identifier: "vaporwave"},
-  // { name: "Democracy Now!", identifier: "democracy_now"},
-  // { name: "WWII News Radio", identifier: "wwIIarchive-audio"},
-  // { name: "Executive Speech", identifier: "presidential_recordings"},
-  // { name: "NASA Space Channel", identifier: "audiohighlightreels"},
-  // { name: "Hacker Public Radio", identifier: "hackerpublicradio"},
-  // { name: "Transatlantic Poetry Show", identifier: "transatlantic-poetry"},
-  // { name: "Pirate Radio", identifier: "pirateradioairchecks"},
-  // { name: "Jazz in the City", identifier: "sfjazz"},
-  // { name: "Radio Morocco", identifier: "morocco_radio_archive"},
-  // { name: "Melody Brazil Radio", identifier: "melodybrazilradio"}
+  { name: "Concert Grande WFUV", identifier: "concert-grande-radio" },
+  { name: "Crap From The Past", identifier: "crapfromthepast" },
+  { name: "NPR Top of the Hour", identifier: "nprtopofthehour" },
+  { name: "BBC World Service", identifier: "Radio-BBC-World-Service" },
+  { name: "MixTape Central", identifier: "hiphopmixtapes" },
+  { name: "HipHop Radio", identifier: "hiphopradioarchive" },
+  { name: "VaporRadio", identifier: "vaporwave" },
+  { name: "Democracy Now!", identifier: "democracy_now" },
+  { name: "WWII News Radio", identifier: "wwIIarchive-audio" },
+  { name: "Executive Speech", identifier: "presidential_recordings" },
+  { name: "NASA Space Channel", identifier: "audiohighlightreels" },
+  { name: "Hacker Public Radio", identifier: "hackerpublicradio" },
+  { name: "Transatlantic Poetry Show", identifier: "transatlantic-poetry" },
+  { name: "Pirate Radio", identifier: "pirateradioairchecks" },
+  { name: "Jazz in the City", identifier: "sfjazz" },
+  { name: "Radio Morocco", identifier: "morocco_radio_archive" },
+  { name: "Melody Brazil Radio", identifier: "melodybrazilradio" },
 ];
 
 const FREQ_MIN = 55;
@@ -79,12 +79,18 @@ async function getFileInfo(identifier) {
 }
 
 async function generateRadioData() {
-  console.log("Generating radio data...");
+  // console.log("Generating radio data...");
 
   try {
+    // Parse command line arguments for --silent
+    const SILENT = process.argv.includes("--silent");
+
     const radioData = await Promise.all(
-      STATIONS.map(async (station) => {
-        console.log(`Fetching data for ${station.name}...`);
+      STATIONS.map(async (station, stationIdx) => {
+        if (!SILENT) {
+          // Print initial line for each station
+          process.stdout.write(`Station ${station.name}: 0% 0/86400s\n`);
+        }
 
         // Get list of items in the collection
         const response = await fetch(SEARCH_URL(station.identifier))
@@ -100,51 +106,92 @@ async function generateRadioData() {
             };
           });
 
-        console.log(
-          `Found ${collection_items.length} items for ${station.name}`
-        );
+        // console.log(
+        //   `Found ${collection_items.length} items for ${station.name}`
+        // );
 
         let totalDuration = 0;
 
         let items = [];
+
+        // For TUI: store the line number for this station
+        const stationLine = stationIdx;
 
         while (totalDuration < 24 * 60 * 60 && collection_items.length > 0) {
           const files = await getFileInfo(collection_items[0].identifier);
 
           for (const file of files) {
             if (file.duration === -1) {
-              console.error(
-                `Skipping file ${collection_items[0].identifier} due to parsing failure`
-              );
+              if (!SILENT) {
+                // Optionally print error to stderr
+                process.stderr.write(
+                  `Skipping file ${collection_items[0].identifier} due to parsing failure\n`
+                );
+              }
               // collection_items.shift(); // Remove the failed item
               continue;
             }
 
-            // Instead of pushing and mutating the same object, create a new one for each file
+            // Add item without startTime
             items.push({
               identifier: collection_items[0].identifier,
-              title: collection_items[0].title + " | " + file.filename.replace(".mp3", ""),
+              title:
+                collection_items[0].title +
+                " | " +
+                file.filename
+                  .replace(".mp3", "")
+                  .replace("-", " ")
+                  .replace("_", " "),
               duration: file.duration,
               streamUrl: file.streamUrl,
-              startTime: EPOCH + totalDuration * 1000,
             });
             totalDuration += file.duration;
           }
 
           collection_items.shift();
 
-          console.log(
-            `${station.name}: ${Math.round(totalDuration)}/${
-              24 * 60 * 60
-            }s ${Math.round((totalDuration / (24 * 60 * 60)) * 100)}%`
-          );
+          if (!SILENT) {
+            // Move cursor up to the correct line, clear, and print update
+            process.stdout.write(`\u001b[${STATIONS.length - stationLine}A`); // Move up
+            process.stdout.write(`\r\u001b[2K`); // Clear line
+            process.stdout.write(
+              `Station ${station.name}: ${Math.round(
+                (totalDuration / (24 * 60 * 60)) * 100
+              )}% ${Math.round(totalDuration)}/${24 * 60 * 60}s\n`
+            );
+            process.stdout.write(
+              `\u001b[${STATIONS.length - stationLine - 1}B`
+            ); // Move back down
+          }
+        }
+
+        // If we run out of content and totalDuration is still less than 24 hours, duplicate the items list
+        if (items.length > 0 && totalDuration < 24 * 60 * 60) {
+          let originalItems = items.slice();
+          while (totalDuration < 24 * 60 * 60) {
+            for (const item of originalItems) {
+              if (totalDuration >= 24 * 60 * 60) break;
+              // Add duplicate without startTime
+              items.push({ ...item });
+              totalDuration += item.duration;
+            }
+          }
+        }
+
+        // Randomize the items list
+        items = items.sort(() => Math.random() - 0.5);
+
+        // Now generate startTimes sequentially
+        let runningTime = 0;
+        for (const item of items) {
+          item.startTime = EPOCH + runningTime * 1000;
+          runningTime += item.duration;
         }
 
         return {
           name: station.name,
           frequency: station.frequency,
           identifier: station.identifier,
-          // randomize
           items,
         };
       })
