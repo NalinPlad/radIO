@@ -1,6 +1,6 @@
 <script>
   import { onMount } from "svelte";
-  import { animate, createAnimatable, createDraggable, createSpring, utils } from "animejs";
+  import { createDraggable, createTimer, utils } from "animejs";
 
   let frequency = 55.0;
   let power = false;
@@ -57,7 +57,7 @@
 
     function onDrag() {
       // console.clear()
-      // console.log(fr_ind.progressX)
+      console.log(fr_ind.progressX)
       // console.log(fr_ind.containerBounds[1], fr_ind.x)
 
       // drag speed goes down to 0.2 is the user is not hovering over the object
@@ -77,7 +77,7 @@
       frequency = utils.round(
         Math.max(55, Math.min(155, fr_ind.progressX * 100 + 55)),
         1,
-      );
+      ) - 1.3;
     }
 
     function getSnapXValue() {
@@ -135,17 +135,17 @@
     setSnapX();
     fr_ind.progressX = 0;
 
-    // fr_smooth_track = createAnimatable("")
+    [fr_smooth_track] = utils.$("#fr_smooth_track")
 
-    // fr_tmobj = createTimer({
-    //     onUpdate: clock => {
-    //       // const sourcePos = utils.get(, 'x', false)
-    //       const targetPos = utils.get(fr_ind, 'x', false)
-    //       utils.set(fr_ind, {
-    //         x: utils.lerp()
-    //       })
-    //     }
-    // })
+    fr_tmobj = createTimer({
+        onUpdate: clock => {
+          const sourcePos = utils.get(fr_smooth_track, 'x', false)
+          const targetPos = utils.get(fr_ind, 'x', false) + 20
+          utils.set(fr_smooth_track, {
+            x: utils.lerp(sourcePos, targetPos, .2)
+          })
+        }
+    })
 
   });
 
@@ -337,7 +337,7 @@
   };
 </script>
 
-<div class="flex flex-col gap-4 p-4 w-full md:w-1/2 max-w-md">
+<div class="flex flex-col gap-4 p-6 w-full md:w-1/2 max-w-md rounded-lg shadow-[-50px_50px_37px_-31px_rgb(229,_231,_235)] bg-gradient-to-tr from-white via-white to-gray-200">
   <div class="flex items-center">
     <input
       type="button"
@@ -374,7 +374,7 @@
                 : 'text-gray-600 border-gray-400 shadow-2xl'} cursor-pointer"
         /> -->
     <div
-      class="w-full flex flex-col bg-gradient-to-tr from-white via-white to-gray-200 rounded-lg p-3"
+      class="w-full flex flex-col px-3"
     >
       <label class="text-xl" for="frequency-input">
         {frequency.toFixed(1)}
@@ -393,19 +393,22 @@
   </div>
   <div
     id="fr_ind_container"
-    class="h-5 w-full bg-gray-200 rounded flex items-center justify-between px-6.5"
+    class="h-5 w-full bg-gray-100 rounded flex items-center justify-between px-6.5"
   >
     {#each radio as station}
       <div
-        class="h-4 rounded bg-gradient-to-tr from-gray-300 via-gray-200 to-gray-100 w-1"
+        class="h-4 rounded bg-gradient-to-tr from-gray-400 via-gray-300 to-gray-200 w-1"
       ></div>
     {/each}
     <div
       id="fr_ind"
-      class="fixed h-8 w-14 border-orange-500 border-3 opacity-100 rounded-full flex items-center justify-center"
-    >
-      <div class="w-0.5 h-8 bg-orange-500 rounded-full"></div>
-    </div>
+      class="fixed h-8 w-14 border-orange-500 border-3 opacity-0 flex items-center justify-center z-10"
+    ></div>
+
+    <div 
+      id="fr_smooth_track"
+      class="fixed h-8 w-2 rounded-full bg-gradient-to-tr from-orange-600 via-orange-500 to-orange-300"
+    ></div>
   </div>
 
   <input
