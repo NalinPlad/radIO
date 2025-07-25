@@ -2,11 +2,20 @@
 
 import Layout from '../layouts/Layout.astro';
 import Radio from '../components/Radio.svelte';
+import Program from '../components/Program.svelte';
+
+const date = new Date();
+const day = String(date.getUTCDate()).padStart(2, "0");
+const month = String(date.getUTCMonth() + 1).padStart(2, "0");
+const year = date.getUTCFullYear();
+const dateString = `${day}-${month}-${year}`;
 
 ---
 
 <Layout>
-	<div class="flex justify-center items-center h-full">
+	<div class="flex justify-around items-center h-full flex-col lg:flex-row">
 		<Radio client:load/>
+
+		<Program client:load/>
 	</div>
 </Layout>

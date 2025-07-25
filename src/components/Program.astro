@@ -1,0 +1,27 @@
+---
+const { dateString } = Astro.props;
+const radioFiles = import.meta.glob("../data/*-radio-data.json", {eager: true})
+
+
+
+const radioData = radioFiles["../data/" + dateString + "-radio-data.json"].default
+console.log(radioData)
+---
+
+<div class="w-1/2 bg-gray-100 p-2 rounded-lg text-gray-700 h-96 flex flex-col">
+    <h1 class="text-sm">Hello! It's {new Date(dateString.split('-').reverse().join('-')).toLocaleDateString('en-US', {weekday: 'long', month: 'long', day: 'numeric'})}. Here's the <span class="font-bold bg-gradient-to-tr from-orange-500  to-orange-400 inline-block text-transparent bg-clip-text">daily program</span> for radIO ~</h1>
+    <div class="flex flex-col gap-0.5 mt-4 overflow-y-scroll max-h-full bg-gray-200 rounded-lg p-3">
+        {radioData.map(station => (
+            <div class="flex flex-col w-32 bg-red-400 border-5 border-red-500 p-3 rounded-xl">
+                <h2>
+                    <span class="font-bold text-sm text-red-100">{station.name}</span>
+                    <span class="font-bold text-xs text-red-200 bg-black/5 p-0.5 rounded">{station.frequency.toFixed(1)}</span>
+                </h2>
+            </div>
+            {station.items.map(item => (
+                <div>{item}</div>
+                
+            ))}
+        ))}
+    </div>
+</div>

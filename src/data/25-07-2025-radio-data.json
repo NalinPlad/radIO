@@ -1,0 +1,185 @@
+[
+  {
+    "name": "Radio Morocco",
+    "frequency": null,
+    "identifier": "morocco_radio_archive",
+    "category": "Misc",
+    "items": [
+      {
+        "identifier": "moroccan-archivist-radio-maroc-regionale-meknes-2021-07-27-04",
+        "title": "[Radio] [Morocco] Radio Meknes - 2021-07-27 04:00 - 04:59 | moroccan archivist-radio-maroc-regionale-meknes-2021-07-27-04",
+        "duration": 3600.02,
+        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-regionale-meknes-2021-07-27-04/moroccan-archivist-radio-maroc-regionale-meknes-2021-07-27-04.mp3",
+        "startTime": 1753401600000
+      },
+      {
+        "identifier": "moroccan-archivist-radio-maroc-mohamed-vi-2020-10-11-06",
+        "title": "[Radio] [Morocco] Radio Mohammed VI du Saint Coran - 2020-10-11 06:00 - 06:59 | moroccan archivist-radio-maroc-mohamed-vi-2020-10-11-06",
+        "duration": 3594.05,
+        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-mohamed-vi-2020-10-11-06/moroccan-archivist-radio-maroc-mohamed-vi-2020-10-11-06.mp3",
+        "startTime": 1753405200020
+      },
+      {
+        "identifier": "moroccan-archivist-radio-nationale-marocaine-2020-11-03-16",
+        "title": "[Radio] [Morocco] Radio Nationale Marocaine - 2020-11-03 16:00 - 16:59 | moroccan archivist-radio-nationale-marocaine-2020-11-03-16",
+        "duration": 3604.06,
+        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-nationale-marocaine-2020-11-03-16/moroccan-archivist-radio-nationale-marocaine-2020-11-03-16.mp3",
+        "startTime": 1753408794070
+      },
+      {
+        "identifier": "moroccan-archivist-radio-maroc-regionale-alhoceima-2021-02-27-10",
+        "title": "[Radio] [Morocco] Radio Al Hoceima - 2021-02-27 10:00 - 10:59 | moroccan archivist-radio-maroc-regionale-alhoceima-2021-02-27-10",
+        "duration": 3600.02,
+        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-regionale-alhoceima-2021-02-27-10/moroccan-archivist-radio-maroc-regionale-alhoceima-2021-02-27-10.mp3",
+        "startTime": 1753412398130
+      },
+      {
+        "identifier": "moroccan-archivist-radio-maroc-chaine-inter-2021-03-11-00",
+        "title": "[Radio] [Morocco] Chaine Inter - 2021-03-11 00:00 - 00:59 | moroccan archivist-radio-maroc-chaine-inter-2021-03-11-00",
+        "duration": 3600.02,
+        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-chaine-inter-2021-03-11-00/moroccan-archivist-radio-maroc-chaine-inter-2021-03-11-00.mp3",
+        "startTime": 1753415998150
+      },
+      {
+        "identifier": "moroccan-archivist-radio-maroc-mohamed-vi-2021-02-21-12",
+        "title": "[Radio] [Morocco] Radio Mohammed VI du Saint Coran - 2021-02-21 12:00 - 12:59 | moroccan archivist-radio-maroc-mohamed-vi-2021-02-21-12",
+        "duration": 3600.02,
+        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-mohamed-vi-2021-02-21-12/moroccan-archivist-radio-maroc-mohamed-vi-2021-02-21-12.mp3",
+        "startTime": 1753419598170
+      },
+      {
+        "identifier": "moroccan-archivist-radio-maroc-regionale-marrakech-2021-04-04-18",
+        "title": "[Radio] [Morocco] Radio Marrakech - 2021-04-04 18:00 - 18:59 | moroccan archivist-radio-maroc-regionale-marrakech-2021-04-04-18",
+        "duration": 3606.02,
+        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-regionale-marrakech-2021-04-04-18/moroccan-archivist-radio-maroc-regionale-marrakech-2021-04-04-18.mp3",
+        "startTime": 1753423198190
+      },
+      {
+        "identifier": "moroccan-archivist-radio-maroc-chaine-inter-2020-09-15-02",
+        "title": "[Radio] [Morocco] Chaine Inter - 2020-09-15 02:00 - 02:59 | moroccan archivist-radio-maroc-chaine-inter-2020-09-15-02",
+        "duration": 3600.02,
+        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-chaine-inter-2020-09-15-02/moroccan-archivist-radio-maroc-chaine-inter-2020-09-15-02.mp3",
+        "startTime": 1753426804210
+      },
+      {
+        "identifier": "moroccan-archivist-radio-maroc-regionale-laayoune-2021-07-31-23",
+        "title": "[Radio] [Morocco] Radio Laayoune - 2021-07-31 23:00 - 23:59 | moroccan archivist-radio-maroc-regionale-laayoune-2021-07-31-23",
+        "duration": 3600.02,
+        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-regionale-laayoune-2021-07-31-23/moroccan-archivist-radio-maroc-regionale-laayoune-2021-07-31-23.mp3",
+        "startTime": 1753430404230
+      },
+      {
+        "identifier": "moroccan-archivist-radio-maroc-mohamed-vi-2021-01-01-10",
+        "title": "[Radio] [Morocco] Radio Mohammed VI du Saint Coran - 2021-01-01 10:00 - 10:59 | moroccan archivist-radio-maroc-mohamed-vi-2021-01-01-10",
+        "duration": 3594.02,
+        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-mohamed-vi-2021-01-01-10/moroccan-archivist-radio-maroc-mohamed-vi-2021-01-01-10.mp3",
+        "startTime": 1753434004250
+      },
+      {
+        "identifier": "moroccan-archivist-radio-maroc-chaine-inter-2020-09-07-07",
+        "title": "[Radio] [Morocco] Chaine Inter - 2020-09-07 07:00 - 07:59 | moroccan archivist-radio-maroc-chaine-inter-2020-09-07-07",
+        "duration": 3606.05,
+        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-chaine-inter-2020-09-07-07/moroccan-archivist-radio-maroc-chaine-inter-2020-09-07-07.mp3",
+        "startTime": 1753437598270
+      },
+      {
+        "identifier": "moroccan-archivist-radio-maroc-regionale-fes-2021-03-12-11",
+        "title": "[Radio] [Morocco] Radio Fes - 2021-03-12 11:00 - 11:59 | moroccan archivist-radio-maroc-regionale-fes-2021-03-12-11",
+        "duration": 3606,
+        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-regionale-fes-2021-03-12-11/moroccan-archivist-radio-maroc-regionale-fes-2021-03-12-11.mp3",
+        "startTime": 1753441204320
+      },
+      {
+        "identifier": "moroccan-archivist-radio-maroc-regionale-fes-2021-02-24-15",
+        "title": "[Radio] [Morocco] Radio Fes - 2021-02-24 15:00 - 15:59 | moroccan archivist-radio-maroc-regionale-fes-2021-02-24-15",
+        "duration": 3600.02,
+        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-regionale-fes-2021-02-24-15/moroccan-archivist-radio-maroc-regionale-fes-2021-02-24-15.mp3",
+        "startTime": 1753444810320
+      },
+      {
+        "identifier": "moroccan-archivist-radio-maroc-mohamed-vi-2021-03-17-02",
+        "title": "[Radio] [Morocco] Radio Mohammed VI du Saint Coran - 2021-03-17 02:00 - 02:59 | moroccan archivist-radio-maroc-mohamed-vi-2021-03-17-02",
+        "duration": 3594.05,
+        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-mohamed-vi-2021-03-17-02/moroccan-archivist-radio-maroc-mohamed-vi-2021-03-17-02.mp3",
+        "startTime": 1753448410340
+      },
+      {
+        "identifier": "moroccan-archivist-radio-maroc-amazigh-2021-02-19-15",
+        "title": "[Radio] [Morocco] Radio Amazigh - 2021-02-19 15:00 - 15:59 | moroccan archivist-radio-maroc-amazigh-2021-02-19-15",
+        "duration": 3594.05,
+        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-amazigh-2021-02-19-15/moroccan-archivist-radio-maroc-amazigh-2021-02-19-15.mp3",
+        "startTime": 1753452004390
+      },
+      {
+        "identifier": "moroccan-archivist-radio-maroc-amazigh-2020-09-24-12",
+        "title": "[Radio] [Morocco] Radio Amazigh - 2020-09-24 12:00 - 12:59 | moroccan archivist-radio-maroc-amazigh-2020-09-24-12",
+        "duration": 3606.02,
+        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-amazigh-2020-09-24-12/moroccan-archivist-radio-maroc-amazigh-2020-09-24-12.mp3",
+        "startTime": 1753455598440
+      },
+      {
+        "identifier": "moroccan-archivist-radio-nationale-marocaine-2020-08-30-22",
+        "title": "[Radio] [Morocco] Radio Nationale Marocaine - 2020-08-30 22:00 - 22:59 | moroccan archivist-radio-nationale-marocaine-2020-08-30-22",
+        "duration": 3600.02,
+        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-nationale-marocaine-2020-08-30-22/moroccan-archivist-radio-nationale-marocaine-2020-08-30-22.mp3",
+        "startTime": 1753459204460
+      },
+      {
+        "identifier": "moroccan-archivist-radio-maroc-chaine-inter-2020-11-03-07",
+        "title": "[Radio] [Morocco] Chaine Inter - 2020-11-03 07:00 - 07:59 | moroccan archivist-radio-maroc-chaine-inter-2020-11-03-07",
+        "duration": 3180.05,
+        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-chaine-inter-2020-11-03-07/moroccan-archivist-radio-maroc-chaine-inter-2020-11-03-07.mp3",
+        "startTime": 1753462804480
+      },
+      {
+        "identifier": "moroccan-archivist-radio-nationale-marocaine-2021-04-08-17",
+        "title": "[Radio] [Morocco] Radio Nationale Marocaine - 2021-04-08 17:00 - 17:59 | moroccan archivist-radio-nationale-marocaine-2021-04-08-17",
+        "duration": 3600.02,
+        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-nationale-marocaine-2021-04-08-17/moroccan-archivist-radio-nationale-marocaine-2021-04-08-17.mp3",
+        "startTime": 1753465984530
+      },
+      {
+        "identifier": "moroccan-archivist-radio-maroc-amazigh-2020-10-09-19",
+        "title": "[Radio] [Morocco] Radio Amazigh - 2020-10-09 19:00 - 19:59 | moroccan archivist-radio-maroc-amazigh-2020-10-09-19",
+        "duration": 3606.02,
+        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-amazigh-2020-10-09-19/moroccan-archivist-radio-maroc-amazigh-2020-10-09-19.mp3",
+        "startTime": 1753469584550
+      },
+      {
+        "identifier": "moroccan-archivist-radio-maroc-regionale-alhoceima-2021-03-03-18",
+        "title": "[Radio] [Morocco] Radio Al Hoceima - 2021-03-03 18:00 - 18:59 | moroccan archivist-radio-maroc-regionale-alhoceima-2021-03-03-18",
+        "duration": 3600.02,
+        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-regionale-alhoceima-2021-03-03-18/moroccan-archivist-radio-maroc-regionale-alhoceima-2021-03-03-18.mp3",
+        "startTime": 1753473190570
+      },
+      {
+        "identifier": "moroccan-archivist-radio-maroc-regionale-marrakech-2021-06-25-21",
+        "title": "[Radio] [Morocco] Radio Marrakech - 2021-06-25 21:00 - 21:59 | moroccan archivist-radio-maroc-regionale-marrakech-2021-06-25-21",
+        "duration": 3600.02,
+        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-regionale-marrakech-2021-06-25-21/moroccan-archivist-radio-maroc-regionale-marrakech-2021-06-25-21.mp3",
+        "startTime": 1753476790590
+      },
+      {
+        "identifier": "moroccan-archivist-radio-maroc-regionale-meknes-2021-02-28-18",
+        "title": "[Radio] [Morocco] Radio Meknes - 2021-02-28 18:00 - 18:59 | moroccan archivist-radio-maroc-regionale-meknes-2021-02-28-18",
+        "duration": 3594.05,
+        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-regionale-meknes-2021-02-28-18/moroccan-archivist-radio-maroc-regionale-meknes-2021-02-28-18.mp3",
+        "startTime": 1753480390610
+      },
+      {
+        "identifier": "moroccan-archivist-radio-maroc-regionale-laayoune-2021-03-22-07",
+        "title": "[Radio] [Morocco] Radio Laayoune - 2021-03-22 07:00 - 07:59 | moroccan archivist-radio-maroc-regionale-laayoune-2021-03-22-07",
+        "duration": 3600.02,
+        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-regionale-laayoune-2021-03-22-07/moroccan-archivist-radio-maroc-regionale-laayoune-2021-03-22-07.mp3",
+        "startTime": 1753483984660
+      },
+      {
+        "identifier": "moroccan-archivist-radio-maroc-chaine-inter-2021-03-23-20",
+        "title": "[Radio] [Morocco] Chaine Inter - 2021-03-23 20:00 - 20:59 | moroccan archivist-radio-maroc-chaine-inter-2021-03-23-20",
+        "duration": 3600.02,
+        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-chaine-inter-2021-03-23-20/moroccan-archivist-radio-maroc-chaine-inter-2021-03-23-20.mp3",
+        "startTime": 1753487584680
+      }
+    ]
+  }
+]

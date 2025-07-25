@@ -18,9 +18,9 @@
 
   // Dynamic import of radio data
   onMount(async () => {
-    document.addEventListener("mousemove", (e) => {
-      mouseY = e.clientY;
-    });
+    // document.addEventListener("mousemove", (e) => {
+    //   mouseY = e.clientY;
+    // });
 
     const date = new Date();
     const day = String(date.getUTCDate()).padStart(2, "0");
