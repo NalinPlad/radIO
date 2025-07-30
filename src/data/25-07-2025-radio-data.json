@@ -1,184 +1,247 @@
 [
   {
-    "name": "Radio Morocco",
+    "name": "Kentucky Sports Radio",
     "frequency": null,
-    "identifier": "morocco_radio_archive",
-    "category": "Misc",
+    "identifier": "kentucky-sports-radio",
+    "category": "Sports",
     "items": [
       {
-        "identifier": "moroccan-archivist-radio-maroc-regionale-meknes-2021-07-27-04",
-        "title": "[Radio] [Morocco] Radio Meknes - 2021-07-27 04:00 - 04:59 | moroccan archivist-radio-maroc-regionale-meknes-2021-07-27-04",
-        "duration": 3600.02,
-        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-regionale-meknes-2021-07-27-04/moroccan-archivist-radio-maroc-regionale-meknes-2021-07-27-04.mp3",
+        "identifier": "KentuckySportsRadio-2015-09-28",
+        "title": "Kentucky Sports Radio - September 28, 2015 | 2015 09-28 -_ksr_-_hour_2_0_1443444245",
+        "duration": 2605.04,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2015-09-28/2015-09-28_-_ksr_-_hour_2_0_1443444245.mp3",
         "startTime": 1753401600000
       },
       {
-        "identifier": "moroccan-archivist-radio-maroc-mohamed-vi-2020-10-11-06",
-        "title": "[Radio] [Morocco] Radio Mohammed VI du Saint Coran - 2020-10-11 06:00 - 06:59 | moroccan archivist-radio-maroc-mohamed-vi-2020-10-11-06",
-        "duration": 3594.05,
-        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-mohamed-vi-2020-10-11-06/moroccan-archivist-radio-maroc-mohamed-vi-2020-10-11-06.mp3",
-        "startTime": 1753405200020
+        "identifier": "KentuckySportsRadio-2012-04-05",
+        "title": "Kentucky Sports Radio - April 05, 2012 | 2012 04-05 -_KSR_-_Hour_1_1333639704_11207",
+        "duration": 2604.75,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2012-04-05/2012-04-05_-_KSR_-_Hour_1_1333639704_11207.mp3",
+        "startTime": 1753404205040
       },
       {
-        "identifier": "moroccan-archivist-radio-nationale-marocaine-2020-11-03-16",
-        "title": "[Radio] [Morocco] Radio Nationale Marocaine - 2020-11-03 16:00 - 16:59 | moroccan archivist-radio-nationale-marocaine-2020-11-03-16",
-        "duration": 3604.06,
-        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-nationale-marocaine-2020-11-03-16/moroccan-archivist-radio-nationale-marocaine-2020-11-03-16.mp3",
-        "startTime": 1753408794070
+        "identifier": "KentuckySportsRadio-2012-05-21",
+        "title": "Kentucky Sports Radio - May 21, 2012 | 2012 05-21 -_KSR_-_Hour_2_1337617593_29609",
+        "duration": 2603.02,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2012-05-21/2012-05-21_-_KSR_-_Hour_2_1337617593_29609.mp3",
+        "startTime": 1753406809790
       },
       {
-        "identifier": "moroccan-archivist-radio-maroc-regionale-alhoceima-2021-02-27-10",
-        "title": "[Radio] [Morocco] Radio Al Hoceima - 2021-02-27 10:00 - 10:59 | moroccan archivist-radio-maroc-regionale-alhoceima-2021-02-27-10",
-        "duration": 3600.02,
-        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-regionale-alhoceima-2021-02-27-10/moroccan-archivist-radio-maroc-regionale-alhoceima-2021-02-27-10.mp3",
-        "startTime": 1753412398130
+        "identifier": "KentuckySportsRadio-2012-08-13",
+        "title": "Kentucky Sports Radio - August 13, 2012 | 2012 08-13 -_KSR_-_Hour_2_1344875571_29265",
+        "duration": 2634.32,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2012-08-13/2012-08-13_-_KSR_-_Hour_2_1344875571_29265.mp3",
+        "startTime": 1753409412810
       },
       {
-        "identifier": "moroccan-archivist-radio-maroc-chaine-inter-2021-03-11-00",
-        "title": "[Radio] [Morocco] Chaine Inter - 2021-03-11 00:00 - 00:59 | moroccan archivist-radio-maroc-chaine-inter-2021-03-11-00",
-        "duration": 3600.02,
-        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-chaine-inter-2021-03-11-00/moroccan-archivist-radio-maroc-chaine-inter-2021-03-11-00.mp3",
-        "startTime": 1753415998150
+        "identifier": "KentuckySportsRadio-2015-02-13",
+        "title": "Kentucky Sports Radio - February 13, 2015 | 2015 02-13 -_ksr_-_hour_2_0_1423829783",
+        "duration": 2544.98,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2015-02-13/2015-02-13_-_ksr_-_hour_2_0_1423829783.mp3",
+        "startTime": 1753412047130
       },
       {
-        "identifier": "moroccan-archivist-radio-maroc-mohamed-vi-2021-02-21-12",
-        "title": "[Radio] [Morocco] Radio Mohammed VI du Saint Coran - 2021-02-21 12:00 - 12:59 | moroccan archivist-radio-maroc-mohamed-vi-2021-02-21-12",
-        "duration": 3600.02,
-        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-mohamed-vi-2021-02-21-12/moroccan-archivist-radio-maroc-mohamed-vi-2021-02-21-12.mp3",
-        "startTime": 1753419598170
+        "identifier": "KentuckySportsRadio-2015-11-16",
+        "title": "Kentucky Sports Radio - November 16, 2015 | 2015 11-16 -_ksr_-_hour_1_0_1447684314",
+        "duration": 2626.56,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2015-11-16/2015-11-16_-_ksr_-_hour_1_0_1447684314.mp3",
+        "startTime": 1753414592110
       },
       {
-        "identifier": "moroccan-archivist-radio-maroc-regionale-marrakech-2021-04-04-18",
-        "title": "[Radio] [Morocco] Radio Marrakech - 2021-04-04 18:00 - 18:59 | moroccan archivist-radio-maroc-regionale-marrakech-2021-04-04-18",
-        "duration": 3606.02,
-        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-regionale-marrakech-2021-04-04-18/moroccan-archivist-radio-maroc-regionale-marrakech-2021-04-04-18.mp3",
-        "startTime": 1753423198190
+        "identifier": "KentuckySportsRadio-2011-07-22",
+        "title": "Kentucky Sports Radio - July 22, 2011 | 2011 07-22 -_KSR_-_Hour_1_1311347899_28535",
+        "duration": 2688.82,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2011-07-22/2011-07-22_-_KSR_-_Hour_1_1311347899_28535.mp3",
+        "startTime": 1753417218670
       },
       {
-        "identifier": "moroccan-archivist-radio-maroc-chaine-inter-2020-09-15-02",
-        "title": "[Radio] [Morocco] Chaine Inter - 2020-09-15 02:00 - 02:59 | moroccan archivist-radio-maroc-chaine-inter-2020-09-15-02",
-        "duration": 3600.02,
-        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-chaine-inter-2020-09-15-02/moroccan-archivist-radio-maroc-chaine-inter-2020-09-15-02.mp3",
-        "startTime": 1753426804210
+        "identifier": "KentuckySportsRadio-2013-10-04",
+        "title": "Kentucky Sports Radio - October 04, 2013 | 2013 10-04 -_KSR_-_Hour_1_1380902942_23095",
+        "duration": 2647.61,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2013-10-04/2013-10-04_-_KSR_-_Hour_1_1380902942_23095.mp3",
+        "startTime": 1753419907490
       },
       {
-        "identifier": "moroccan-archivist-radio-maroc-regionale-laayoune-2021-07-31-23",
-        "title": "[Radio] [Morocco] Radio Laayoune - 2021-07-31 23:00 - 23:59 | moroccan archivist-radio-maroc-regionale-laayoune-2021-07-31-23",
-        "duration": 3600.02,
-        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-regionale-laayoune-2021-07-31-23/moroccan-archivist-radio-maroc-regionale-laayoune-2021-07-31-23.mp3",
-        "startTime": 1753430404230
+        "identifier": "KentuckySportsRadio-2012-04-05",
+        "title": "Kentucky Sports Radio - April 05, 2012 | 2012 04-05 -_KSR_-_Hour_2_1333641911_24506",
+        "duration": 1943.64,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2012-04-05/2012-04-05_-_KSR_-_Hour_2_1333641911_24506.mp3",
+        "startTime": 1753422555100
       },
       {
-        "identifier": "moroccan-archivist-radio-maroc-mohamed-vi-2021-01-01-10",
-        "title": "[Radio] [Morocco] Radio Mohammed VI du Saint Coran - 2021-01-01 10:00 - 10:59 | moroccan archivist-radio-maroc-mohamed-vi-2021-01-01-10",
-        "duration": 3594.02,
-        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-mohamed-vi-2021-01-01-10/moroccan-archivist-radio-maroc-mohamed-vi-2021-01-01-10.mp3",
-        "startTime": 1753434004250
+        "identifier": "KentuckySportsRadio-2012-09-17",
+        "title": "Kentucky Sports Radio - September 17, 2012 | 2012 09-17 -_KSR_-_Hour_1_1347898168_28514",
+        "duration": 2638.08,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2012-09-17/2012-09-17_-_KSR_-_Hour_1_1347898168_28514.mp3",
+        "startTime": 1753424498740
       },
       {
-        "identifier": "moroccan-archivist-radio-maroc-chaine-inter-2020-09-07-07",
-        "title": "[Radio] [Morocco] Chaine Inter - 2020-09-07 07:00 - 07:59 | moroccan archivist-radio-maroc-chaine-inter-2020-09-07-07",
-        "duration": 3606.05,
-        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-chaine-inter-2020-09-07-07/moroccan-archivist-radio-maroc-chaine-inter-2020-09-07-07.mp3",
-        "startTime": 1753437598270
+        "identifier": "KentuckySportsRadio-2011-01-10",
+        "title": "Kentucky Sports Radio - January 10, 2011 | 2011 01-10 -_KSR_-_Hour_1_1294675800_9299",
+        "duration": 2607.75,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2011-01-10/2011-01-10_-_KSR_-_Hour_1_1294675800_9299.mp3",
+        "startTime": 1753427136820
       },
       {
-        "identifier": "moroccan-archivist-radio-maroc-regionale-fes-2021-03-12-11",
-        "title": "[Radio] [Morocco] Radio Fes - 2021-03-12 11:00 - 11:59 | moroccan archivist-radio-maroc-regionale-fes-2021-03-12-11",
-        "duration": 3606,
-        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-regionale-fes-2021-03-12-11/moroccan-archivist-radio-maroc-regionale-fes-2021-03-12-11.mp3",
-        "startTime": 1753441204320
+        "identifier": "KentuckySportsRadio-2013-10-04",
+        "title": "Kentucky Sports Radio - October 04, 2013 | 2013 10-04 -_KSR_-_Hour_2_1380903382_25125",
+        "duration": 2932.17,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2013-10-04/2013-10-04_-_KSR_-_Hour_2_1380903382_25125.mp3",
+        "startTime": 1753429744570
       },
       {
-        "identifier": "moroccan-archivist-radio-maroc-regionale-fes-2021-02-24-15",
-        "title": "[Radio] [Morocco] Radio Fes - 2021-02-24 15:00 - 15:59 | moroccan archivist-radio-maroc-regionale-fes-2021-02-24-15",
-        "duration": 3600.02,
-        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-regionale-fes-2021-02-24-15/moroccan-archivist-radio-maroc-regionale-fes-2021-02-24-15.mp3",
-        "startTime": 1753444810320
+        "identifier": "KentuckySportsRadio-2011-07-07",
+        "title": "Kentucky Sports Radio - July 07, 2011 | 2011 07-07 -_KSR_-_Hour_2_1310054693_10035",
+        "duration": 2618.59,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2011-07-07/2011-07-07_-_KSR_-_Hour_2_1310054693_10035.mp3",
+        "startTime": 1753432676740
       },
       {
-        "identifier": "moroccan-archivist-radio-maroc-mohamed-vi-2021-03-17-02",
-        "title": "[Radio] [Morocco] Radio Mohammed VI du Saint Coran - 2021-03-17 02:00 - 02:59 | moroccan archivist-radio-maroc-mohamed-vi-2021-03-17-02",
-        "duration": 3594.05,
-        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-mohamed-vi-2021-03-17-02/moroccan-archivist-radio-maroc-mohamed-vi-2021-03-17-02.mp3",
-        "startTime": 1753448410340
+        "identifier": "KentuckySportsRadio-2012-02-23",
+        "title": "Kentucky Sports Radio - February 23, 2012 | 2012 02-23 -_KSR_-_Hour_1_1330018799_12688",
+        "duration": 2603.13,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2012-02-23/2012-02-23_-_KSR_-_Hour_1_1330018799_12688.mp3",
+        "startTime": 1753435295330
       },
       {
-        "identifier": "moroccan-archivist-radio-maroc-amazigh-2021-02-19-15",
-        "title": "[Radio] [Morocco] Radio Amazigh - 2021-02-19 15:00 - 15:59 | moroccan archivist-radio-maroc-amazigh-2021-02-19-15",
-        "duration": 3594.05,
-        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-amazigh-2021-02-19-15/moroccan-archivist-radio-maroc-amazigh-2021-02-19-15.mp3",
-        "startTime": 1753452004390
+        "identifier": "KentuckySportsRadio-2012-08-13",
+        "title": "Kentucky Sports Radio - August 13, 2012 | 2012 08-13 -_KSR_-_Hour_1_1344874692_2107",
+        "duration": 2638.29,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2012-08-13/2012-08-13_-_KSR_-_Hour_1_1344874692_2107.mp3",
+        "startTime": 1753437898460
       },
       {
-        "identifier": "moroccan-archivist-radio-maroc-amazigh-2020-09-24-12",
-        "title": "[Radio] [Morocco] Radio Amazigh - 2020-09-24 12:00 - 12:59 | moroccan archivist-radio-maroc-amazigh-2020-09-24-12",
-        "duration": 3606.02,
-        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-amazigh-2020-09-24-12/moroccan-archivist-radio-maroc-amazigh-2020-09-24-12.mp3",
-        "startTime": 1753455598440
+        "identifier": "KentuckySportsRadio-2012-08-23",
+        "title": "Kentucky Sports Radio - August 23, 2012 | 2012 08-23 -_KSR_-_Hour_1_1345738483_14621",
+        "duration": 2633.17,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2012-08-23/2012-08-23_-_KSR_-_Hour_1_1345738483_14621.mp3",
+        "startTime": 1753440536750
       },
       {
-        "identifier": "moroccan-archivist-radio-nationale-marocaine-2020-08-30-22",
-        "title": "[Radio] [Morocco] Radio Nationale Marocaine - 2020-08-30 22:00 - 22:59 | moroccan archivist-radio-nationale-marocaine-2020-08-30-22",
-        "duration": 3600.02,
-        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-nationale-marocaine-2020-08-30-22/moroccan-archivist-radio-nationale-marocaine-2020-08-30-22.mp3",
-        "startTime": 1753459204460
+        "identifier": "KentuckySportsRadio-2012-09-12",
+        "title": "Kentucky Sports Radio - September 12, 2012 | 2012 09-12 -_KSR_-_Hour_2_1347465972_6816",
+        "duration": 2621.13,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2012-09-12/2012-09-12_-_KSR_-_Hour_2_1347465972_6816.mp3",
+        "startTime": 1753443169920
       },
       {
-        "identifier": "moroccan-archivist-radio-maroc-chaine-inter-2020-11-03-07",
-        "title": "[Radio] [Morocco] Chaine Inter - 2020-11-03 07:00 - 07:59 | moroccan archivist-radio-maroc-chaine-inter-2020-11-03-07",
-        "duration": 3180.05,
-        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-chaine-inter-2020-11-03-07/moroccan-archivist-radio-maroc-chaine-inter-2020-11-03-07.mp3",
-        "startTime": 1753462804480
+        "identifier": "KentuckySportsRadio-2012-05-21",
+        "title": "Kentucky Sports Radio - May 21, 2012 | 2012 05-21 -_KSR_-_Hour_1_1337617022_27979",
+        "duration": 2613.34,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2012-05-21/2012-05-21_-_KSR_-_Hour_1_1337617022_27979.mp3",
+        "startTime": 1753445791050
       },
       {
-        "identifier": "moroccan-archivist-radio-nationale-marocaine-2021-04-08-17",
-        "title": "[Radio] [Morocco] Radio Nationale Marocaine - 2021-04-08 17:00 - 17:59 | moroccan archivist-radio-nationale-marocaine-2021-04-08-17",
-        "duration": 3600.02,
-        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-nationale-marocaine-2021-04-08-17/moroccan-archivist-radio-nationale-marocaine-2021-04-08-17.mp3",
-        "startTime": 1753465984530
+        "identifier": "KentuckySportsRadio-2012-09-12",
+        "title": "Kentucky Sports Radio - September 12, 2012 | 2012 09-12 -_KSR_-_Hour_1_1347462619_25367",
+        "duration": 2637.32,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2012-09-12/2012-09-12_-_KSR_-_Hour_1_1347462619_25367.mp3",
+        "startTime": 1753448404390
       },
       {
-        "identifier": "moroccan-archivist-radio-maroc-amazigh-2020-10-09-19",
-        "title": "[Radio] [Morocco] Radio Amazigh - 2020-10-09 19:00 - 19:59 | moroccan archivist-radio-maroc-amazigh-2020-10-09-19",
-        "duration": 3606.02,
-        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-amazigh-2020-10-09-19/moroccan-archivist-radio-maroc-amazigh-2020-10-09-19.mp3",
-        "startTime": 1753469584550
+        "identifier": "KentuckySportsRadio-2012-07-13",
+        "title": "Kentucky Sports Radio - July 13, 2012 | 2012 07-13 -_KSR_-_Hour_1_1342192925_17741",
+        "duration": 2601.27,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2012-07-13/2012-07-13_-_KSR_-_Hour_1_1342192925_17741.mp3",
+        "startTime": 1753451041710
       },
       {
-        "identifier": "moroccan-archivist-radio-maroc-regionale-alhoceima-2021-03-03-18",
-        "title": "[Radio] [Morocco] Radio Al Hoceima - 2021-03-03 18:00 - 18:59 | moroccan archivist-radio-maroc-regionale-alhoceima-2021-03-03-18",
-        "duration": 3600.02,
-        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-regionale-alhoceima-2021-03-03-18/moroccan-archivist-radio-maroc-regionale-alhoceima-2021-03-03-18.mp3",
-        "startTime": 1753473190570
+        "identifier": "KentuckySportsRadio-2011-01-10",
+        "title": "Kentucky Sports Radio - January 10, 2011 | 2011 01-10 -_KSR_-_Hour_2_1294679268_10697",
+        "duration": 2642.55,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2011-01-10/2011-01-10_-_KSR_-_Hour_2_1294679268_10697.mp3",
+        "startTime": 1753453642980
       },
       {
-        "identifier": "moroccan-archivist-radio-maroc-regionale-marrakech-2021-06-25-21",
-        "title": "[Radio] [Morocco] Radio Marrakech - 2021-06-25 21:00 - 21:59 | moroccan archivist-radio-maroc-regionale-marrakech-2021-06-25-21",
-        "duration": 3600.02,
-        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-regionale-marrakech-2021-06-25-21/moroccan-archivist-radio-maroc-regionale-marrakech-2021-06-25-21.mp3",
-        "startTime": 1753476790590
+        "identifier": "KentuckySportsRadio-2012-08-23",
+        "title": "Kentucky Sports Radio - August 23, 2012 | 2012 08-23 -_KSR_-_Hour_2_1345738151_3291",
+        "duration": 2629.3,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2012-08-23/2012-08-23_-_KSR_-_Hour_2_1345738151_3291.mp3",
+        "startTime": 1753456285530
       },
       {
-        "identifier": "moroccan-archivist-radio-maroc-regionale-meknes-2021-02-28-18",
-        "title": "[Radio] [Morocco] Radio Meknes - 2021-02-28 18:00 - 18:59 | moroccan archivist-radio-maroc-regionale-meknes-2021-02-28-18",
-        "duration": 3594.05,
-        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-regionale-meknes-2021-02-28-18/moroccan-archivist-radio-maroc-regionale-meknes-2021-02-28-18.mp3",
-        "startTime": 1753480390610
+        "identifier": "KentuckySportsRadio-2012-09-17",
+        "title": "Kentucky Sports Radio - September 17, 2012 | 2012 09-17 -_KSR_-_Hour_2_1347898066_8697",
+        "duration": 2624.55,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2012-09-17/2012-09-17_-_KSR_-_Hour_2_1347898066_8697.mp3",
+        "startTime": 1753458914830
       },
       {
-        "identifier": "moroccan-archivist-radio-maroc-regionale-laayoune-2021-03-22-07",
-        "title": "[Radio] [Morocco] Radio Laayoune - 2021-03-22 07:00 - 07:59 | moroccan archivist-radio-maroc-regionale-laayoune-2021-03-22-07",
-        "duration": 3600.02,
-        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-regionale-laayoune-2021-03-22-07/moroccan-archivist-radio-maroc-regionale-laayoune-2021-03-22-07.mp3",
-        "startTime": 1753483984660
+        "identifier": "KentuckySportsRadio-2014-12-03",
+        "title": "Kentucky Sports Radio - December 03, 2014 | 2014 12-03 -_ksr_-_hour_2_0_1417609865",
+        "duration": 2604.3,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2014-12-03/2014-12-03_-_ksr_-_hour_2_0_1417609865.mp3",
+        "startTime": 1753461539380
       },
       {
-        "identifier": "moroccan-archivist-radio-maroc-chaine-inter-2021-03-23-20",
-        "title": "[Radio] [Morocco] Chaine Inter - 2021-03-23 20:00 - 20:59 | moroccan archivist-radio-maroc-chaine-inter-2021-03-23-20",
-        "duration": 3600.02,
-        "streamUrl": "https://archive.org/download/moroccan-archivist-radio-maroc-chaine-inter-2021-03-23-20/moroccan-archivist-radio-maroc-chaine-inter-2021-03-23-20.mp3",
-        "startTime": 1753487584680
+        "identifier": "KentuckySportsRadio-2012-02-23",
+        "title": "Kentucky Sports Radio - February 23, 2012 | 2012 02-23 -_KSR_-_Hour_2_1330019622_7796",
+        "duration": 2619.92,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2012-02-23/2012-02-23_-_KSR_-_Hour_2_1330019622_7796.mp3",
+        "startTime": 1753464143680
+      },
+      {
+        "identifier": "KentuckySportsRadio-2015-09-28",
+        "title": "Kentucky Sports Radio - September 28, 2015 | 2015 09-28 -_ksr_-_hour_1_0_1443443652",
+        "duration": 2639.39,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2015-09-28/2015-09-28_-_ksr_-_hour_1_0_1443443652.mp3",
+        "startTime": 1753466763600
+      },
+      {
+        "identifier": "KentuckySportsRadio-2015-11-16",
+        "title": "Kentucky Sports Radio - November 16, 2015 | 2015 11-16 -_ksr_-_hour_2_0_1447684446",
+        "duration": 2607.52,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2015-11-16/2015-11-16_-_ksr_-_hour_2_0_1447684446.mp3",
+        "startTime": 1753469402990
+      },
+      {
+        "identifier": "KentuckySportsRadio-2012-11-19",
+        "title": "Kentucky Sports Radio - November 19, 2012 | 2012 11-19 -_KSR_-_Hour_1_1353342328_2005",
+        "duration": 2673.55,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2012-11-19/2012-11-19_-_KSR_-_Hour_1_1353342328_2005.mp3",
+        "startTime": 1753472010510
+      },
+      {
+        "identifier": "KentuckySportsRadio-2015-02-13",
+        "title": "Kentucky Sports Radio - February 13, 2015 | 2015 02-13 -_ksr_-_hour_1_0_1423827063",
+        "duration": 2575.62,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2015-02-13/2015-02-13_-_ksr_-_hour_1_0_1423827063.mp3",
+        "startTime": 1753474684060
+      },
+      {
+        "identifier": "KentuckySportsRadio-2011-07-22",
+        "title": "Kentucky Sports Radio - July 22, 2011 | 2011 07-22 -_KSR_-_Hour_2_1311350552_31797",
+        "duration": 3585.3,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2011-07-22/2011-07-22_-_KSR_-_Hour_2_1311350552_31797.mp3",
+        "startTime": 1753477259680
+      },
+      {
+        "identifier": "KentuckySportsRadio-2011-07-07",
+        "title": "Kentucky Sports Radio - July 07, 2011 | 2011 07-07 -_KSR_-_Hour_1_1310051150_31793",
+        "duration": 2617.47,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2011-07-07/2011-07-07_-_KSR_-_Hour_1_1310051150_31793.mp3",
+        "startTime": 1753480844980
+      },
+      {
+        "identifier": "KentuckySportsRadio-2012-11-19",
+        "title": "Kentucky Sports Radio - November 19, 2012 | 2012 11-19 -_KSR_-_Hour_2_1353344997_2562",
+        "duration": 2585.99,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2012-11-19/2012-11-19_-_KSR_-_Hour_2_1353344997_2562.mp3",
+        "startTime": 1753483462450
+      },
+      {
+        "identifier": "KentuckySportsRadio-2012-07-13",
+        "title": "Kentucky Sports Radio - July 13, 2012 | 2012 07-13 -_KSR_-_Hour_2_1342195887_28512",
+        "duration": 2605.53,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2012-07-13/2012-07-13_-_KSR_-_Hour_2_1342195887_28512.mp3",
+        "startTime": 1753486048440
+      },
+      {
+        "identifier": "KentuckySportsRadio-2014-12-03",
+        "title": "Kentucky Sports Radio - December 03, 2014 | 2014 12-03 -_ksr_-_hour_1_0_1417609570",
+        "duration": 2691.6,
+        "streamUrl": "https://archive.org/download/KentuckySportsRadio-2014-12-03/2014-12-03_-_ksr_-_hour_1_0_1417609570.mp3",
+        "startTime": 1753488653970
       }
     ]
   }

@@ -1,0 +1,3118 @@
+[
+  {
+    "name": "Scanner Radio Broadcast",
+    "frequency": null,
+    "identifier": "scanner_recordings",
+    "category": "Misc",
+    "items": [
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070502020421",
+        "duration": 166.66,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070502020421.mp3",
+        "startTime": 1753833600000
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070505220541",
+        "duration": 69.2,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070505220541.mp3",
+        "startTime": 1753833766660
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070523050835",
+        "duration": 12.88,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070523050835.mp3",
+        "startTime": 1753833835860
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061024110213",
+        "duration": 99.34,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061024110213.mp3",
+        "startTime": 1753833848740
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070512170028",
+        "duration": 446.54,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070512170028.mp3",
+        "startTime": 1753833948080
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061023190043",
+        "duration": 349.52,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061023190043.mp3",
+        "startTime": 1753834394620
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070511000220",
+        "duration": 317.52,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070511000220.mp3",
+        "startTime": 1753834744140
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070522040433",
+        "duration": 19.72,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070522040433.mp3",
+        "startTime": 1753835061660
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061217160313",
+        "duration": 219.66,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061217160313.mp3",
+        "startTime": 1753835081380
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061024210526",
+        "duration": 203.34,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061024210526.mp3",
+        "startTime": 1753835301040
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070509210021",
+        "duration": 220.68,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070509210021.mp3",
+        "startTime": 1753835504380
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061017090902",
+        "duration": 152.58,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061017090902.mp3",
+        "startTime": 1753835725060
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070525142526",
+        "duration": 14.34,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070525142526.mp3",
+        "startTime": 1753835877640
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070505050052",
+        "duration": 234.06,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070505050052.mp3",
+        "startTime": 1753835891980
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070513200342",
+        "duration": 608.26,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070513200342.mp3",
+        "startTime": 1753836126040
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061019150310",
+        "duration": 231.5,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061019150310.mp3",
+        "startTime": 1753836734300
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061221042052",
+        "duration": 140.3,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061221042052.mp3",
+        "startTime": 1753836965800
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070509030402",
+        "duration": 137.04,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070509030402.mp3",
+        "startTime": 1753837106100
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061014110400",
+        "duration": 79.18,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061014110400.mp3",
+        "startTime": 1753837243140
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061214040136",
+        "duration": 12.88,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061214040136.mp3",
+        "startTime": 1753837322320
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070512090755",
+        "duration": 227.92,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070512090755.mp3",
+        "startTime": 1753837335200
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061014150305",
+        "duration": 339.46,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061014150305.mp3",
+        "startTime": 1753837563120
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061202010300",
+        "duration": 331.78,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061202010300.mp3",
+        "startTime": 1753837902580
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061206060504",
+        "duration": 99.92,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061206060504.mp3",
+        "startTime": 1753838234360
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070501160132",
+        "duration": 137.04,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070501160132.mp3",
+        "startTime": 1753838334280
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070527170214",
+        "duration": 424.78,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070527170214.mp3",
+        "startTime": 1753838471320
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070505110855",
+        "duration": 139.02,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070505110855.mp3",
+        "startTime": 1753838896100
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061223160142",
+        "duration": 501.26,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061223160142.mp3",
+        "startTime": 1753839035120
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070512140131",
+        "duration": 121.42,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070512140131.mp3",
+        "startTime": 1753839536380
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061014080228",
+        "duration": 68.62,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061014080228.mp3",
+        "startTime": 1753839657800
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070524150035",
+        "duration": 344.4,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070524150035.mp3",
+        "startTime": 1753839726420
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070509091601",
+        "duration": 186.12,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070509091601.mp3",
+        "startTime": 1753840070820
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070512020049",
+        "duration": 67.92,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070512020049.mp3",
+        "startTime": 1753840256940
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061201021309",
+        "duration": 13.32,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061201021309.mp3",
+        "startTime": 1753840324860
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070525161348",
+        "duration": 211.02,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070525161348.mp3",
+        "startTime": 1753840338180
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070520100250",
+        "duration": 204.3,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070520100250.mp3",
+        "startTime": 1753840549200
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070517140303",
+        "duration": 55.3,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070517140303.mp3",
+        "startTime": 1753840753500
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070526061734",
+        "duration": 85.84,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070526061734.mp3",
+        "startTime": 1753840808800
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070526050027",
+        "duration": 243.02,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070526050027.mp3",
+        "startTime": 1753840894640
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061017140033",
+        "duration": 189.52,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061017140033.mp3",
+        "startTime": 1753841137660
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070501070253",
+        "duration": 94.22,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070501070253.mp3",
+        "startTime": 1753841327180
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070528070342",
+        "duration": 86.86,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070528070342.mp3",
+        "startTime": 1753841421400
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061010200038",
+        "duration": 76.88,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061010200038.mp3",
+        "startTime": 1753841508260
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070501060419",
+        "duration": 187.98,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070501060419.mp3",
+        "startTime": 1753841585140
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061014140319",
+        "duration": 88.4,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061014140319.mp3",
+        "startTime": 1753841773120
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070522051204",
+        "duration": 120.4,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070522051204.mp3",
+        "startTime": 1753841861520
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070505000033",
+        "duration": 197.9,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070505000033.mp3",
+        "startTime": 1753841981920
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061225210512",
+        "duration": 174.34,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061225210512.mp3",
+        "startTime": 1753842179820
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070518000709",
+        "duration": 65.36,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070518000709.mp3",
+        "startTime": 1753842354160
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070511080438",
+        "duration": 130.38,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070511080438.mp3",
+        "startTime": 1753842419520
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070519010025",
+        "duration": 780.3,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070519010025.mp3",
+        "startTime": 1753842549900
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061019090706",
+        "duration": 36.94,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061019090706.mp3",
+        "startTime": 1753843330200
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061201210844",
+        "duration": 229.64,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061201210844.mp3",
+        "startTime": 1753843367140
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070517150014",
+        "duration": 443.98,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070517150014.mp3",
+        "startTime": 1753843596780
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061222140702",
+        "duration": 59.4,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061222140702.mp3",
+        "startTime": 1753844040760
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070503110244",
+        "duration": 152.4,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070503110244.mp3",
+        "startTime": 1753844100160
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060720042537",
+        "duration": 19.98,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060720042537.mp3",
+        "startTime": 1753844252560
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070510030042",
+        "duration": 64.26,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070510030042.mp3",
+        "startTime": 1753844272540
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061225090018",
+        "duration": 52.74,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061225090018.mp3",
+        "startTime": 1753844336800
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060706211548",
+        "duration": 227.34,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060706211548.mp3",
+        "startTime": 1753844389540
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060724082055",
+        "duration": 162.06,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060724082055.mp3",
+        "startTime": 1753844616880
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070505090026",
+        "duration": 130.38,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070505090026.mp3",
+        "startTime": 1753844778940
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070524170019",
+        "duration": 652.88,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070524170019.mp3",
+        "startTime": 1753844909320
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060707151142",
+        "duration": 325.38,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060707151142.mp3",
+        "startTime": 1753845562200
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060710035033",
+        "duration": 22.86,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060710035033.mp3",
+        "startTime": 1753845887580
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061205050748",
+        "duration": 128.26,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061205050748.mp3",
+        "startTime": 1753845910440
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060720172242",
+        "duration": 204.3,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060720172242.mp3",
+        "startTime": 1753846038700
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060715121810",
+        "duration": 249.42,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060715121810.mp3",
+        "startTime": 1753846243000
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070514040503",
+        "duration": 196.36,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070514040503.mp3",
+        "startTime": 1753846492420
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061225181259",
+        "duration": 155.4,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061225181259.mp3",
+        "startTime": 1753846688780
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061019040815",
+        "duration": 21,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061019040815.mp3",
+        "startTime": 1753846844180
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060708175034",
+        "duration": 417.36,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060708175034.mp3",
+        "startTime": 1753846865180
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061022071157",
+        "duration": 23.82,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061022071157.mp3",
+        "startTime": 1753847282540
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070521221532",
+        "duration": 12.88,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070521221532.mp3",
+        "startTime": 1753847306360
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061219050402",
+        "duration": 25.68,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061219050402.mp3",
+        "startTime": 1753847319240
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061004130928",
+        "duration": 71.5,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061004130928.mp3",
+        "startTime": 1753847344920
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061225232656",
+        "duration": 37.2,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061225232656.mp3",
+        "startTime": 1753847416420
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070518210215",
+        "duration": 257.54,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070518210215.mp3",
+        "startTime": 1753847453620
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061211000229",
+        "duration": 329.04,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061211000229.mp3",
+        "startTime": 1753847711160
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060701003818",
+        "duration": 188.94,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060701003818.mp3",
+        "startTime": 1753848040200
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070508200104",
+        "duration": 412.94,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070508200104.mp3",
+        "startTime": 1753848229140
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061019000654",
+        "duration": 141.58,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061019000654.mp3",
+        "startTime": 1753848642080
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070517051126",
+        "duration": 67.34,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070517051126.mp3",
+        "startTime": 1753848783660
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061221100528",
+        "duration": 110.86,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061221100528.mp3",
+        "startTime": 1753848851000
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070510071918",
+        "duration": 23.3,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070510071918.mp3",
+        "startTime": 1753848961860
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061016180452",
+        "duration": 120.84,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061016180452.mp3",
+        "startTime": 1753848985160
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070512210241",
+        "duration": 551.76,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070512210241.mp3",
+        "startTime": 1753849106000
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070524000401",
+        "duration": 270.16,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070524000401.mp3",
+        "startTime": 1753849657760
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061219030430",
+        "duration": 30.54,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061219030430.mp3",
+        "startTime": 1753849927920
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070520212114",
+        "duration": 19.02,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070520212114.mp3",
+        "startTime": 1753849958460
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061201090010",
+        "duration": 179.72,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061201090010.mp3",
+        "startTime": 1753849977480
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070514082707",
+        "duration": 97.8,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070514082707.mp3",
+        "startTime": 1753850157200
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070517160038",
+        "duration": 237.58,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070517160038.mp3",
+        "startTime": 1753850255000
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061018030042",
+        "duration": 97.1,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061018030042.mp3",
+        "startTime": 1753850492580
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070519160143",
+        "duration": 292.94,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070519160143.mp3",
+        "startTime": 1753850589680
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070501150647",
+        "duration": 296.2,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070501150647.mp3",
+        "startTime": 1753850882620
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061212120718",
+        "duration": 319.24,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061212120718.mp3",
+        "startTime": 1753851178820
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061207070058",
+        "duration": 362.5,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061207070058.mp3",
+        "startTime": 1753851498060
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061018210948",
+        "duration": 263.5,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061018210948.mp3",
+        "startTime": 1753851860560
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070525031751",
+        "duration": 93.52,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070525031751.mp3",
+        "startTime": 1753852124060
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070506091047",
+        "duration": 51.46,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070506091047.mp3",
+        "startTime": 1753852217580
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060711122602",
+        "duration": 161.36,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060711122602.mp3",
+        "startTime": 1753852269040
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061207230155",
+        "duration": 43.6,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061207230155.mp3",
+        "startTime": 1753852430400
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070510191242",
+        "duration": 280.14,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070510191242.mp3",
+        "startTime": 1753852474000
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061208110118",
+        "duration": 149.26,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061208110118.mp3",
+        "startTime": 1753852754140
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061222061720",
+        "duration": 36.36,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061222061720.mp3",
+        "startTime": 1753852903400
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070503040139",
+        "duration": 127.5,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070503040139.mp3",
+        "startTime": 1753852939760
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061018060443",
+        "duration": 140.3,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061018060443.mp3",
+        "startTime": 1753853067260
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060731093540",
+        "duration": 83.98,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060731093540.mp3",
+        "startTime": 1753853207560
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061211140644",
+        "duration": 79.88,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061211140644.mp3",
+        "startTime": 1753853291540
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061229120741",
+        "duration": 62.8,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061229120741.mp3",
+        "startTime": 1753853371420
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060725044056",
+        "duration": 255.5,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060725044056.mp3",
+        "startTime": 1753853434220
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061023130303",
+        "duration": 127.24,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061023130303.mp3",
+        "startTime": 1753853689720
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061010151417",
+        "duration": 449.1,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061010151417.mp3",
+        "startTime": 1753853816960
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060704230156",
+        "duration": 198.66,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060704230156.mp3",
+        "startTime": 1753854266060
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061201170047",
+        "duration": 233.48,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061201170047.mp3",
+        "startTime": 1753854464720
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060707163259",
+        "duration": 170.06,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060707163259.mp3",
+        "startTime": 1753854698200
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070519180458",
+        "duration": 229.2,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070519180458.mp3",
+        "startTime": 1753854868260
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070504231826",
+        "duration": 154.12,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070504231826.mp3",
+        "startTime": 1753855097460
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060714113217",
+        "duration": 312.14,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060714113217.mp3",
+        "startTime": 1753855251580
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061206170137",
+        "duration": 446.8,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061206170137.mp3",
+        "startTime": 1753855563720
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070511220039",
+        "duration": 318.98,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070511220039.mp3",
+        "startTime": 1753856010520
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070526110604",
+        "duration": 20.3,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070526110604.mp3",
+        "startTime": 1753856329500
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070506071115",
+        "duration": 21.58,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070506071115.mp3",
+        "startTime": 1753856349800
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070517021208",
+        "duration": 89.1,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070517021208.mp3",
+        "startTime": 1753856371380
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061024071010",
+        "duration": 47.44,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061024071010.mp3",
+        "startTime": 1753856460480
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061210030223",
+        "duration": 62.8,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061210030223.mp3",
+        "startTime": 1753856507920
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061011200432",
+        "duration": 84.56,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061011200432.mp3",
+        "startTime": 1753856570720
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070516040104",
+        "duration": 181.84,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070516040104.mp3",
+        "startTime": 1753856655280
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061201190233",
+        "duration": 316.24,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061201190233.mp3",
+        "startTime": 1753856837120
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061225070046",
+        "duration": 25.42,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061225070046.mp3",
+        "startTime": 1753857153360
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061025020552",
+        "duration": 20.3,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061025020552.mp3",
+        "startTime": 1753857178780
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061021200613",
+        "duration": 234.32,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061021200613.mp3",
+        "startTime": 1753857199080
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061017180052",
+        "duration": 200.2,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061017180052.mp3",
+        "startTime": 1753857433400
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060712024510",
+        "duration": 138.76,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060712024510.mp3",
+        "startTime": 1753857633600
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061017120958",
+        "duration": 121.1,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061017120958.mp3",
+        "startTime": 1753857772360
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070525002717",
+        "duration": 236.3,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070525002717.mp3",
+        "startTime": 1753857893460
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061221190254",
+        "duration": 308.56,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061221190254.mp3",
+        "startTime": 1753858129760
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070503080203",
+        "duration": 206.34,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070503080203.mp3",
+        "startTime": 1753858438320
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070519151202",
+        "duration": 210,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070519151202.mp3",
+        "startTime": 1753858644660
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061012080304",
+        "duration": 65.8,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061012080304.mp3",
+        "startTime": 1753858854660
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061210060022",
+        "duration": 150.02,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061210060022.mp3",
+        "startTime": 1753858920460
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061024150637",
+        "duration": 162.82,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061024150637.mp3",
+        "startTime": 1753859070480
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060703120025",
+        "duration": 122.7,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060703120025.mp3",
+        "startTime": 1753859233300
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061211220014",
+        "duration": 176.72,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061211220014.mp3",
+        "startTime": 1753859356000
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060724221205",
+        "duration": 256.78,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060724221205.mp3",
+        "startTime": 1753859532720
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061208060232",
+        "duration": 91.14,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061208060232.mp3",
+        "startTime": 1753859789500
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060712153615",
+        "duration": 166.92,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060712153615.mp3",
+        "startTime": 1753859880640
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061018110215",
+        "duration": 97.54,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061018110215.mp3",
+        "startTime": 1753860047560
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070525200008",
+        "duration": 298.76,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070525200008.mp3",
+        "startTime": 1753860145100
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070523160037",
+        "duration": 225.54,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070523160037.mp3",
+        "startTime": 1753860443860
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061003130133",
+        "duration": 3522.06,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061003130133.mp3",
+        "startTime": 1753860669400
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070522031430",
+        "duration": 79.44,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070522031430.mp3",
+        "startTime": 1753864191460
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061212090040",
+        "duration": 454.66,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061212090040.mp3",
+        "startTime": 1753864270900
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061007041354",
+        "duration": 46.16,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061007041354.mp3",
+        "startTime": 1753864725560
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070505080127",
+        "duration": 66.38,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070505080127.mp3",
+        "startTime": 1753864771720
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070509062441",
+        "duration": 230.66,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070509062441.mp3",
+        "startTime": 1753864838100
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060724073259",
+        "duration": 114.18,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060724073259.mp3",
+        "startTime": 1753865068760
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061218150254",
+        "duration": 450.06,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061218150254.mp3",
+        "startTime": 1753865182940
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070506170534",
+        "duration": 203.02,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070506170534.mp3",
+        "startTime": 1753865633000
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070505090026",
+        "duration": 130.38,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070505090026.mp3",
+        "startTime": 1753865836020
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070505180023",
+        "duration": 487.76,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070505180023.mp3",
+        "startTime": 1753865966400
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070520161109",
+        "duration": 123.66,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070520161109.mp3",
+        "startTime": 1753866454160
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061225010210",
+        "duration": 108.3,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061225010210.mp3",
+        "startTime": 1753866577820
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061209170227",
+        "duration": 509.7,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061209170227.mp3",
+        "startTime": 1753866686120
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061017130033",
+        "duration": 392.78,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061017130033.mp3",
+        "startTime": 1753867195820
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070510160811",
+        "duration": 449.8,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070510160811.mp3",
+        "startTime": 1753867588600
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070514171746",
+        "duration": 231.5,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070514171746.mp3",
+        "startTime": 1753868038400
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060701040338",
+        "duration": 80.46,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060701040338.mp3",
+        "startTime": 1753868269900
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070520150009",
+        "duration": 376.4,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070520150009.mp3",
+        "startTime": 1753868350360
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070509140414",
+        "duration": 235.78,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070509140414.mp3",
+        "startTime": 1753868726760
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061222170510",
+        "duration": 266.76,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061222170510.mp3",
+        "startTime": 1753868962540
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061015202416",
+        "duration": 100.62,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061015202416.mp3",
+        "startTime": 1753869229300
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070518220057",
+        "duration": 526.86,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070518220057.mp3",
+        "startTime": 1753869329920
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060725153251",
+        "duration": 211.28,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060725153251.mp3",
+        "startTime": 1753869856780
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070520071633",
+        "duration": 155.4,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070520071633.mp3",
+        "startTime": 1753870068060
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061011002254",
+        "duration": 93.7,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061011002254.mp3",
+        "startTime": 1753870223460
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061023120216",
+        "duration": 92.94,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061023120216.mp3",
+        "startTime": 1753870317160
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070518030346",
+        "duration": 214.86,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070518030346.mp3",
+        "startTime": 1753870410100
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070508220027",
+        "duration": 59.66,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070508220027.mp3",
+        "startTime": 1753870624960
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070521130029",
+        "duration": 131.92,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070521130029.mp3",
+        "startTime": 1753870684620
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061019020842",
+        "duration": 94.22,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061019020842.mp3",
+        "startTime": 1753870816540
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061017220108",
+        "duration": 127.82,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061017220108.mp3",
+        "startTime": 1753870910760
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061205211649",
+        "duration": 208.9,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061205211649.mp3",
+        "startTime": 1753871038580
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070505101600",
+        "duration": 13.06,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070505101600.mp3",
+        "startTime": 1753871247480
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061205091937",
+        "duration": 26.7,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061205091937.mp3",
+        "startTime": 1753871260540
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060709220601",
+        "duration": 492.62,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060709220601.mp3",
+        "startTime": 1753871287240
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061202200331",
+        "duration": 46.86,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061202200331.mp3",
+        "startTime": 1753871779860
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061014000631",
+        "duration": 343.3,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061014000631.mp3",
+        "startTime": 1753871826720
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070514160448",
+        "duration": 303.88,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070514160448.mp3",
+        "startTime": 1753872170020
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070522070532",
+        "duration": 97.8,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070522070532.mp3",
+        "startTime": 1753872473900
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061210110035",
+        "duration": 115.46,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061210110035.mp3",
+        "startTime": 1753872571700
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070517071058",
+        "duration": 61.52,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070517071058.mp3",
+        "startTime": 1753872687160
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070518170114",
+        "duration": 425.48,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070518170114.mp3",
+        "startTime": 1753872748680
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060709035445",
+        "duration": 127.5,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060709035445.mp3",
+        "startTime": 1753873174160
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070504092002",
+        "duration": 276.56,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070504092002.mp3",
+        "startTime": 1753873301660
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070518200130",
+        "duration": 227.66,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070518200130.mp3",
+        "startTime": 1753873578220
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061017210238",
+        "duration": 64.26,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061017210238.mp3",
+        "startTime": 1753873805880
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070511220039",
+        "duration": 318.98,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070511220039.mp3",
+        "startTime": 1753873870140
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061017171611",
+        "duration": 61.26,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061017171611.mp3",
+        "startTime": 1753874189120
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061205042047",
+        "duration": 14.6,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061205042047.mp3",
+        "startTime": 1753874250380
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061024160613",
+        "duration": 598.86,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061024160613.mp3",
+        "startTime": 1753874264980
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061010220254",
+        "duration": 287.24,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061010220254.mp3",
+        "startTime": 1753874863840
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070514011251",
+        "duration": 198.66,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070514011251.mp3",
+        "startTime": 1753875151080
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070503110244",
+        "duration": 152.4,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070503110244.mp3",
+        "startTime": 1753875349740
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061010230010",
+        "duration": 160.52,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061010230010.mp3",
+        "startTime": 1753875502140
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070503122627",
+        "duration": 205.58,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070503122627.mp3",
+        "startTime": 1753875662660
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061202020109",
+        "duration": 344.84,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061202020109.mp3",
+        "startTime": 1753875868240
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070530040030",
+        "duration": 14.34,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070530040030.mp3",
+        "startTime": 1753876213080
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070519090856",
+        "duration": 105.74,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070519090856.mp3",
+        "startTime": 1753876227420
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070509150916",
+        "duration": 108.04,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070509150916.mp3",
+        "startTime": 1753876333160
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060724155054",
+        "duration": 290.64,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060724155054.mp3",
+        "startTime": 1753876441200
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061231160517",
+        "duration": 470.28,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061231160517.mp3",
+        "startTime": 1753876731840
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061229140012",
+        "duration": 344.58,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061229140012.mp3",
+        "startTime": 1753877202120
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061224110144",
+        "duration": 185.1,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061224110144.mp3",
+        "startTime": 1753877546700
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061211210103",
+        "duration": 541.96,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061211210103.mp3",
+        "startTime": 1753877731800
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070511060233",
+        "duration": 76.88,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070511060233.mp3",
+        "startTime": 1753878273760
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070526070012",
+        "duration": 115.02,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070526070012.mp3",
+        "startTime": 1753878350640
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070502210356",
+        "duration": 255.24,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070502210356.mp3",
+        "startTime": 1753878465660
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070524140101",
+        "duration": 307.02,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070524140101.mp3",
+        "startTime": 1753878720900
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060706161008",
+        "duration": 308.56,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060706161008.mp3",
+        "startTime": 1753879027920
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060720052523",
+        "duration": 16.72,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060720052523.mp3",
+        "startTime": 1753879336480
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061011062131",
+        "duration": 12.88,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061011062131.mp3",
+        "startTime": 1753879353200
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061210200740",
+        "duration": 28.24,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061210200740.mp3",
+        "startTime": 1753879366080
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061207220126",
+        "duration": 161.54,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061207220126.mp3",
+        "startTime": 1753879394320
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070523170547",
+        "duration": 188.24,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070523170547.mp3",
+        "startTime": 1753879555860
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061024090238",
+        "duration": 278.86,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061024090238.mp3",
+        "startTime": 1753879744100
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061017111056",
+        "duration": 100.94,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061017111056.mp3",
+        "startTime": 1753880022960
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070504032255",
+        "duration": 93.96,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070504032255.mp3",
+        "startTime": 1753880123900
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061221142055",
+        "duration": 14.16,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061221142055.mp3",
+        "startTime": 1753880217860
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070518080517",
+        "duration": 146,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070518080517.mp3",
+        "startTime": 1753880232020
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070525120051",
+        "duration": 195.34,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070525120051.mp3",
+        "startTime": 1753880378020
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060705081204",
+        "duration": 118.28,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060705081204.mp3",
+        "startTime": 1753880573360
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060704160138",
+        "duration": 73.74,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060704160138.mp3",
+        "startTime": 1753880691640
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070501050907",
+        "duration": 12.88,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070501050907.mp3",
+        "startTime": 1753880765380
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061025030538",
+        "duration": 80.9,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061025030538.mp3",
+        "startTime": 1753880778260
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061015090008",
+        "duration": 79.44,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061015090008.mp3",
+        "startTime": 1753880859160
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070503190616",
+        "duration": 109.32,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070503190616.mp3",
+        "startTime": 1753880938600
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070526160247",
+        "duration": 142.6,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070526160247.mp3",
+        "startTime": 1753881047920
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061209010034",
+        "duration": 178.7,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061209010034.mp3",
+        "startTime": 1753881190520
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060720140153",
+        "duration": 429.9,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060720140153.mp3",
+        "startTime": 1753881369220
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061211061730",
+        "duration": 12.88,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061211061730.mp3",
+        "startTime": 1753881799120
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060711195651",
+        "duration": 330.76,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060711195651.mp3",
+        "startTime": 1753881812000
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060728001243",
+        "duration": 45.58,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060728001243.mp3",
+        "startTime": 1753882142760
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061022020257",
+        "duration": 128.26,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061022020257.mp3",
+        "startTime": 1753882188340
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060711200027",
+        "duration": 248.84,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060711200027.mp3",
+        "startTime": 1753882316600
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061018230921",
+        "duration": 163.92,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061018230921.mp3",
+        "startTime": 1753882565440
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061012091522",
+        "duration": 142.86,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061012091522.mp3",
+        "startTime": 1753882729360
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060714124237",
+        "duration": 276.56,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060714124237.mp3",
+        "startTime": 1753882872220
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070512200521",
+        "duration": 201.04,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070512200521.mp3",
+        "startTime": 1753883148780
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070530090006",
+        "duration": 530.18,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070530090006.mp3",
+        "startTime": 1753883349820
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060704003725",
+        "duration": 230.92,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060704003725.mp3",
+        "startTime": 1753883880000
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061003110021",
+        "duration": 3196.94,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061003110021.mp3",
+        "startTime": 1753884110920
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061010050423",
+        "duration": 50,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061010050423.mp3",
+        "startTime": 1753887307860
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070501120309",
+        "duration": 186.38,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070501120309.mp3",
+        "startTime": 1753887357860
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061206141010",
+        "duration": 114.7,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061206141010.mp3",
+        "startTime": 1753887544240
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070522090507",
+        "duration": 117.58,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070522090507.mp3",
+        "startTime": 1753887658940
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061213230238",
+        "duration": 12.88,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061213230238.mp3",
+        "startTime": 1753887776520
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060717075811",
+        "duration": 56.14,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060717075811.mp3",
+        "startTime": 1753887789400
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061024011133",
+        "duration": 48.46,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061024011133.mp3",
+        "startTime": 1753887845540
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070503020550",
+        "duration": 213.58,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070503020550.mp3",
+        "startTime": 1753887894000
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070502140134",
+        "duration": 199.94,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070502140134.mp3",
+        "startTime": 1753888107580
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070528160219",
+        "duration": 212.3,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070528160219.mp3",
+        "startTime": 1753888307520
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061209110039",
+        "duration": 164.1,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061209110039.mp3",
+        "startTime": 1753888519820
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061214112546",
+        "duration": 194.64,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061214112546.mp3",
+        "startTime": 1753888683920
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061205030938",
+        "duration": 79.62,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061205030938.mp3",
+        "startTime": 1753888878560
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060718113252",
+        "duration": 83.98,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060718113252.mp3",
+        "startTime": 1753888958180
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061013220656",
+        "duration": 643.34,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061013220656.mp3",
+        "startTime": 1753889042160
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070525130025",
+        "duration": 216.84,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070525130025.mp3",
+        "startTime": 1753889685500
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070522180456",
+        "duration": 677.2,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070522180456.mp3",
+        "startTime": 1753889902340
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061207160023",
+        "duration": 356.94,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061207160023.mp3",
+        "startTime": 1753890579540
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070519230016",
+        "duration": 319.5,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070519230016.mp3",
+        "startTime": 1753890936480
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070526230648",
+        "duration": 285.96,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070526230648.mp3",
+        "startTime": 1753891255980
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061202140455",
+        "duration": 124.24,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061202140455.mp3",
+        "startTime": 1753891541940
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060728093040",
+        "duration": 206.86,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060728093040.mp3",
+        "startTime": 1753891666180
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061224030709",
+        "duration": 581.64,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061224030709.mp3",
+        "startTime": 1753891873040
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060721204628",
+        "duration": 335.18,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060721204628.mp3",
+        "startTime": 1753892454680
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070505130006",
+        "duration": 402.7,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070505130006.mp3",
+        "startTime": 1753892789860
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070515062207",
+        "duration": 12.88,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070515062207.mp3",
+        "startTime": 1753893192560
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070524230807",
+        "duration": 233.74,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070524230807.mp3",
+        "startTime": 1753893205440
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060710213450",
+        "duration": 503.3,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060710213450.mp3",
+        "startTime": 1753893439180
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061224170354",
+        "duration": 27.98,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061224170354.mp3",
+        "startTime": 1753893942480
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070509100241",
+        "duration": 216.14,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070509100241.mp3",
+        "startTime": 1753893970460
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060705095133",
+        "duration": 183.3,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060705095133.mp3",
+        "startTime": 1753894186600
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060707002424",
+        "duration": 274.44,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060707002424.mp3",
+        "startTime": 1753894369900
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061209120407",
+        "duration": 193.1,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061209120407.mp3",
+        "startTime": 1753894644340
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061220010940",
+        "duration": 115.46,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061220010940.mp3",
+        "startTime": 1753894837440
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070509062441",
+        "duration": 230.66,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070509062441.mp3",
+        "startTime": 1753894952900
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060719005231",
+        "duration": 236.62,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060719005231.mp3",
+        "startTime": 1753895183560
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061203020104",
+        "duration": 829.26,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061203020104.mp3",
+        "startTime": 1753895420180
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070521100520",
+        "duration": 69.2,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070521100520.mp3",
+        "startTime": 1753896249440
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061016052424",
+        "duration": 143.18,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061016052424.mp3",
+        "startTime": 1753896318640
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070515072153",
+        "duration": 222.98,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070515072153.mp3",
+        "startTime": 1753896461820
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061002232659",
+        "duration": 206.34,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061002232659.mp3",
+        "startTime": 1753896684800
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060719213412",
+        "duration": 431.44,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060719213412.mp3",
+        "startTime": 1753896891140
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070520222100",
+        "duration": 95.24,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070520222100.mp3",
+        "startTime": 1753897322580
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061028220045",
+        "duration": 181.84,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061028220045.mp3",
+        "startTime": 1753897417820
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060704043354",
+        "duration": 69.38,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060704043354.mp3",
+        "startTime": 1753897599660
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060716072038",
+        "duration": 96.78,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060716072038.mp3",
+        "startTime": 1753897669040
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070504110307",
+        "duration": 150.54,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070504110307.mp3",
+        "startTime": 1753897765820
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070526160247",
+        "duration": 142.6,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070526160247.mp3",
+        "startTime": 1753897916360
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070511030116",
+        "duration": 208.9,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070511030116.mp3",
+        "startTime": 1753898058960
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070506050705",
+        "duration": 18,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070506050705.mp3",
+        "startTime": 1753898267860
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070504052238",
+        "duration": 26.7,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070504052238.mp3",
+        "startTime": 1753898285860
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070501230455",
+        "duration": 243.28,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070501230455.mp3",
+        "startTime": 1753898312560
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070517080315",
+        "duration": 96.26,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070517080315.mp3",
+        "startTime": 1753898555840
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060714194554",
+        "duration": 174.86,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060714194554.mp3",
+        "startTime": 1753898652100
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070501120309",
+        "duration": 186.38,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070501120309.mp3",
+        "startTime": 1753898826960
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060712093503",
+        "duration": 19.28,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060712093503.mp3",
+        "startTime": 1753899013340
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060725064923",
+        "duration": 171.6,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060725064923.mp3",
+        "startTime": 1753899032620
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061206111113",
+        "duration": 299.34,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061206111113.mp3",
+        "startTime": 1753899204220
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060714051037",
+        "duration": 63.5,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060714051037.mp3",
+        "startTime": 1753899503560
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070506210217",
+        "duration": 375.56,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070506210217.mp3",
+        "startTime": 1753899567060
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061225030142",
+        "duration": 48.14,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061225030142.mp3",
+        "startTime": 1753899942620
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070521160236",
+        "duration": 312.84,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070521160236.mp3",
+        "startTime": 1753899990760
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061011160318",
+        "duration": 365.58,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061011160318.mp3",
+        "startTime": 1753900303600
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061018191016",
+        "duration": 213,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061018191016.mp3",
+        "startTime": 1753900669180
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060725051353",
+        "duration": 19.98,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060725051353.mp3",
+        "startTime": 1753900882180
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070509200957",
+        "duration": 422.66,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070509200957.mp3",
+        "startTime": 1753900902160
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070515000119",
+        "duration": 399.62,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070515000119.mp3",
+        "startTime": 1753901324820
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070509030402",
+        "duration": 137.04,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070509030402.mp3",
+        "startTime": 1753901724440
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060717041038",
+        "duration": 45.9,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060717041038.mp3",
+        "startTime": 1753901861480
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061021160724",
+        "duration": 172.88,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061021160724.mp3",
+        "startTime": 1753901907380
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061210170154",
+        "duration": 330.5,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061210170154.mp3",
+        "startTime": 1753902080260
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070506061129",
+        "duration": 15.44,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070506061129.mp3",
+        "startTime": 1753902410760
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070511040927",
+        "duration": 84.3,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070511040927.mp3",
+        "startTime": 1753902426200
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061011150019",
+        "duration": 251.14,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061011150019.mp3",
+        "startTime": 1753902510500
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070522130217",
+        "duration": 193.54,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070522130217.mp3",
+        "startTime": 1753902761640
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070504160453",
+        "duration": 195.66,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070504160453.mp3",
+        "startTime": 1753902955180
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061022180037",
+        "duration": 381.52,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061022180037.mp3",
+        "startTime": 1753903150840
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070502231845",
+        "duration": 124.42,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070502231845.mp3",
+        "startTime": 1753903532360
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070515152001",
+        "duration": 195.08,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070515152001.mp3",
+        "startTime": 1753903656780
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060717163732",
+        "duration": 138.06,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060717163732.mp3",
+        "startTime": 1753903851860
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060730054825",
+        "duration": 158.98,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060730054825.mp3",
+        "startTime": 1753903989920
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070515000119",
+        "duration": 399.62,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070515000119.mp3",
+        "startTime": 1753904148900
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070510110211",
+        "duration": 140.62,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070510110211.mp3",
+        "startTime": 1753904548520
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070516110139",
+        "duration": 64.52,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070516110139.mp3",
+        "startTime": 1753904689140
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070503100220",
+        "duration": 156.24,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070503100220.mp3",
+        "startTime": 1753904753660
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060710234253",
+        "duration": 219.66,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060710234253.mp3",
+        "startTime": 1753904909900
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060709023339",
+        "duration": 106.32,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060709023339.mp3",
+        "startTime": 1753905129560
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070518090401",
+        "duration": 272.46,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070518090401.mp3",
+        "startTime": 1753905235880
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060709075727",
+        "duration": 221.26,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060709075727.mp3",
+        "startTime": 1753905508340
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060712005010",
+        "duration": 356.36,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060712005010.mp3",
+        "startTime": 1753905729600
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060712171848",
+        "duration": 368.72,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060712171848.mp3",
+        "startTime": 1753906085960
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061226022622",
+        "duration": 18.18,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061226022622.mp3",
+        "startTime": 1753906454680
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061221071129",
+        "duration": 209.42,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061221071129.mp3",
+        "startTime": 1753906472860
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070504020541",
+        "duration": 175.18,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070504020541.mp3",
+        "startTime": 1753906682280
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070522230950",
+        "duration": 194.06,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070522230950.mp3",
+        "startTime": 1753906857460
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070527000138",
+        "duration": 324.36,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070527000138.mp3",
+        "startTime": 1753907051520
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070522010619",
+        "duration": 59.14,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070522010619.mp3",
+        "startTime": 1753907375880
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060706032611",
+        "duration": 141.58,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060706032611.mp3",
+        "startTime": 1753907435020
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060723022950",
+        "duration": 256.78,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060723022950.mp3",
+        "startTime": 1753907576600
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070503130236",
+        "duration": 101.2,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070503130236.mp3",
+        "startTime": 1753907833380
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070522120103",
+        "duration": 167.76,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070522120103.mp3",
+        "startTime": 1753907934580
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070524030335",
+        "duration": 215.3,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070524030335.mp3",
+        "startTime": 1753908102340
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061211080539",
+        "duration": 234.32,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061211080539.mp3",
+        "startTime": 1753908317640
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070503170643",
+        "duration": 86.28,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070503170643.mp3",
+        "startTime": 1753908551960
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070502080045",
+        "duration": 133.64,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070502080045.mp3",
+        "startTime": 1753908638240
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061212110017",
+        "duration": 162.64,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061212110017.mp3",
+        "startTime": 1753908771880
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070513010419",
+        "duration": 109.58,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070513010419.mp3",
+        "startTime": 1753908934520
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060719170000",
+        "duration": 87.56,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060719170000.mp3",
+        "startTime": 1753909044100
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060707075037",
+        "duration": 67.66,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060707075037.mp3",
+        "startTime": 1753909131660
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061201010203",
+        "duration": 152.58,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061201010203.mp3",
+        "startTime": 1753909199320
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061223150948",
+        "duration": 51.98,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061223150948.mp3",
+        "startTime": 1753909351900
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060713055520",
+        "duration": 27.98,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060713055520.mp3",
+        "startTime": 1753909403880
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060714163418",
+        "duration": 185.86,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060714163418.mp3",
+        "startTime": 1753909431860
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060715113117",
+        "duration": 30.22,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060715113117.mp3",
+        "startTime": 1753909617720
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070515211837",
+        "duration": 12.88,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070515211837.mp3",
+        "startTime": 1753909647940
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060706061609",
+        "duration": 48.46,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060706061609.mp3",
+        "startTime": 1753909660820
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060727220029",
+        "duration": 78.34,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060727220029.mp3",
+        "startTime": 1753909709280
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060710141759",
+        "duration": 206.34,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060710141759.mp3",
+        "startTime": 1753909787620
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061201130155",
+        "duration": 205.58,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061201130155.mp3",
+        "startTime": 1753909993960
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070521020738",
+        "duration": 173.32,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070521020738.mp3",
+        "startTime": 1753910199540
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070515040020",
+        "duration": 42.32,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070515040020.mp3",
+        "startTime": 1753910372860
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070513030007",
+        "duration": 67.66,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070513030007.mp3",
+        "startTime": 1753910415180
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061205180429",
+        "duration": 790.02,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061205180429.mp3",
+        "startTime": 1753910482840
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061222031802",
+        "duration": 47.44,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061222031802.mp3",
+        "startTime": 1753911272860
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061207030041",
+        "duration": 36.94,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061207030041.mp3",
+        "startTime": 1753911320300
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061201060020",
+        "duration": 174.34,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061201060020.mp3",
+        "startTime": 1753911357240
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060716154541",
+        "duration": 270.16,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060716154541.mp3",
+        "startTime": 1753911531580
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060717003144",
+        "duration": 178.18,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060717003144.mp3",
+        "startTime": 1753911801740
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060706091116",
+        "duration": 36.36,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060706091116.mp3",
+        "startTime": 1753911979920
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060706051210",
+        "duration": 22.54,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060706051210.mp3",
+        "startTime": 1753912016280
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060716114202",
+        "duration": 242.7,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060716114202.mp3",
+        "startTime": 1753912038820
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070515050540",
+        "duration": 19.28,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070515050540.mp3",
+        "startTime": 1753912281520
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070523040849",
+        "duration": 122.12,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070523040849.mp3",
+        "startTime": 1753912300800
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060708060101",
+        "duration": 12.88,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060708060101.mp3",
+        "startTime": 1753912422920
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061224190326",
+        "duration": 202.06,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061224190326.mp3",
+        "startTime": 1753912435800
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060718193229",
+        "duration": 370,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060718193229.mp3",
+        "startTime": 1753912637860
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060722152752",
+        "duration": 735.24,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060722152752.mp3",
+        "startTime": 1753913007860
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061222220156",
+        "duration": 126.54,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061222220156.mp3",
+        "startTime": 1753913743100
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061225020156",
+        "duration": 12.62,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061225020156.mp3",
+        "startTime": 1753913869640
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070507070548",
+        "duration": 28.68,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070507070548.mp3",
+        "startTime": 1753913882260
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060703012800",
+        "duration": 253.96,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060703012800.mp3",
+        "startTime": 1753913910940
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060707012100",
+        "duration": 80.14,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060707012100.mp3",
+        "startTime": 1753914164900
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061220020829",
+        "duration": 93.52,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061220020829.mp3",
+        "startTime": 1753914245040
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061223061108",
+        "duration": 73.22,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061223061108.mp3",
+        "startTime": 1753914338560
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060708154027",
+        "duration": 341.26,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060708154027.mp3",
+        "startTime": 1753914411780
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060703192525",
+        "duration": 495.18,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060703192525.mp3",
+        "startTime": 1753914753040
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060708033425",
+        "duration": 97.36,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060708033425.mp3",
+        "startTime": 1753915248220
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070515110044",
+        "duration": 136.2,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070515110044.mp3",
+        "startTime": 1753915345580
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061220200110",
+        "duration": 260.1,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061220200110.mp3",
+        "startTime": 1753915481780
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070511111032",
+        "duration": 167.5,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070511111032.mp3",
+        "startTime": 1753915741880
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060730204208",
+        "duration": 97.8,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060730204208.mp3",
+        "startTime": 1753915909380
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060718022637",
+        "duration": 224.52,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060718022637.mp3",
+        "startTime": 1753916007180
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070506000317",
+        "duration": 286.54,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070506000317.mp3",
+        "startTime": 1753916231700
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070507130424",
+        "duration": 215.82,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070507130424.mp3",
+        "startTime": 1753916518240
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060720154845",
+        "duration": 484.62,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060720154845.mp3",
+        "startTime": 1753916734060
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060715185116",
+        "duration": 238.34,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060715185116.mp3",
+        "startTime": 1753917218680
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070526020031",
+        "duration": 440.58,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070526020031.mp3",
+        "startTime": 1753917457020
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070503030011",
+        "duration": 204.88,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070503030011.mp3",
+        "startTime": 1753917897600
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070518120036",
+        "duration": 546.64,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070518120036.mp3",
+        "startTime": 1753918102480
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061024170049",
+        "duration": 353.8,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061024170049.mp3",
+        "startTime": 1753918649120
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070517210031",
+        "duration": 378.7,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070517210031.mp3",
+        "startTime": 1753919002920
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060719130131",
+        "duration": 169.22,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060719130131.mp3",
+        "startTime": 1753919381620
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070525062718",
+        "duration": 12.62,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070525062718.mp3",
+        "startTime": 1753919550840
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060730124503",
+        "duration": 235.02,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060730124503.mp3",
+        "startTime": 1753919563460
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061024140707",
+        "duration": 173.9,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061024140707.mp3",
+        "startTime": 1753919798480
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070520010032",
+        "duration": 428.62,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070520010032.mp3",
+        "startTime": 1753919972380
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070509120433",
+        "duration": 402.44,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070509120433.mp3",
+        "startTime": 1753920401000
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061212160812",
+        "duration": 238.86,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061212160812.mp3",
+        "startTime": 1753920803440
+      },
+      {
+        "identifier": "Hamtramck_MI_October_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061024200013",
+        "duration": 375.3,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_October_2006/MULTI-summary-20061024200013.mp3",
+        "startTime": 1753921042300
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061224180340",
+        "duration": 27.14,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061224180340.mp3",
+        "startTime": 1753921417600
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070513120145",
+        "duration": 339.28,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070513120145.mp3",
+        "startTime": 1753921444740
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060701101908",
+        "duration": 116.56,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060701101908.mp3",
+        "startTime": 1753921784020
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060702042032",
+        "duration": 100.62,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060702042032.mp3",
+        "startTime": 1753921900580
+      },
+      {
+        "identifier": "Hamtramck_MI_May_2007",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20070504180412",
+        "duration": 427.78,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_May_2007/MULTI-summary-20070504180412.mp3",
+        "startTime": 1753922001200
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060713162534",
+        "duration": 245.26,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060713162534.mp3",
+        "startTime": 1753922428980
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060703232523",
+        "duration": 161.36,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060703232523.mp3",
+        "startTime": 1753922674240
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061225080032",
+        "duration": 24.4,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061225080032.mp3",
+        "startTime": 1753922835600
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061226052540",
+        "duration": 12.88,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061226052540.mp3",
+        "startTime": 1753922860000
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061222151514",
+        "duration": 26.7,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061222151514.mp3",
+        "startTime": 1753922872880
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061220210133",
+        "duration": 225.54,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061220210133.mp3",
+        "startTime": 1753922899580
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061226010110",
+        "duration": 78.34,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061226010110.mp3",
+        "startTime": 1753923125120
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061206190012",
+        "duration": 43.78,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061206190012.mp3",
+        "startTime": 1753923203460
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061223070827",
+        "duration": 146,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061223070827.mp3",
+        "startTime": 1753923247240
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060718165935",
+        "duration": 157.96,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060718165935.mp3",
+        "startTime": 1753923393240
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061212000127",
+        "duration": 63.5,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061212000127.mp3",
+        "startTime": 1753923551200
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061222200103",
+        "duration": 229.64,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061222200103.mp3",
+        "startTime": 1753923614700
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061224080023",
+        "duration": 319.5,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061224080023.mp3",
+        "startTime": 1753923844340
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060709101527",
+        "duration": 24.84,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060709101527.mp3",
+        "startTime": 1753924163840
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060707030709",
+        "duration": 89.68,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060707030709.mp3",
+        "startTime": 1753924188680
+      },
+      {
+        "identifier": "2006_07_Hamtramck_MI",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20060701191721",
+        "duration": 155.14,
+        "streamUrl": "https://archive.org/download/2006_07_Hamtramck_MI/MULTI-summary-20060701191721.mp3",
+        "startTime": 1753924278360
+      },
+      {
+        "identifier": "Hamtramck_MI_December_2006",
+        "title": "Scanner Recordings: Hamtramck, MI | MULTI summary-20061211200312",
+        "duration": 198.48,
+        "streamUrl": "https://archive.org/download/Hamtramck_MI_December_2006/MULTI-summary-20061211200312.mp3",
+        "startTime": 1753924433500
+      }
+    ]
+  }
+]
