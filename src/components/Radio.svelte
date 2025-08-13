@@ -15,6 +15,8 @@
 
   let mouseY = 0;
   let bootedStations = new Set();
+  let hasPlayedOnceById = new Map();
+  let isCurrentStationReady = false;
 
   // Dynamic import of radio data
   onMount(async () => {
@@ -57,7 +59,7 @@
 
     function onDrag() {
       // console.clear()
-      console.log(fr_ind.progressX)
+      console.log(fr_ind.progressX);
       // console.log(fr_ind.containerBounds[1], fr_ind.x)
 
       // drag speed goes down to 0.2 is the user is not hovering over the object
@@ -74,10 +76,23 @@
       // );
       // console.log(fr_ind.x)
 
-      frequency = utils.round(
-        Math.max(55, Math.min(155, fr_ind.progressX * 100 + 55)),
-        1,
-      ) - 1.3;
+      frequency =
+        utils.round(
+          Math.max(55, Math.min(155, fr_ind.progressX * 100 + 55)),
+          1,
+        ) - 1.3;
+    }
+
+    function handleDialRelease() {
+      if (!audioBooted || !power) return;
+      const current = getStation(frequency);
+      if (!current || bootedStations.has(current.identifier)) return;
+      const idx = radio.findIndex((s) => s.identifier === current.identifier);
+      const audio = audioElements[idx];
+      if (audio) {
+        loadAndPlayStationAudio(audio, current, Date.now());
+        bootedStations.add(current.identifier);
+      }
     }
 
     function getSnapXValue() {
@@ -87,12 +102,11 @@
       // console.log(maxX_o, maxX)
 
       const travel = maxX - minX;
-      const snapX = Math.abs(travel / (radio.length-1));
+      const snapX = Math.abs(travel / (radio.length - 1));
 
       return snapX;
     }
     function setSnapX() {
-      
       // width of target
       const snapX = getSnapXValue();
 
@@ -109,15 +123,15 @@
         // dragSpeed: 1,
         modifier: utils.snap(snapX),
         onDrag: onDrag,
-        onSettle: onDrag,
+        onSettle: () => {
+          onDrag();
+          handleDialRelease();
+        },
         onAfterResize: setSnapX,
         // releaseEase: createSpring(1000, 100),
       });
 
       fr_ind.snapX = snapX;
-
-
-
     }
 
     let snapX = 0;
@@ -129,24 +143,21 @@
     });
 
     snapX = getSnapXValue();
-    
 
-    
     setSnapX();
     fr_ind.progressX = 0;
 
-    [fr_smooth_track] = utils.$("#fr_smooth_track")
+    [fr_smooth_track] = utils.$("#fr_smooth_track");
 
     fr_tmobj = createTimer({
-        onUpdate: clock => {
-          const sourcePos = utils.get(fr_smooth_track, 'x', false)
-          const targetPos = utils.get(fr_ind, 'x', false) + 20
-          utils.set(fr_smooth_track, {
-            x: utils.lerp(sourcePos, targetPos, .2)
-          })
-        }
-    })
-
+      onUpdate: (clock) => {
+        const sourcePos = utils.get(fr_smooth_track, "x", false);
+        const targetPos = utils.get(fr_ind, "x", false) + 20;
+        utils.set(fr_smooth_track, {
+          x: utils.lerp(sourcePos, targetPos, 0.2),
+        });
+      },
+    });
   });
 
   const SEED = "radIO";
@@ -157,6 +168,9 @@
   };
 
   $: station = getStation(frequency);
+  $: isCurrentStationReady = station
+    ? !!hasPlayedOnceById.get(station.identifier)
+    : false;
 
   // Calculate volume based on frequency distance
   function calculateVolume(stationFrequency) {
@@ -255,17 +269,21 @@
     ? "Loading radio data..."
     : !power
       ? "⠠⠗⠁⠝⠙⠕⠍ radIO is OFF (⏻) ⠎⠞⠗⠊⠝⠛⠎"
-      : (station?.items?.find((item) => item.startTime <= Date.now())?.title ??
-        station?.name ??
-        "⠠⠗⠁⠝⠙⠕⠍ Tune radIO ⠎⠞⠗⠊⠝⠛⠎");
+      : station
+        ? !bootedStations.has(station.identifier)
+          ? "Release dialhead to load station"
+          : !isCurrentStationReady
+            ? "loading"
+            : (station.items?.find((item) => item.startTime <= Date.now())
+                ?.title ?? station.name)
+        : "⠠⠗⠁⠝⠙⠕⠍ Tune radIO ⠎⠞⠗⠊⠝⠛⠎";
 
   function handlePowerToggle() {
     if (!audioBooted) {
       power = true;
       audioBooted = true;
       const bootTime = Date.now();
-
-      // Only boot the current station
+      // On power ON, immediately load the currently selected station
       if (station && !bootedStations.has(station.identifier)) {
         const idx = radio.findIndex((s) => s.identifier === station.identifier);
         const audio = audioElements[idx];
@@ -296,20 +314,7 @@
     }
   }
 
-  // When tuning to a new station, boot it if needed
-  $: if (
-    audioBooted &&
-    power &&
-    station &&
-    !bootedStations.has(station.identifier)
-  ) {
-    const idx = radio.findIndex((s) => s.identifier === station.identifier);
-    const audio = audioElements[idx];
-    if (audio) {
-      loadAndPlayStationAudio(audio, station, Date.now());
-      bootedStations.add(station.identifier);
-    }
-  }
+  // No auto-boot on station change; loading happens on dial release only
 
   // Action to store audio element references
   let whiteNoiseAudio = null;
@@ -318,12 +323,23 @@
       audioElements.push(node);
       // Only auto-play if already booted
       const identifier = node.dataset.stationIdentifier;
+      const onPlaying = () => {
+        const updated = new Map(hasPlayedOnceById);
+        updated.set(identifier, true);
+        hasPlayedOnceById = updated;
+      };
+      node.addEventListener("playing", onPlaying);
       if (audioBooted && power && bootedStations.has(identifier)) {
         node.muted = false;
         node.play().catch((error) => {
           console.log("Playback failed:", error);
         });
       }
+      return {
+        destroy() {
+          node.removeEventListener("playing", onPlaying);
+        },
+      };
     } else {
       // This is the white noise audio element
       whiteNoiseAudio = node;
@@ -337,7 +353,9 @@
   };
 </script>
 
-<div class="flex flex-col gap-4 p-6 w-md rounded-lg shadow-[-50px_50px_37px_-31px_rgb(229,_231,_235)] bg-gradient-to-tr from-white via-white to-gray-200">
+<div
+  class="flex flex-col gap-4 p-6 w-md rounded-lg shadow-[-50px_50px_37px_-31px_rgb(229,_231,_235)] bg-gradient-to-tr from-white via-white to-gray-200"
+>
   <div class="flex items-center">
     <input
       type="button"
@@ -373,9 +391,7 @@
                 ? 'text-gray-400 border-gray-300'
                 : 'text-gray-600 border-gray-400 shadow-2xl'} cursor-pointer"
         /> -->
-    <div
-      class="w-full flex flex-col px-3"
-    >
+    <div class="w-full flex flex-col px-3">
       <label class="text-xl" for="frequency-input">
         {frequency.toFixed(1)}
         <span class="text-sm text-gray-500">{station?.name}</span>
@@ -405,7 +421,7 @@
       class="fixed h-8 w-14 border-orange-500 border-3 opacity-0 flex items-center justify-center z-10"
     ></div>
 
-    <div 
+    <div
       id="fr_smooth_track"
       class="fixed h-8 w-2 rounded-full bg-gradient-to-tr from-orange-600 via-orange-500 to-orange-300"
     ></div>
