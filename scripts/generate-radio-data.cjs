@@ -7,6 +7,11 @@ const EPOCH = new Date(new Date().setUTCHours(0, 0, 0, 0)).getTime();
 // Static data to build the radio from
 const STATION_CONFIGS = [
   {
+    name: "Crap From The Past",
+    identifier: "crapfromthepast",
+    category: "Music",
+  },
+  {
     name: "BookCentral",
     identifier: "radiobooks",
     category: "Literature",
@@ -17,11 +22,6 @@ const STATION_CONFIGS = [
     identifier: "concert-grande-radio",
     category: "Music",
     regex: "^((?!interview).)*$",
-  },
-  {
-    name: "Crap From The Past",
-    identifier: "crapfromthepast",
-    category: "Music",
   },
   {
     name: "NPR Top of the Hour",
